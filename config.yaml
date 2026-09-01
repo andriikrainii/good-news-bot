@@ -1,0 +1,324 @@
+# ============================================================
+#  НАЛАШТУВАННЯ БОТА ДОБРИХ НОВИН
+# ============================================================
+#
+#  Це єдиний файл, який вам потрібно міняти.
+#  Його можна редагувати прямо на сайті GitHub з телефона:
+#  відкрити файл -> натиснути олівець -> змінити -> "Commit changes".
+#
+#  ВАЖЛИВО: відступи на початку рядків (пробіли) міняти НЕ можна,
+#  інакше бот не зрозуміє файл. Міняйте лише самі значення.
+#
+# ============================================================
+
+
+# ------------------------------------------------------------
+# СКІЛЬКИ НОВИН НА ДЕНЬ
+# ------------------------------------------------------------
+# Загальна кількість новин за добу. Вони розділяться між
+# часами розсилки (див. send_times) якомога рівніше.
+# Приклад: 5 новин і 3 часи розсилки -> прийде 2, 2 і 1.
+posts_per_day: 5
+
+
+# ------------------------------------------------------------
+# О КОТРІЙ ГОДИНІ НАДСИЛАТИ
+# ------------------------------------------------------------
+# Час київський. Формат "ГОДИНА:ХВИЛИНИ" в лапках.
+# Можна додати або прибрати рядки — хоч один час, хоч п'ять.
+send_times:
+  - "09:00"
+  - "14:00"
+  - "20:00"
+
+# Часовий пояс. Міняти не треба.
+timezone: "Europe/Kyiv"
+
+
+# ------------------------------------------------------------
+# СВІЖІСТЬ НОВИН
+# ------------------------------------------------------------
+# Не брати новини, старші за стільки днів.
+max_age_days: 5
+
+
+# ------------------------------------------------------------
+# ТЕМИ НОВИН
+# ------------------------------------------------------------
+# enabled: true  — тема увімкнена (новини на цю тему приходитимуть)
+# enabled: false — тема вимкнена
+#
+# Щоб увімкнути тему, просто замініть false на true і збережіть.
+#
+# keywords — це слова англійською, за якими бот шукає новини.
+# Вони англійською тому, що новини беруться з англомовних сайтів,
+# а вже потім перекладаються українською.
+topics:
+
+  - name: "Наука і медицина"
+    enabled: true
+    keywords:
+      - research
+      - study
+      - scientists
+      - discovery
+      - medicine
+      - health
+      - treatment
+      - cure
+      - vaccine
+      - therapy
+      - breakthrough
+      - patients
+      - doctors
+      - hospital
+      - brain
+      - cancer
+      - disease
+
+  - name: "Природа і тварини"
+    enabled: true
+    keywords:
+      - animal
+      - animals
+      - wildlife
+      - species
+      - forest
+      - ocean
+      - dog
+      - dogs
+      - cat
+      - cats
+      - birds
+      - whale
+      - elephant
+      - conservation
+      - nature
+      - park
+      - river
+      - coral
+      - bees
+      - rescued
+
+  - name: "Люди й добрі вчинки"
+    enabled: true
+    keywords:
+      - kindness
+      - volunteer
+      - volunteers
+      - community
+      - helped
+      - helping
+      - donated
+      - donation
+      - charity
+      - neighbors
+      - hero
+      - reunited
+      - stranger
+      - generosity
+      - saved
+      - gift
+      - family
+
+  - name: "Технології та екологія"
+    enabled: true
+    keywords:
+      - solar
+      - renewable
+      - energy
+      - climate
+      - recycling
+      - sustainable
+      - electric
+      - battery
+      - clean
+      - technology
+      - invention
+      - engineers
+      - robot
+      - innovation
+      - emissions
+      - green
+
+  - name: "Культура і спорт"
+    enabled: false
+    keywords:
+      - music
+      - art
+      - artist
+      - museum
+      - film
+      - book
+      - festival
+      - dance
+      - theater
+      - athlete
+      - olympic
+      - champion
+      - team
+      - record
+      - marathon
+
+  - name: "Космос"
+    enabled: false
+    keywords:
+      - space
+      - nasa
+      - telescope
+      - galaxy
+      - planet
+      - mars
+      - moon
+      - astronaut
+      - rocket
+      - asteroid
+      - orbit
+      - cosmic
+      - star
+      - satellite
+
+
+# ------------------------------------------------------------
+# СТОП-СЛОВА
+# ------------------------------------------------------------
+# Якщо будь-яке з цих слів є в заголовку або описі новини —
+# бот її НЕ надішле. Це захист, щоб у родинний чат не потрапило
+# нічого важкого. Можна додавати свої слова (англійською).
+blocked_keywords:
+  - war
+  - warfare
+  - ukraine
+  - ukrainian
+  - russia
+  - russian
+  - putin
+  - missile
+  - drone strike
+  - bomb
+  - bombing
+  - shelling
+  - troops
+  - military
+  - soldier
+  - invasion
+  - occupied
+  - gaza
+  - israel
+  - hamas
+  - killed
+  - kills
+  - dead
+  - death
+  - deaths
+  - died
+  - dies
+  - dying
+  - murder
+  - murdered
+  - shooting
+  - shot dead
+  - gunman
+  - attack
+  - attacked
+  - terror
+  - terrorist
+  - hostage
+  - crash
+  - crashed
+  - explosion
+  - wildfire
+  - earthquake
+  - hurricane
+  - flood
+  - disaster
+  - tragedy
+  - tragic
+  - victim
+  - victims
+  - abuse
+  - assault
+  - rape
+  - suicide
+  - overdose
+  - crime
+  - criminal
+  - arrested
+  - police
+  - court
+  - lawsuit
+  - trial
+  - prison
+  - jail
+  - election
+  - elections
+  - trump
+  - biden
+  - president
+  - congress
+  - senate
+  - parliament
+  - politics
+  - political
+  - protest
+  - riot
+  - layoffs
+  - bankruptcy
+  - recession
+  - outbreak
+  - epidemic
+  - pandemic
+  - famine
+  - starvation
+  - refugee
+  - refugees
+  - deportation
+  - extinct
+  - endangered species decline
+
+
+# ------------------------------------------------------------
+# ДЖЕРЕЛА НОВИН
+# ------------------------------------------------------------
+# Сайти, звідки бот бере новини. Можна додати свій RSS,
+# але переконайтеся, що сайт справді публікує добрі новини.
+sources:
+  - name: "Good News Network"
+    url: "https://www.goodnewsnetwork.org/feed/"
+  - name: "Positive News"
+    url: "https://www.positive.news/feed/"
+  - name: "Reasons to be Cheerful"
+    url: "https://reasonstobecheerful.world/feed/"
+  - name: "Optimist Daily"
+    url: "https://www.optimistdaily.com/feed/"
+  - name: "Smithsonian"
+    url: "https://www.smithsonianmag.com/rss/latest_articles/"
+  - name: "Phys.org"
+    url: "https://phys.org/rss-feed/breaking/science-news/"
+  - name: "ScienceDaily"
+    url: "https://www.sciencedaily.com/rss/top/science.xml"
+
+
+# ------------------------------------------------------------
+# ПЕРЕКЛАД
+# ------------------------------------------------------------
+# provider: claude — гарний людський переказ + перевірка, чи новина
+#                    справді добра. Потрібен платний ключ Anthropic.
+# provider: google — безкоштовно, але переклад машинний і місцями
+#                    кострубатий, і без перевірки настрою новини.
+#
+# Якщо стоїть claude, але ключа немає — бот САМ перейде на google
+# і напише про це в лог. Тобто він працюватиме в будь-якому разі.
+translation:
+  provider: claude
+  model: "claude-haiku-4-5-20251001"
+  style: "тепло, просто і по-людськи, як розповідають добру новину рідним"
+  max_chars: 600
+
+
+# ------------------------------------------------------------
+# ПІДПИС ПІД ПОСТОМ
+# ------------------------------------------------------------
+# Що писати маленьким рядком у кінці кожного поста.
+# Залиште порожні лапки "" — і підпису не буде.
+footer: "🌻 Добрі новини"

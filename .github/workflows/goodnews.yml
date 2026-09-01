@@ -1,0 +1,68 @@
+name: Добрі новини
+
+on:
+  # GitHub запускає скрипт щогодини, а скрипт сам вирішує, чи час слати.
+  schedule:
+    - cron: "5 * * * *"
+  # Кнопка "Run workflow" для ручного запуску.
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Що зробити"
+        required: true
+        default: "schedule"
+        type: choice
+        options:
+          - schedule   # звичайний запуск за розкладом
+          - test       # надіслати одну новину прямо зараз
+          - dry-run    # показати новини в логах, нічого не надсилати
+
+# Дозвіл комітити state.json (пам'ять бота) назад у репозиторій.
+permissions:
+  contents: write
+
+# Щоб два запуски не накладались один на одного.
+concurrency:
+  group: goodnews
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Забрати код
+        uses: actions/checkout@v4
+
+      - name: Поставити Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Поставити бібліотеки
+        run: pip install -r requirements.txt
+
+      - name: Надіслати новини
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODE: ${{ inputs.mode || 'schedule' }}
+        run: |
+          case "$MODE" in
+            test)    python bot.py --test ;;
+            dry-run) python bot.py --dry-run --count 3 ;;
+            *)       python bot.py ;;
+          esac
+
+      - name: Запам'ятати надіслані новини
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "good-news-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add state.json
+            git commit -m "Оновлення пам'яті бота"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "state.json не змінився"
+          fi
