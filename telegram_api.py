@@ -29,8 +29,13 @@ def _trim_to_words(text, limit):
     return head.rstrip(" ,;:—-.") + "…"
 
 
+# Щоб дуже довгий заголовок не з'їв увесь ліміт підпису.
+TITLE_LIMIT = 200
+
+
 def build_post(title, text, link, source_name, footer):
     """Зібрати HTML-текст поста."""
+    title = _trim_to_words(title or "", TITLE_LIMIT)
     parts = [f"<b>{escape(title)}</b>", "", escape(text), ""]
     parts.append(f'🔗 <a href="{escape(link)}">{escape(source_name)}</a>')
     if footer:
