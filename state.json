@@ -1,5 +1,7 @@
 {
+  "applied_pending": 0,
   "commands_registered": true,
+  "hub_backfilled": true,
   "last_slot": "",
   "posts": {
     "5": {
@@ -12,10 +14,22 @@
         "Природа і тварини"
       ],
       "up": []
+    },
+    "6": {
+      "at": "2026-09-01T18:24:38.050423+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
+      "source": "ScienceDaily",
+      "title": "🧘 Медитація знижує тиск за 8 тижнів",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
     }
   },
   "sent": {
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260901010721.htm": "2026-09-01T18:24:38.050423+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00"
   },
   "update_offset": 999381872,
