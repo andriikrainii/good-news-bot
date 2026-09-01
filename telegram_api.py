@@ -88,6 +88,10 @@ class TelegramSender:
         except (TypeError, KeyError):
             return None
 
+    def call_raw(self, method, payload):
+        """Виклик будь-якого методу Telegram — для налаштування."""
+        return self._call(method, payload)
+
     def send_message(self, text, keyboard=None, chat_id=None):
         """Надіслати текст. Повертає номер повідомлення або None."""
         payload = {

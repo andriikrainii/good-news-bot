@@ -16,7 +16,9 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
+import hub as hub_module
 import interact
+import settings
 import sources
 import telegram_api
 from translator import Translator
@@ -141,6 +143,55 @@ def current_slot(config, now):
     return best[1], best[2]
 
 
+def apply_from_chat(config, state, hub, sent_posts=None):
+    """Обмінятися з Netlify: віддати знімок і пости, забрати голоси й зміни.
+
+    Повертає оновлений config: у чаті могли перемкнути тему чи змінити
+    кількість новин, і це треба акуратно вписати в config.yaml.
+    """
+    if not hub.configured:
+        return config
+
+    answer = hub.sync(
+        config=hub_module.config_snapshot(config),
+        new_posts=sent_posts or None,
+        ack_pending=int(state.get("applied_pending", 0)),
+    )
+    if answer is None:
+        return config
+
+    votes = answer.get("votes")
+    if votes:
+        state["votes"] = votes
+
+    applied = int(state.get("applied_pending", 0))
+    for change in sorted(answer.get("pending", []), key=lambda c: c.get("id", 0)):
+        kind = change.get("kind")
+        done = False
+        if kind == "topic":
+            done, name = settings.set_topic_enabled(
+                int(change.get("index", -1)), bool(change.get("value"))
+            )
+            if done:
+                print(f"  з чату: {name} "
+                      f"{'увімкнено' if change.get('value') else 'вимкнено'}")
+        elif kind == "count":
+            done = settings.set_posts_per_day(int(change.get("value", 0)))
+            if done:
+                print(f"  з чату: тепер {change.get('value')} новин на добу")
+        elif kind == "schedule":
+            preset = settings.SCHEDULE_PRESETS.get(str(change.get("key")))
+            done = bool(preset) and settings.set_send_times(preset)
+            if done:
+                print(f"  з чату: новий розклад {', '.join(preset)}")
+        if done:
+            config = settings.read_config()
+        applied = max(applied, int(change.get("id", 0)))
+
+    state["applied_pending"] = applied
+    return config
+
+
 # ----------------------------------------------------------------- новини
 
 def collect_candidates(config, state):
@@ -197,6 +248,10 @@ def show_post(index, post):
 def listen(args):
     """Забрати з Telegram команди й натискання кнопок і відповісти на них."""
     config = load_config(args.config)
+    hub = hub_module.Hub()
+    if hub.configured:
+        print("Кнопки обслуговує Netlify — опитування Telegram не потрібне.")
+        return 0
     state = prune_state(load_state())
     sender = telegram_api.TelegramSender(
         os.environ.get("TELEGRAM_BOT_TOKEN", ""),
@@ -219,13 +274,64 @@ def listen(args):
     return 0
 
 
+def setup_webhook(_args):
+    """Сказати Telegram, щоб слав натискання кнопок на Netlify."""
+    hub = hub_module.Hub()
+    sender = telegram_api.TelegramSender(
+        os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+        os.environ.get("TELEGRAM_CHAT_ID", ""),
+    )
+    if not sender.configured:
+        print("ПОМИЛКА: немає TELEGRAM_BOT_TOKEN або TELEGRAM_CHAT_ID.")
+        return 1
+    if not hub.configured:
+        print("Netlify не налаштований (потрібні NETLIFY_URL і SYNC_SECRET).")
+        print("Прибираю вебхук — бот повернеться до опитування раз на кілька хвилин.")
+        ok, info = sender.call_raw("deleteWebhook", {"drop_pending_updates": "false"})
+        print("готово" if ok else f"не вдалося: {info}")
+        return 0 if ok else 1
+
+    ok, info = sender.call_raw("setWebhook", {
+        "url": hub.webhook_url,
+        "secret_token": os.environ.get("TELEGRAM_WEBHOOK_SECRET", ""),
+        "allowed_updates": '["message","callback_query"]',
+        "drop_pending_updates": "true",
+    })
+    if not ok:
+        print(f"Не вдалося підключити вебхук: {info}")
+        return 1
+    print(f"Вебхук підключено: {hub.webhook_url}")
+
+    sender.set_commands(interact.COMMANDS)
+    ok, info = sender.call_raw("getWebhookInfo", {})
+    if ok:
+        result = info.get("result", {})
+        print(f"  адреса: {result.get('url')}")
+        print(f"  черга необроблених: {result.get('pending_update_count')}")
+        if result.get("last_error_message"):
+            print(f"  остання помилка: {result.get('last_error_message')}")
+
+    config = load_config()
+    state = prune_state(load_state())
+    answer = hub.sync(config=hub_module.config_snapshot(config))
+    if answer is None:
+        print("УВАГА: Netlify не відповів на перевірку зв'язку.")
+        return 1
+    print(f"Netlify на зв'язку, постів у пам'яті: {answer.get('posts_count', 0)}")
+    save_state(state)
+    return 0
+
+
 def run(args):
     config = load_config(args.config)
     tz = get_timezone(config)
     now = datetime.now(tz)
     state = prune_state(load_state())
+    hub = hub_module.Hub()
 
     print(f"Київський час зараз: {now:%Y-%m-%d %H:%M}")
+    if hub.configured:
+        config = apply_from_chat(config, state, hub)
 
     if args.dry_run:
         wanted = args.count or 3
@@ -279,6 +385,7 @@ def run(args):
         print(f"Це був пробний показ ({len(posts)} шт.), нічого не надіслано.")
         return 0
 
+    run_started = datetime.now(timezone.utc).isoformat()
     sent_count = 0
     for post in posts:
         entry = {
@@ -303,6 +410,12 @@ def run(args):
 
     if slot_key and sent_count:
         state["last_slot"] = slot_key
+
+    if hub.configured and sent_count:
+        fresh = {mid: post for mid, post in state["posts"].items()
+                 if post.get("at", "") >= run_started}
+        apply_from_chat(config, state, hub, sent_posts=fresh)
+
     save_state(state)
     print(f"\nНадіслано новин: {sent_count} з {len(posts)}")
     return 0 if sent_count else 1
@@ -316,11 +429,15 @@ def main():
                         help="надіслати одну новину прямо зараз")
     parser.add_argument("--listen", action="store_true",
                         help="відповісти на команди й кнопки з групи")
+    parser.add_argument("--setup-webhook", action="store_true",
+                        help="підключити миттєві кнопки через Netlify")
     parser.add_argument("--count", type=int, default=None,
                         help="скільки новин узяти для --dry-run або --test")
     parser.add_argument("--config", default=CONFIG_FILE, help="шлях до config.yaml")
     args = parser.parse_args()
     try:
+        if args.setup_webhook:
+            return setup_webhook(args)
         return listen(args) if args.listen else run(args)
     except KeyboardInterrupt:
         return 130

@@ -19,11 +19,13 @@ on:
         # schedule — звичайний запуск за розкладом
         # test     — надіслати одну новину прямо зараз
         # dry-run  — показати новини в логах, нічого не надсилати
+        # setup-webhook — підключити миттєві кнопки через Netlify
         type: choice
         options:
           - schedule
           - test
           - dry-run
+          - setup-webhook
 
 # Дозвіл комітити пам'ять бота і зміни налаштувань назад у репозиторій.
 permissions:
@@ -50,18 +52,33 @@ jobs:
       - name: Поставити бібліотеки
         run: pip install -r requirements.txt
 
-      - name: Відповісти на кнопки й команди з групи
-        if: inputs.mode != 'dry-run'
+      - name: Підключити миттєві кнопки
+        if: inputs.mode == 'setup-webhook'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
+          NETLIFY_URL: ${{ secrets.NETLIFY_URL }}
+          SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
+        run: python bot.py --setup-webhook
+
+      - name: Відповісти на кнопки й команди з групи
+        if: inputs.mode != 'dry-run' && inputs.mode != 'setup-webhook'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NETLIFY_URL: ${{ secrets.NETLIFY_URL }}
+          SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
         run: python bot.py --listen
 
       - name: Надіслати новини
+        if: inputs.mode != 'setup-webhook'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NETLIFY_URL: ${{ secrets.NETLIFY_URL }}
+          SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
           MODE: ${{ inputs.mode || 'schedule' }}
         run: |
           case "$MODE" in

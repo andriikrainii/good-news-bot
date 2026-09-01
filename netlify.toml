@@ -1,0 +1,11 @@
+# Налаштування Netlify. Тут живе тільки миттєва частина бота:
+# вона приймає натискання кнопок і відповідає одразу.
+# Новини, як і раніше, шле GitHub.
+
+[build]
+  publish = "public"
+  command = "echo 'нічого будувати не треба'"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
