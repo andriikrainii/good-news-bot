@@ -1,9 +1,14 @@
 name: Добрі новини
 
 on:
-  # GitHub запускає скрипт щогодини, а скрипт сам вирішує, чи час слати.
+  # Бот вмикається кожні 5 хвилин: забирає з групи натискання кнопок
+  # і команди, відповідає на них, а тоді сам вирішує, чи час слати новини.
+  #
+  # ЯКЩО ЗАХОЧЕТЕ ЗРОБИТИ РЕПОЗИТОРІЙ ПРИВАТНИМ — поміняйте рядок нижче
+  # на "5 * * * *" (раз на годину). Інакше не вистачить безкоштовних
+  # хвилин GitHub. Кнопки тоді відповідатимуть повільніше.
   schedule:
-    - cron: "5 * * * *"
+    - cron: "*/5 * * * *"
   # Кнопка "Run workflow" для ручного запуску.
   workflow_dispatch:
     inputs:
@@ -11,16 +16,16 @@ on:
         description: "Що зробити"
         required: true
         default: "schedule"
-        type: choice
         # schedule — звичайний запуск за розкладом
         # test     — надіслати одну новину прямо зараз
         # dry-run  — показати новини в логах, нічого не надсилати
+        type: choice
         options:
           - schedule
           - test
           - dry-run
 
-# Дозвіл комітити state.json (пам'ять бота) назад у репозиторій.
+# Дозвіл комітити пам'ять бота і зміни налаштувань назад у репозиторій.
 permissions:
   contents: write
 
@@ -40,9 +45,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Поставити бібліотеки
         run: pip install -r requirements.txt
+
+      - name: Відповісти на кнопки й команди з групи
+        if: inputs.mode != 'dry-run'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bot.py --listen
 
       - name: Надіслати новини
         env:
@@ -57,15 +70,15 @@ jobs:
             *)       python bot.py ;;
           esac
 
-      - name: Запам'ятати надіслані новини
+      - name: Запам'ятати зміни
         run: |
-          if [ -n "$(git status --porcelain state.json)" ]; then
+          if [ -n "$(git status --porcelain state.json config.yaml)" ]; then
             git config user.name "good-news-bot"
             git config user.email "bot@users.noreply.github.com"
-            git add state.json
-            git commit -m "Оновлення пам'яті бота"
+            git add state.json config.yaml
+            git commit -m "Оновлення пам'яті та налаштувань бота"
             git pull --rebase --autostash
             git push
           else
-            echo "state.json не змінився"
+            echo "нічого не змінилось"
           fi

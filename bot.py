@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
+import interact
 import sources
 import telegram_api
 from translator import Translator
@@ -60,7 +61,7 @@ def load_state(path=STATE_FILE):
         state = {}
     state.setdefault("sent", {})
     state.setdefault("last_slot", "")
-    return state
+    return interact.ensure_state(state)
 
 
 def save_state(state, path=STATE_FILE):
@@ -83,7 +84,7 @@ def prune_state(state):
         if when >= cutoff:
             fresh[link] = stamp
     state["sent"] = fresh
-    return state
+    return interact.prune_posts(state)
 
 
 # ----------------------------------------------------------------- розклад
@@ -94,10 +95,14 @@ def parse_send_times(config):
     for value in config.get("send_times", []) or []:
         text = str(value).strip()
         try:
-            hour, minute = text.split(":")
-            parsed.append((int(hour), int(minute)))
+            hour, minute = (int(part) for part in text.split(":"))
         except ValueError:
             print(f"УВАГА: час '{text}' у send_times записаний неправильно, пропускаю.")
+            continue
+        if not (0 <= hour <= 23 and 0 <= minute <= 59):
+            print(f"УВАГА: час '{text}' у send_times не існує, пропускаю.")
+            continue
+        parsed.append((hour, minute))
     parsed.sort()
     return parsed
 
@@ -144,7 +149,10 @@ def collect_candidates(config, state):
     print(f"Усього свіжих записів: {len(entries)}")
     kept = sources.filter_entries(entries, config, set(state.get("sent", {})))
     print(f"Після фільтрів (стоп-слова, теми, повтори): {len(kept)}")
-    return sources.interleave_by_source(kept)[:MAX_CANDIDATES]
+    ranked = interact.rank_candidates(kept, config, state)
+    if any((state.get("votes") or {}).get("topics", {}).values()):
+        print("Порядок підібрано з урахуванням голосів групи.")
+    return ranked[:MAX_CANDIDATES]
 
 
 def prepare_posts(candidates, translator_obj, config, wanted, with_images=True):
@@ -166,6 +174,7 @@ def prepare_posts(candidates, translator_obj, config, wanted, with_images=True):
         ready.append({
             "link": item["link"],
             "source": item["source"],
+            "topics": interact.topics_of(item, config),
             "image": image,
             "body": body,
             "title": result["title"],
@@ -184,6 +193,31 @@ def show_post(index, post):
 
 
 # ----------------------------------------------------------------- запуск
+
+def listen(args):
+    """Забрати з Telegram команди й натискання кнопок і відповісти на них."""
+    config = load_config(args.config)
+    state = prune_state(load_state())
+    sender = telegram_api.TelegramSender(
+        os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+        os.environ.get("TELEGRAM_CHAT_ID", ""),
+    )
+    if not sender.configured:
+        print("ПОМИЛКА: немає TELEGRAM_BOT_TOKEN або TELEGRAM_CHAT_ID.")
+        return 1
+
+    if not state.get("commands_registered"):
+        sender.set_commands(interact.COMMANDS)
+        state["commands_registered"] = True
+
+    config, config_changed = interact.handle_updates(
+        sender, config, state, sender.chat_id
+    )
+    save_state(state)
+    if config_changed:
+        print("Налаштування в config.yaml оновлено на прохання групи.")
+    return 0
+
 
 def run(args):
     config = load_config(args.config)
@@ -247,8 +281,21 @@ def run(args):
 
     sent_count = 0
     for post in posts:
-        if sender.send_post(post["body"], post["image"]):
-            state["sent"][post["link"]] = datetime.now(timezone.utc).isoformat()
+        entry = {
+            "link": post["link"],
+            "source": post["source"],
+            "topics": post["topics"],
+            "title": post["title"],
+            "up": [],
+            "down": [],
+            "at": datetime.now(timezone.utc).isoformat(),
+        }
+        message_id = sender.send_post(
+            post["body"], post["image"], interact.vote_keyboard(entry)
+        )
+        if message_id:
+            state["sent"][post["link"]] = entry["at"]
+            state["posts"][str(message_id)] = entry
             sent_count += 1
             print(f"    надіслано: {post['title'][:70]}")
         else:
@@ -267,12 +314,14 @@ def main():
                         help="показати пости, нічого не надсилаючи")
     parser.add_argument("--test", action="store_true",
                         help="надіслати одну новину прямо зараз")
+    parser.add_argument("--listen", action="store_true",
+                        help="відповісти на команди й кнопки з групи")
     parser.add_argument("--count", type=int, default=None,
                         help="скільки новин узяти для --dry-run або --test")
     parser.add_argument("--config", default=CONFIG_FILE, help="шлях до config.yaml")
     args = parser.parse_args()
     try:
-        return run(args)
+        return listen(args) if args.listen else run(args)
     except KeyboardInterrupt:
         return 130
 
