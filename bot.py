@@ -152,6 +152,13 @@ def apply_from_chat(config, state, hub, sent_posts=None):
     if not hub.configured:
         return config
 
+    # Пости, надіслані ще до підключення Netlify, треба віддати йому один раз —
+    # інакше кнопки під ними мовчатимуть.
+    if not state.get("hub_backfilled") and state.get("posts"):
+        sent_posts = {**state["posts"], **(sent_posts or {})}
+        print(f"  переношу на Netlify давніші пости: {len(state['posts'])}")
+        state["hub_backfilled"] = True
+
     answer = hub.sync(
         config=hub_module.config_snapshot(config),
         new_posts=sent_posts or None,
