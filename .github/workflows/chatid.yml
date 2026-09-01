@@ -1,0 +1,65 @@
+# Разовий помічник для налаштування.
+# Показує ім'я вашого бота і ID групи, куди він доданий.
+# Токен при цьому НЕ друкується — тільки те, що потрібно вам.
+name: Дізнатися ID групи
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Запитати Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+
+          token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+          if not token:
+              print("ПОМИЛКА: секрет TELEGRAM_BOT_TOKEN не заданий.")
+              raise SystemExit(1)
+
+          def call(method):
+              url = f"https://api.telegram.org/bot{token}/{method}"
+              with urllib.request.urlopen(url, timeout=30) as resp:
+                  return json.load(resp)
+
+          try:
+              me = call("getMe")
+          except Exception as exc:
+              print(f"ПОМИЛКА: Telegram не відповів. Схоже, токен неправильний. ({exc})")
+              raise SystemExit(1)
+
+          bot = me.get("result", {})
+          print("=" * 55)
+          print(f"ТОКЕН ПРАЦЮЄ. Ваш бот: @{bot.get('username')}  ({bot.get('first_name')})")
+          print("=" * 55)
+
+          updates = call("getUpdates").get("result", [])
+          chats = {}
+          for upd in updates:
+              msg = (upd.get("message") or upd.get("channel_post")
+                     or upd.get("my_chat_member") or {})
+              chat = msg.get("chat")
+              if chat:
+                  chats[chat["id"]] = chat
+
+          groups = {cid: c for cid, c in chats.items()
+                    if c.get("type") in ("group", "supergroup", "channel")}
+
+          if groups:
+              print("\nЗНАЙДЕНІ ГРУПИ:\n")
+              for cid, chat in groups.items():
+                  print(f"  Назва:  {chat.get('title')}")
+                  print(f"  ID:     {cid}")
+                  print(f"  (це число разом зі знаком мінус — воно і потрібне)\n")
+          else:
+              print("\nГРУП ПОКИ НЕ ВИДНО.")
+              print(f"Додайте @{bot.get('username')} у вашу групу, зробіть адміністратором,")
+              print(f"а тоді напишіть у групі:  /start@{bot.get('username')}")
+              print("Коса риска та ім'я бота обов'язкові — без них бот не побачить повідомлення.")
+              print("Після цього запустіть цей помічник ще раз.")
+          PY
