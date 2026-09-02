@@ -74,12 +74,25 @@ async function askGithubToRun() {
   }
 }
 
+/** Тримати функцію кнопок не сплячою: розбудити сплячу коштує кількох секунд. */
+async function keepButtonsAwake() {
+  const site = process.env.URL || process.env.DEPLOY_URL;
+  if (!site) return;
+  try {
+    await fetch(`${site}/warm`, { method: "GET" });
+  } catch {
+    // Прогрів — річ необов'язкова, мовчки пропускаємо.
+  }
+}
+
 export default async () => {
   const store = getStore(STORE);
+  const warming = keepButtonsAwake();
   const config = await store.get("config", { type: "json" });
   const times = config?.send_times || [];
   if (!times.length) {
     console.log("розклад ще не відомий — GitHub не присилав знімка налаштувань");
+    await warming;
     return new Response("no schedule");
   }
 
@@ -98,7 +111,10 @@ export default async () => {
     if (!target || at > target.at) target = { at, key, time, late };
   }
 
-  if (!target) return new Response("no slot due");
+  if (!target) {
+    await warming;
+    return new Response("no slot due");
+  }
 
   console.log(`час розсилки ${target.time} (запізнення ${target.late} хв) — бужу GitHub`);
   if (!(await askGithubToRun())) {
@@ -106,6 +122,7 @@ export default async () => {
     return new Response("github unreachable", { status: 200 });
   }
 
+  await warming;
   done.add(target.key);
   const cutoff = new Date(Date.now() - MEMORY_DAYS * 86400_000)
     .toISOString().slice(0, 10);

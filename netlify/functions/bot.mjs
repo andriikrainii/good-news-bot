@@ -118,6 +118,27 @@ const netScore = (votes, name) => {
   return (entry.up || 0) - (entry.down || 0);
 };
 
+const EMPTY_VOTES = { topics: {}, sources: {} };
+
+/** Готовий підсумок голосів — один запис замість перечитування всіх постів. */
+async function cachedVotes(store) {
+  return (await store.get("votes", { type: "json" })) || EMPTY_VOTES;
+}
+
+/** Швидко підправити підсумок після одного голосу.
+ *  Точність гарантує /sync: він перераховує все начисто з самих постів. */
+function applyDelta(votes, post, upDelta, downDelta) {
+  const bump = (bucket, name) => {
+    if (!name) return;
+    const entry = (bucket[name] ??= { up: 0, down: 0 });
+    entry.up = Math.max(0, (entry.up || 0) + upDelta);
+    entry.down = Math.max(0, (entry.down || 0) + downDelta);
+  };
+  for (const name of post.topics || []) bump(votes.topics, name);
+  bump(votes.sources, post.source);
+  return votes;
+}
+
 // ------------------------------------------------------------ кнопки
 
 function voteKeyboard(post) {
@@ -217,8 +238,9 @@ async function handleTelegram(update, store) {
     if (!word.startsWith("/")) return;
     const kind = COMMAND_MENUS[word.slice(1).split("@")[0].toLowerCase()];
     if (!kind) return;
-    const config = await effectiveConfig(store);
-    const votes = tallyVotes(await allPosts(store));
+    const [config, votes] = await Promise.all([
+      effectiveConfig(store), cachedVotes(store),
+    ]);
     const { text, keyboard } = menuFor(kind, config, votes);
     await callTelegram("sendMessage", {
       chat_id: chatId, text, parse_mode: "HTML",
@@ -256,23 +278,36 @@ async function handleTelegram(update, store) {
     const mine = liked ? post.up : post.down;
     const other = liked ? post.down : post.up;
     let note;
+    let upDelta = 0;
+    let downDelta = 0;
     const at = mine.indexOf(userId);
     if (at !== -1) {
       mine.splice(at, 1);
+      if (liked) upDelta -= 1; else downDelta -= 1;
       note = "Голос скасовано.";
     } else {
       mine.push(userId);
+      if (liked) upDelta += 1; else downDelta += 1;
       const was = other.indexOf(userId);
-      if (was !== -1) other.splice(was, 1);
+      if (was !== -1) {
+        other.splice(was, 1);
+        if (liked) downDelta -= 1; else upDelta -= 1;
+      }
       note = liked ? "Дякую! Врахую 👍" : "Зрозумів, таких менше 👎";
     }
-    await store.setJSON(key, post);
+
+    // Спершу те, що людина бачить, і лише потім — паралельно — запис у сховище.
+    // Так лічильник змінюється одразу, а не після двох походів у базу.
     await Promise.all([
       answer(note),
       callTelegram("editMessageReplyMarkup", {
         chat_id: chatId, message_id: messageId,
         reply_markup: { inline_keyboard: voteKeyboard(post) },
       }),
+      store.setJSON(key, post),
+      cachedVotes(store).then((votes) =>
+        store.setJSON("votes", applyDelta(votes, post, upDelta, downDelta))
+      ),
     ]);
     return;
   }
@@ -311,8 +346,9 @@ async function handleTelegram(update, store) {
     return;
   }
 
-  const config = await effectiveConfig(store);
-  const votes = tallyVotes(await allPosts(store));
+  const [config, votes] = await Promise.all([
+    effectiveConfig(store), cachedVotes(store),
+  ]);
   const { text, keyboard } = menuFor(kind, config, votes);
   await Promise.all([
     answer(note),
@@ -347,8 +383,13 @@ async function handleSync(body, store) {
     }
   }
 
+  // Тут, де поспішати нікуди, перераховуємо підсумок начисто —
+  // щоб швидкі правки на льоту з часом не розійшлися з дійсністю.
+  const votes = tallyVotes(posts);
+  await store.setJSON("votes", votes);
+
   return {
-    votes: tallyVotes(posts),
+    votes,
     pending: (await store.get("pending", { type: "json" })) || [],
     posts_count: Object.keys(posts).length,
   };
@@ -359,6 +400,12 @@ async function handleSync(body, store) {
 export default async (req) => {
   const store = getStore(STORE);
   const path = new URL(req.url).pathname;
+
+  if (path.endsWith("/warm")) {
+    // Будильник заходить сюди раз на 10 хвилин, щоб функція не засинала:
+    // розбудити сплячу коштує кількох секунд, і це видно на лічильнику.
+    return new Response("warm");
+  }
 
   if (path.endsWith("/telegram")) {
     const secret = process.env.TELEGRAM_WEBHOOK_SECRET || "";
@@ -393,4 +440,4 @@ export default async (req) => {
   return new Response("good-news-bot");
 };
 
-export const config = { path: ["/telegram", "/sync"] };
+export const config = { path: ["/telegram", "/sync", "/warm"] };
