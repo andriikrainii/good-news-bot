@@ -14,6 +14,29 @@
       ],
       "up": []
     },
+    "11": {
+      "at": "2026-09-02T12:02:06.237265+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/",
+      "source": "Good News Network",
+      "title": "🫁 У Лондоні легені дітей розвиваються швидше без забруднення",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "12": {
+      "at": "2026-09-02T12:02:06.625044+00:00",
+      "down": [],
+      "link": "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/",
+      "source": "Smithsonian",
+      "title": "🦎 Рептилії видають набагато більше звуків, ніж ми думали",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -50,26 +73,41 @@
   },
   "sent": {
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
+    "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260901010721.htm": "2026-09-01T18:24:38.050423+00:00",
+    "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00"
   },
   "served_slots": [
-    "2026-09-02 09:00"
+    "2026-09-02 09:00",
+    "2026-09-02 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
-      "ScienceDaily": {
+      "Good News Network": {
         "down": 0,
         "up": 1
+      },
+      "Positive News": {
+        "down": 0,
+        "up": 1
+      },
+      "ScienceDaily": {
+        "down": 0,
+        "up": 2
       }
     },
     "topics": {
-      "Наука і медицина": {
+      "Люди й добрі вчинки": {
         "down": 0,
         "up": 1
+      },
+      "Наука і медицина": {
+        "down": 0,
+        "up": 3
       }
     }
   }
