@@ -26,8 +26,8 @@ from translator import Translator
 CONFIG_FILE = "config.yaml"
 STATE_FILE = "state.json"
 
-# Наскільки пізно ще можна відпрацювати слот (GitHub часто запускає із затримкою).
-SLOT_GRACE_MINUTES = 100
+# Скільки днів пам'ятати відпрацьовані слоти.
+SLOT_MEMORY_DAYS = 7
 # Скільки днів пам'ятати надіслані посилання.
 LINK_MEMORY_DAYS = 90
 # Скільки новин максимум перебрати, шукаючи потрібну кількість добрих.
@@ -62,7 +62,10 @@ def load_state(path=STATE_FILE):
     except (OSError, ValueError):
         state = {}
     state.setdefault("sent", {})
-    state.setdefault("last_slot", "")
+    state.setdefault("served_slots", [])
+    # Раніше пам'ятався лише останній слот — переносимо його в новий список.
+    if state.pop("last_slot", ""):
+        pass
     return interact.ensure_state(state)
 
 
@@ -118,29 +121,58 @@ def posts_for_slots(total, slot_count):
     return [base + (1 if i < extra else 0) for i in range(slot_count)]
 
 
-def current_slot(config, now):
-    """Який слот зараз треба відпрацювати: (ключ, скільки новин) або (None, 0)."""
+def due_slot(config, state, now):
+    """Який слот за сьогодні ще не відпрацьовано: (ключ, скільки новин) або (None, 0).
+
+    Ми НЕ вимагаємо, щоб бот прокинувся рівно у вузьке вікно після слоту:
+    GitHub запускає його як доведеться, іноді з проміжками в кілька годин,
+    і за такого підходу новини мовчки зникали б. Натомість бот дивиться,
+    які слоти за сьогодні вже минули й ще не відпрацьовані.
+
+    Якщо пропущено кілька слотів поспіль (бот довго не прокидався), беремо
+    найсвіжіший, а давніші позначаємо як пропущені: краще свіжі новини зараз,
+    ніж три порції поспіль за весь день.
+    """
     times = parse_send_times(config)
     if not times:
         print("У config.yaml не задано жодного часу розсилки (send_times).")
         return None, 0
 
     counts = posts_for_slots(config.get("posts_per_day", 0), len(times))
-    best = None
+    served = set(state.get("served_slots", []))
 
-    for day_shift in (0, -1):  # -1 щоб не загубити слот, який був перед північчю
-        day = (now + timedelta(days=day_shift)).date()
-        for index, (hour, minute) in enumerate(times):
-            slot_at = datetime.combine(day, datetime.min.time(), tzinfo=now.tzinfo)
-            slot_at = slot_at.replace(hour=hour, minute=minute)
-            delay = (now - slot_at).total_seconds() / 60
-            if 0 <= delay <= SLOT_GRACE_MINUTES:
-                if best is None or slot_at > best[0]:
-                    best = (slot_at, f"{slot_at:%Y-%m-%d %H:%M}", counts[index])
+    due = []
+    for index, (hour, minute) in enumerate(times):
+        slot_at = datetime.combine(now.date(), datetime.min.time(), tzinfo=now.tzinfo)
+        slot_at = slot_at.replace(hour=hour, minute=minute)
+        if slot_at > now:
+            continue
+        key = f"{slot_at:%Y-%m-%d %H:%M}"
+        if key not in served:
+            due.append((slot_at, key, counts[index]))
 
-    if best is None:
+    if not due:
         return None, 0
-    return best[1], best[2]
+
+    due.sort()
+    chosen = due[-1]
+    for _, key, _count in due[:-1]:
+        print(f"Слот {key} пропущено — бот не прокидався вчасно, беру свіжіший.")
+        state.setdefault("served_slots", []).append(key)
+
+    late = int((now - chosen[0]).total_seconds() // 60)
+    if late > 15:
+        print(f"Слот {chosen[1]} відпрацьовую із запізненням на {late} хв.")
+    return chosen[1], chosen[2]
+
+
+def prune_slots(state, now):
+    """Забути слоти, старші за тиждень."""
+    cutoff = (now - timedelta(days=SLOT_MEMORY_DAYS)).strftime("%Y-%m-%d")
+    state["served_slots"] = sorted(
+        {key for key in state.get("served_slots", []) if key[:10] >= cutoff}
+    )
+    return state
 
 
 def apply_from_chat(config, state, hub, sent_posts=None):
@@ -348,16 +380,15 @@ def run(args):
         slot_key = None
         print("Тестовий запуск: надішлю одну новину просто зараз.")
     else:
-        slot_key, wanted = current_slot(config, now)
+        prune_slots(state, now)
+        slot_key, wanted = due_slot(config, state, now)
         if not slot_key:
-            print("Зараз не час розсилки. Нічого не роблю.")
-            return 0
-        if state.get("last_slot") == slot_key:
-            print(f"Слот {slot_key} уже відпрацьовано. Нічого не роблю.")
+            print("Усі сьогоднішні розсилки вже відпрацьовано. Нічого не роблю.")
+            save_state(state)
             return 0
         if wanted <= 0:
             print(f"На слот {slot_key} припадає 0 новин. Позначаю слот і виходжу.")
-            state["last_slot"] = slot_key
+            state["served_slots"].append(slot_key)
             save_state(state)
             return 0
         print(f"Слот {slot_key}: треба надіслати новин — {wanted}")
@@ -416,7 +447,7 @@ def run(args):
             print(f"    НЕ надіслано: {post['title'][:70]}")
 
     if slot_key and sent_count:
-        state["last_slot"] = slot_key
+        state["served_slots"].append(slot_key)
 
     if hub.configured and sent_count:
         fresh = {mid: post for mid, post in state["posts"].items()
