@@ -89,7 +89,7 @@
     "sources": {
       "Good News Network": {
         "down": 0,
-        "up": 1
+        "up": 2
       },
       "Positive News": {
         "down": 0,
@@ -98,6 +98,10 @@
       "ScienceDaily": {
         "down": 0,
         "up": 2
+      },
+      "Smithsonian": {
+        "down": 0,
+        "up": 1
       }
     },
     "topics": {
@@ -107,7 +111,11 @@
       },
       "Наука і медицина": {
         "down": 0,
-        "up": 3
+        "up": 5
+      },
+      "Технології та екологія": {
+        "down": 0,
+        "up": 1
       }
     }
   }
