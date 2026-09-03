@@ -102,7 +102,7 @@
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 1,
+        "down": 2,
         "up": 2
       },
       "Positive News": {
@@ -114,8 +114,8 @@
         "up": 2
       },
       "Smithsonian": {
-        "down": 0,
-        "up": 1
+        "down": 1,
+        "up": 0
       }
     },
     "topics": {
@@ -124,11 +124,11 @@
         "up": 1
       },
       "Наука і медицина": {
-        "down": 1,
-        "up": 5
+        "down": 3,
+        "up": 4
       },
       "Природа і тварини": {
-        "down": 1,
+        "down": 2,
         "up": 0
       },
       "Технології та екологія": {
