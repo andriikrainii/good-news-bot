@@ -128,11 +128,15 @@
     "sources": {
       "Good News Network": {
         "down": 2,
-        "up": 2
+        "up": 3
       },
       "Positive News": {
         "down": 0,
         "up": 1
+      },
+      "Reasons to be Cheerful": {
+        "down": 1,
+        "up": 0
       },
       "ScienceDaily": {
         "down": 0,
@@ -146,10 +150,10 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 0,
-        "up": 1
+        "up": 2
       },
       "Наука і медицина": {
-        "down": 3,
+        "down": 4,
         "up": 4
       },
       "Природа і тварини": {
