@@ -49,6 +49,28 @@
       ],
       "up": []
     },
+    "14": {
+      "at": "2026-09-03T06:29:29.401154+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/",
+      "source": "Good News Network",
+      "title": "🍕 Два підлітки зі Флориди створили додаток для благодійної допомоги",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "15": {
+      "at": "2026-09-03T06:29:30.084203+00:00",
+      "down": [],
+      "link": "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/",
+      "source": "Reasons to be Cheerful",
+      "title": "🆘 У Балтиморі 911 тепер допомагає при психічних кризах",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -84,6 +106,8 @@
     }
   },
   "sent": {
+    "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
+    "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
@@ -96,7 +120,8 @@
   "served_slots": [
     "2026-09-02 09:00",
     "2026-09-02 14:00",
-    "2026-09-02 20:00"
+    "2026-09-02 20:00",
+    "2026-09-03 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
