@@ -151,6 +151,17 @@
       ],
       "up": []
     },
+    "34": {
+      "at": "2026-09-04T17:48:14.990949+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
+      "source": "ScienceDaily",
+      "title": "🫁 Довгий видих робить нас сміливішими",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -201,6 +212,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260902234514.htm": "2026-09-03T18:34:07.646749+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260902234518.htm": "2026-09-04T14:16:46.409447+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260903064229.htm": "2026-09-04T07:02:27.651128+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260904000320.htm": "2026-09-04T17:48:14.990949+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00"
   },
@@ -212,13 +224,14 @@
     "2026-09-03 14:00",
     "2026-09-03 20:00",
     "2026-09-04 09:00",
-    "2026-09-04 14:00"
+    "2026-09-04 14:00",
+    "2026-09-04 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 3,
+        "down": 4,
         "up": 5
       },
       "Positive News": {
@@ -231,7 +244,7 @@
       },
       "ScienceDaily": {
         "down": 0,
-        "up": 4
+        "up": 5
       },
       "Smithsonian": {
         "down": 1,
@@ -241,14 +254,14 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 0,
-        "up": 4
+        "up": 5
       },
       "Наука і медицина": {
         "down": 4,
-        "up": 8
+        "up": 9
       },
       "Природа і тварини": {
-        "down": 2,
+        "down": 3,
         "up": 0
       },
       "Технології та екологія": {
