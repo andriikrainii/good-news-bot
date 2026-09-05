@@ -208,6 +208,17 @@
       ],
       "up": []
     },
+    "39": {
+      "at": "2026-09-05T18:11:51.025227+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/",
+      "source": "Good News Network",
+      "title": "🚂 Швеція та Фінляндія з'єднали залізниці після 30 років розриву",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -247,6 +258,7 @@
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
+    "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/": "2026-09-05T18:11:51.025227+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
@@ -277,7 +289,8 @@
     "2026-09-04 14:00",
     "2026-09-04 20:00",
     "2026-09-05 09:00",
-    "2026-09-05 14:00"
+    "2026-09-05 14:00",
+    "2026-09-05 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
