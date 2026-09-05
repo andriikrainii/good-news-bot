@@ -185,6 +185,29 @@
       ],
       "up": []
     },
+    "37": {
+      "at": "2026-09-05T12:37:57.751365+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/",
+      "source": "Good News Network",
+      "title": "🧹 Сусіди приєдналися до марафону чоловіка: 100 днів чистити街 у Нью-Йорку",
+      "topics": [
+        "Люди й добрі вчинки",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "38": {
+      "at": "2026-09-05T12:37:58.403007+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html",
+      "source": "Phys.org",
+      "title": "🧴 Чому малята пахнуть краще від підлітків",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -220,6 +243,7 @@
     }
   },
   "sent": {
+    "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
@@ -228,6 +252,7 @@
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
+    "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
@@ -251,7 +276,8 @@
     "2026-09-04 09:00",
     "2026-09-04 14:00",
     "2026-09-04 20:00",
-    "2026-09-05 09:00"
+    "2026-09-05 09:00",
+    "2026-09-05 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
