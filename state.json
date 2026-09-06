@@ -242,6 +242,30 @@
       ],
       "up": []
     },
+    "42": {
+      "at": "2026-09-06T11:05:28.970090+00:00",
+      "down": [],
+      "link": "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/",
+      "source": "Smithsonian",
+      "title": "🚀 Два космічних апарати наконец дійшли до Меркурія",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "43": {
+      "at": "2026-09-06T11:05:29.638066+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/",
+      "source": "Good News Network",
+      "title": "🐕 12 золотистих щеняток святкують перший день народження з мамою",
+      "topics": [
+        "Природа і тварини",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -280,6 +304,7 @@
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
+    "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/": "2026-09-06T11:05:29.638066+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
     "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/": "2026-09-05T18:11:51.025227+00:00",
@@ -301,6 +326,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260904000310.htm": "2026-09-05T06:18:35.767721+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000320.htm": "2026-09-04T17:48:14.990949+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
+    "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00"
   },
   "served_slots": [
@@ -316,7 +342,8 @@
     "2026-09-05 09:00",
     "2026-09-05 14:00",
     "2026-09-05 20:00",
-    "2026-09-06 09:00"
+    "2026-09-06 09:00",
+    "2026-09-06 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
