@@ -302,6 +302,29 @@
       ],
       "up": []
     },
+    "47": {
+      "at": "2026-09-07T13:00:51.881174+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html",
+      "source": "Phys.org",
+      "title": "🏛️ Римляни перетворили давню гробницю на святиню",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "48": {
+      "at": "2026-09-07T13:00:52.241068+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
+      "source": "ScienceDaily",
+      "title": "🧠 Учені знайшли спосіб ослабити найнебезпечніший рак мозку",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "5": {
       "at": "2026-09-01T17:52:04.823699+00:00",
       "down": [],
@@ -337,6 +360,7 @@
     }
   },
   "sent": {
+    "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
     "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/": "2026-09-06T17:08:11.951989+00:00",
@@ -362,6 +386,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260902234514.htm": "2026-09-03T18:34:07.646749+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260902234518.htm": "2026-09-04T14:16:46.409447+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260903064229.htm": "2026-09-04T07:02:27.651128+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260903064242.htm": "2026-09-07T13:00:52.241068+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000310.htm": "2026-09-05T06:18:35.767721+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000320.htm": "2026-09-04T17:48:14.990949+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -384,7 +409,8 @@
     "2026-09-06 09:00",
     "2026-09-06 14:00",
     "2026-09-06 20:00",
-    "2026-09-07 09:00"
+    "2026-09-07 09:00",
+    "2026-09-07 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
