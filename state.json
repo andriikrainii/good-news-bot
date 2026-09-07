@@ -336,6 +336,17 @@
       ],
       "up": []
     },
+    "53": {
+      "at": "2026-09-07T18:23:38.754960+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/",
+      "source": "Good News Network",
+      "title": "☀️ Техаський вугільний завод перетворюють на сонячну електростанцію",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "6": {
       "at": "2026-09-01T18:24:38.050423+00:00",
       "down": [],
@@ -372,6 +383,7 @@
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
+    "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
@@ -410,7 +422,8 @@
     "2026-09-06 14:00",
     "2026-09-06 20:00",
     "2026-09-07 09:00",
-    "2026-09-07 14:00"
+    "2026-09-07 14:00",
+    "2026-09-07 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
