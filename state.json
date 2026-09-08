@@ -347,6 +347,28 @@
       ],
       "up": []
     },
+    "54": {
+      "at": "2026-09-08T09:34:36.211441+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/",
+      "source": "Good News Network",
+      "title": "🫀 Малюк Макс отримав штучне серце і розцвітає на очах",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "55": {
+      "at": "2026-09-08T09:34:36.572256+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html",
+      "source": "Phys.org",
+      "title": "🦣 Археологи розкрили великий неандертальський табір віком 46 тисяч років",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "6": {
       "at": "2026-09-01T18:24:38.050423+00:00",
       "down": [],
@@ -371,6 +393,7 @@
     }
   },
   "sent": {
+    "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
@@ -384,6 +407,7 @@
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
+    "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
@@ -423,7 +447,8 @@
     "2026-09-06 20:00",
     "2026-09-07 09:00",
     "2026-09-07 14:00",
-    "2026-09-07 20:00"
+    "2026-09-07 20:00",
+    "2026-09-08 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
