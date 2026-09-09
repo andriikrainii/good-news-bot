@@ -436,6 +436,28 @@
       ],
       "up": []
     },
+    "64": {
+      "at": "2026-09-09T14:29:04.024426+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+      "source": "ScienceDaily",
+      "title": "🦴 Вчені знайшли спосіб зміцнити кістки проти остеопорозу",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "65": {
+      "at": "2026-09-09T14:29:04.577361+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-global-dataset-immigrating.html",
+      "source": "Phys.org",
+      "title": "🌍 Перший світовий звіт про те, хто мігрує",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -450,6 +472,7 @@
   },
   "sent": {
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
+    "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
@@ -485,6 +508,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260904000320.htm": "2026-09-04T17:48:14.990949+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201601.htm": "2026-09-09T09:37:59.471307+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201605.htm": "2026-09-08T14:27:07.943258+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260909005305.htm": "2026-09-09T14:29:04.024426+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
     "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/": "2026-09-08T18:34:26.344833+00:00",
@@ -512,7 +536,8 @@
     "2026-09-08 09:00",
     "2026-09-08 14:00",
     "2026-09-08 20:00",
-    "2026-09-09 09:00"
+    "2026-09-09 09:00",
+    "2026-09-09 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
