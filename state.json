@@ -470,6 +470,30 @@
       ],
       "up": []
     },
+    "67": {
+      "at": "2026-09-10T09:49:50.749365+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html",
+      "source": "Phys.org",
+      "title": "🌾 Як в бронзовому віці змінили землю новою культурою",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "68": {
+      "at": "2026-09-10T09:49:51.155978+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/",
+      "source": "Good News Network",
+      "title": "🌿 На даху заводу Форда виросла живуча покрівля",
+      "topics": [
+        "Природа і тварини",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -484,6 +508,7 @@
   },
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
+    "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
@@ -504,6 +529,7 @@
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
+    "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
     "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/": "2026-09-06T06:02:10.954618+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
@@ -548,7 +574,8 @@
     "2026-09-08 20:00",
     "2026-09-09 09:00",
     "2026-09-09 14:00",
-    "2026-09-09 20:00"
+    "2026-09-09 20:00",
+    "2026-09-10 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
