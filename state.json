@@ -494,6 +494,30 @@
       ],
       "up": []
     },
+    "69": {
+      "at": "2026-09-10T11:10:53.688256+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-wildfires-pottery.html",
+      "source": "Phys.org",
+      "title": "🔥 Як древні пожежі допомогли винайти гончарство",
+      "topics": [
+        "Наука і медицина",
+        "Люди й добрі вчинки",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "70": {
+      "at": "2026-09-10T11:10:54.232088+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/",
+      "source": "Good News Network",
+      "title": "🧴 Ліки від артриту допомогли повернути волосся при алопеції",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -515,12 +539,14 @@
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
     "https://phys.org/news/2026-09-prehistoric-builders-hauled-tonne-stones.html": "2026-09-09T09:37:59.010289+00:00",
+    "https://phys.org/news/2026-09-wildfires-pottery.html": "2026-09-10T11:10:53.688256+00:00",
     "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/": "2026-09-06T17:08:11.951989+00:00",
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
     "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/": "2026-09-06T11:05:29.638066+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
     "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/": "2026-09-05T18:11:51.025227+00:00",
+    "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/": "2026-09-10T11:10:54.232088+00:00",
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
@@ -575,7 +601,8 @@
     "2026-09-09 09:00",
     "2026-09-09 14:00",
     "2026-09-09 20:00",
-    "2026-09-10 09:00"
+    "2026-09-10 09:00",
+    "2026-09-10 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
