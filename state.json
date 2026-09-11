@@ -529,6 +529,28 @@
       ],
       "up": []
     },
+    "77": {
+      "at": "2026-09-11T06:37:54.282916+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/",
+      "source": "Optimist Daily",
+      "title": "🩺 Простий домашній тест виявляє рак сечового міхура",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "78": {
+      "at": "2026-09-11T06:37:55.736540+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/",
+      "source": "Good News Network",
+      "title": "🚀 Європа відправила зонд до Меркурія",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -565,6 +587,7 @@
     "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
+    "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/": "2026-09-11T06:37:55.736540+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
@@ -573,6 +596,7 @@
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
+    "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015150.htm": "2026-09-03T11:43:03.243449+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260901010721.htm": "2026-09-01T18:24:38.050423+00:00",
@@ -612,7 +636,8 @@
     "2026-09-09 20:00",
     "2026-09-10 09:00",
     "2026-09-10 14:00",
-    "2026-09-10 20:00"
+    "2026-09-10 20:00",
+    "2026-09-11 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
