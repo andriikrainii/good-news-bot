@@ -551,6 +551,30 @@
       ],
       "up": []
     },
+    "79": {
+      "at": "2026-09-11T11:10:58.994094+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/events060911/",
+      "source": "Good News Network",
+      "title": "🐼 65 років тому створили Всесвітний фонд дикої природи",
+      "topics": [
+        "Природа і тварини",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "80": {
+      "at": "2026-09-11T11:10:59.446478+00:00",
+      "down": [],
+      "link": "https://reasonstobecheerful.world/the-national-park-that-stretches-from-coast-to-coast/",
+      "source": "Reasons to be Cheerful",
+      "title": "🦋 Як Дуг Таллемі перетворив село на рай для природи",
+      "topics": [
+        "Природа і тварини",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -574,6 +598,7 @@
     "https://phys.org/news/2026-09-prehistoric-builders-hauled-tonne-stones.html": "2026-09-09T09:37:59.010289+00:00",
     "https://phys.org/news/2026-09-wildfires-pottery.html": "2026-09-10T11:10:53.688256+00:00",
     "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/": "2026-09-06T17:08:11.951989+00:00",
+    "https://reasonstobecheerful.world/the-national-park-that-stretches-from-coast-to-coast/": "2026-09-11T11:10:59.446478+00:00",
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
     "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/": "2026-09-06T11:05:29.638066+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
@@ -583,6 +608,7 @@
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
+    "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
     "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
@@ -637,7 +663,8 @@
     "2026-09-10 09:00",
     "2026-09-10 14:00",
     "2026-09-10 20:00",
-    "2026-09-11 09:00"
+    "2026-09-11 09:00",
+    "2026-09-11 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
