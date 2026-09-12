@@ -634,6 +634,18 @@
       ],
       "up": []
     },
+    "86": {
+      "at": "2026-09-12T17:02:11.755172+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm",
+      "source": "ScienceDaily",
+      "title": "🧬 Оземпік може сповільнити саме старіння",
+      "topics": [
+        "Наука і медицина",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -699,6 +711,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260909005305.htm": "2026-09-09T14:29:04.024426+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231729.htm": "2026-09-12T11:15:17.668098+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T06:30:47.789210+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911214238.htm": "2026-09-12T17:02:11.755172+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
     "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/": "2026-09-08T18:34:26.344833+00:00",
@@ -728,7 +741,8 @@
     "2026-09-11 14:00",
     "2026-09-11 20:00",
     "2026-09-12 09:00",
-    "2026-09-12 14:00"
+    "2026-09-12 14:00",
+    "2026-09-12 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
