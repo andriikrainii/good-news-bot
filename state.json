@@ -611,6 +611,29 @@
       ],
       "up": []
     },
+    "84": {
+      "at": "2026-09-12T11:15:17.275886+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/",
+      "source": "Good News Network",
+      "title": "🦗 Вчені відтворили спів комах з епохи динозаврів",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "85": {
+      "at": "2026-09-12T11:15:17.668098+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
+      "source": "ScienceDaily",
+      "title": "🌙 Місяць міг утворитися цілком за кілька годин",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
@@ -658,6 +681,7 @@
     "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/": "2026-09-06T06:02:10.954618+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
+    "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
@@ -673,6 +697,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260907201601.htm": "2026-09-09T09:37:59.471307+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201605.htm": "2026-09-08T14:27:07.943258+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909005305.htm": "2026-09-09T14:29:04.024426+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260909231729.htm": "2026-09-12T11:15:17.668098+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T06:30:47.789210+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
@@ -702,7 +727,8 @@
     "2026-09-11 09:00",
     "2026-09-11 14:00",
     "2026-09-11 20:00",
-    "2026-09-12 09:00"
+    "2026-09-12 09:00",
+    "2026-09-12 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
