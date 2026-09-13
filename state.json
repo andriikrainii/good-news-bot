@@ -670,12 +670,35 @@
       ],
       "up": []
     },
+    "89": {
+      "at": "2026-09-13T11:42:15.918781+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/",
+      "source": "Good News Network",
+      "title": "🐘 Слони вміють стримувати імпульси й обирати розумне рішення",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "9": {
       "at": "2026-09-02T07:32:59.675473+00:00",
       "down": [],
       "link": "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/",
       "source": "Positive News",
       "title": "🫁 У Лондоні діти мають здоровіші легені завдяки чистому повітрю",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "90": {
+      "at": "2026-09-13T11:42:16.462216+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm",
+      "source": "ScienceDaily",
+      "title": "🧬 Учені знайшли природний тумблер для вимкнення запалення",
       "topics": [
         "Наука і медицина"
       ],
@@ -702,6 +725,7 @@
     "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/": "2026-09-10T11:10:54.232088+00:00",
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
+    "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
@@ -738,6 +762,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T06:30:47.789210+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214238.htm": "2026-09-12T17:02:11.755172+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214305.htm": "2026-09-13T06:00:52.682814+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911214306.htm": "2026-09-13T11:42:16.462216+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
     "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/": "2026-09-08T18:34:26.344833+00:00",
@@ -766,7 +791,8 @@
     "2026-09-12 09:00",
     "2026-09-12 14:00",
     "2026-09-12 20:00",
-    "2026-09-13 09:00"
+    "2026-09-13 09:00",
+    "2026-09-13 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
