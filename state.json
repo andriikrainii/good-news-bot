@@ -714,6 +714,29 @@
         "Наука і медицина"
       ],
       "up": []
+    },
+    "92": {
+      "at": "2026-09-14T06:08:33.624709+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/homeless-guy-famous-for-playing-piano-in-church-raising-50k/",
+      "source": "Good News Network",
+      "title": "🎹 Безхатько став знаменитістю і зібрав $50K на благодійність",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "93": {
+      "at": "2026-09-14T06:08:34.114632+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-smart-pen-pressure-movement-children.html",
+      "source": "Phys.org",
+      "title": "🖊️ Розумна ручка помічає проблеми з письмом у дітей раніше",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
     }
   },
   "sent": {
@@ -725,6 +748,7 @@
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
     "https://phys.org/news/2026-09-prehistoric-builders-hauled-tonne-stones.html": "2026-09-09T09:37:59.010289+00:00",
+    "https://phys.org/news/2026-09-smart-pen-pressure-movement-children.html": "2026-09-14T06:08:34.114632+00:00",
     "https://phys.org/news/2026-09-wildfires-pottery.html": "2026-09-10T11:10:53.688256+00:00",
     "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/": "2026-09-06T17:08:11.951989+00:00",
     "https://reasonstobecheerful.world/the-national-park-that-stretches-from-coast-to-coast/": "2026-09-11T11:10:59.446478+00:00",
@@ -744,6 +768,7 @@
     "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
     "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/": "2026-09-03T06:29:29.401154+00:00",
     "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/": "2026-09-02T07:33:00.212170+00:00",
+    "https://www.goodnewsnetwork.org/homeless-guy-famous-for-playing-piano-in-church-raising-50k/": "2026-09-14T06:08:33.624709+00:00",
     "https://www.goodnewsnetwork.org/hotel-staff-give-girls-lost-plushie-the-vip-treatment-before-sending-her-home-with-a-note-look/": "2026-09-12T06:30:48.168995+00:00",
     "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/": "2026-09-11T06:37:55.736540+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
@@ -802,7 +827,8 @@
     "2026-09-12 20:00",
     "2026-09-13 09:00",
     "2026-09-13 14:00",
-    "2026-09-13 20:00"
+    "2026-09-13 20:00",
+    "2026-09-14 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
