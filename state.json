@@ -759,6 +759,17 @@
         "Люди й добрі вчинки"
       ],
       "up": []
+    },
+    "98": {
+      "at": "2026-09-14T17:03:11.224585+00:00",
+      "down": [],
+      "link": "https://www.smithsonianmag.com/smart-news/see-nine-stunning-images-from-this-years-ocean-photographer-of-the-year-contest-that-show-the-majesty-of-marine-life-180989489/",
+      "source": "Smithsonian",
+      "title": "🌊 Дев'ять чарівних знімків морського життя з конкурсу фотографів",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
     }
   },
   "sent": {
@@ -827,6 +838,7 @@
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
     "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/": "2026-09-08T18:34:26.344833+00:00",
+    "https://www.smithsonianmag.com/smart-news/see-nine-stunning-images-from-this-years-ocean-photographer-of-the-year-contest-that-show-the-majesty-of-marine-life-180989489/": "2026-09-14T17:03:11.224585+00:00",
     "https://www.smithsonianmag.com/smart-news/the-tip-of-this-snakes-tail-looks-like-a-spider-but-inside-its-bones-are-bizarrely-normal-180989478/": "2026-09-10T17:52:00.976424+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00"
   },
@@ -853,7 +865,8 @@
     "2026-09-13 14:00",
     "2026-09-13 20:00",
     "2026-09-14 09:00",
-    "2026-09-14 14:00"
+    "2026-09-14 14:00",
+    "2026-09-14 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
