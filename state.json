@@ -109,6 +109,28 @@
       ],
       "up": []
     },
+    "116": {
+      "at": "2026-09-16T11:46:50.876451+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/",
+      "source": "Optimist Daily",
+      "title": "🍰 Юні пекарі з Фріско змінили громаду через випічку",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "117": {
+      "at": "2026-09-16T11:46:51.593182+00:00",
+      "down": [],
+      "link": "https://reasonstobecheerful.world/what-were-reading-klamath-river-salmon-return/",
+      "source": "Reasons to be Cheerful",
+      "title": "🐟 20 тисяч лососів повернулися в річку Кламат",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "12": {
       "at": "2026-09-02T12:02:06.625044+00:00",
       "down": [],
@@ -872,6 +894,7 @@
     "https://reasonstobecheerful.world/how-afghan-women-are-rebuilding-reproductive-health-care/": "2026-09-15T13:28:18.793083+00:00",
     "https://reasonstobecheerful.world/the-national-park-that-stretches-from-coast-to-coast/": "2026-09-11T11:10:59.446478+00:00",
     "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/": "2026-09-03T06:29:30.084203+00:00",
+    "https://reasonstobecheerful.world/what-were-reading-klamath-river-salmon-return/": "2026-09-16T11:46:51.593182+00:00",
     "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/": "2026-09-06T11:05:29.638066+00:00",
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
@@ -904,6 +927,7 @@
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
+    "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/society/how-housing-first-is-helping-people-leave-rough-sleeping-behind/": "2026-09-14T13:55:36.532313+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015150.htm": "2026-09-03T11:43:03.243449+00:00",
@@ -954,7 +978,8 @@
     "2026-09-15 09:00",
     "2026-09-15 14:00",
     "2026-09-15 20:00",
-    "2026-09-16 09:00"
+    "2026-09-16 09:00",
+    "2026-09-16 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
