@@ -86,6 +86,29 @@
       ],
       "up": []
     },
+    "113": {
+      "at": "2026-09-16T06:08:19.557268+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-history-rewritten-archaeological-site-morocco.html",
+      "source": "Phys.org",
+      "title": "🏛️ У Марокко знайшли стародавну стіну віком 4 тисячі років",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "114": {
+      "at": "2026-09-16T06:08:20.060558+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/",
+      "source": "Good News Network",
+      "title": "🌳 Афіни створюють один з найбільших парків Європи",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "12": {
       "at": "2026-09-02T12:02:06.625044+00:00",
       "down": [],
@@ -838,6 +861,7 @@
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
+    "https://phys.org/news/2026-09-history-rewritten-archaeological-site-morocco.html": "2026-09-16T06:08:19.557268+00:00",
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-lebanon-years-climate-landscape-history.html": "2026-09-15T07:38:46.180189+00:00",
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
@@ -854,6 +878,7 @@
     "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/": "2026-09-05T18:11:51.025227+00:00",
     "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/": "2026-09-10T11:10:54.232088+00:00",
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
+    "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/": "2026-09-16T06:08:20.060558+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
@@ -928,7 +953,8 @@
     "2026-09-14 20:00",
     "2026-09-15 09:00",
     "2026-09-15 14:00",
-    "2026-09-15 20:00"
+    "2026-09-15 20:00",
+    "2026-09-16 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
