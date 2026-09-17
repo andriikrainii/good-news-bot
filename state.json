@@ -1048,7 +1048,7 @@
     "sources": {
       "Good News Network": {
         "down": 4,
-        "up": 5
+        "up": 6
       },
       "Positive News": {
         "down": 0,
@@ -1059,11 +1059,11 @@
         "up": 1
       },
       "ScienceDaily": {
-        "down": 0,
-        "up": 6
+        "down": 1,
+        "up": 7
       },
       "Smithsonian": {
-        "down": 1,
+        "down": 2,
         "up": 0
       }
     },
@@ -1073,16 +1073,16 @@
         "up": 5
       },
       "Наука і медицина": {
-        "down": 5,
-        "up": 10
+        "down": 6,
+        "up": 12
       },
       "Природа і тварини": {
-        "down": 3,
+        "down": 4,
         "up": 0
       },
       "Технології та екологія": {
         "down": 1,
-        "up": 1
+        "up": 2
       }
     }
   }
