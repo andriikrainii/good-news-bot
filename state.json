@@ -199,6 +199,19 @@
       ],
       "up": []
     },
+    "127": {
+      "at": "2026-09-17T17:15:53.784853+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260917003737.htm",
+      "source": "ScienceDaily",
+      "title": "🐸 У джунглях Амазонки знайшли невідому жабу",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "13": {
       "at": "2026-09-02T17:07:35.193773+00:00",
       "down": [],
@@ -1009,6 +1022,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260915100137.htm": "2026-09-16T17:06:58.923821+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232134.htm": "2026-09-17T11:34:11.030498+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260916232525.htm": "2026-09-17T06:03:46.793835+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260917003737.htm": "2026-09-17T17:15:53.784853+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
     "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/": "2026-09-06T11:05:28.970090+00:00",
@@ -1041,7 +1055,8 @@
     "2026-09-16 14:00",
     "2026-09-16 20:00",
     "2026-09-17 09:00",
-    "2026-09-17 14:00"
+    "2026-09-17 14:00",
+    "2026-09-17 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
