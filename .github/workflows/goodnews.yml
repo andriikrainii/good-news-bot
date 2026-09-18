@@ -1,4 +1,4 @@
-name: Добрі новини
+name: Добрі новини і тести
 
 on:
   # Три спроби на годину, у різні хвилини.
@@ -21,15 +21,21 @@ on:
         description: "Що зробити"
         required: true
         default: "schedule"
-        # schedule — звичайний запуск за розкладом
-        # test     — надіслати одну новину прямо зараз
-        # dry-run  — показати новини в логах, нічого не надсилати
+        # schedule      — звичайний запуск за розкладом
+        # test          — надіслати одну новину прямо зараз
+        # dry-run       — показати новини в логах, нічого не надсилати
+        # quiz-test     — надіслати один шкільний тест прямо зараз
+        # quiz-dry-run  — показати тести в логах, нічого не надсилати
+        # check-quiz    — перевірити файли з питаннями на помилки
         # setup-webhook — підключити миттєві кнопки через Netlify
         type: choice
         options:
           - schedule
           - test
           - dry-run
+          - quiz-test
+          - quiz-dry-run
+          - check-quiz
           - setup-webhook
 
 # Дозвіл комітити пам'ять бота і зміни налаштувань назад у репозиторій.
@@ -67,8 +73,14 @@ jobs:
           SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
         run: python bot.py --setup-webhook
 
+      - name: Перевірити питання до тестів
+        if: inputs.mode == 'check-quiz'
+        run: python bot.py --check-quiz
+
       - name: Відповісти на кнопки й команди з групи
-        if: inputs.mode != 'dry-run' && inputs.mode != 'setup-webhook'
+        if: >-
+          inputs.mode != 'dry-run' && inputs.mode != 'setup-webhook'
+          && inputs.mode != 'check-quiz' && !startsWith(inputs.mode || '', 'quiz')
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -77,7 +89,9 @@ jobs:
         run: python bot.py --listen
 
       - name: Надіслати новини
-        if: inputs.mode != 'setup-webhook'
+        if: >-
+          inputs.mode != 'setup-webhook' && inputs.mode != 'check-quiz'
+          && !startsWith(inputs.mode || '', 'quiz')
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -90,6 +104,21 @@ jobs:
             test)    python bot.py --test ;;
             dry-run) python bot.py --dry-run --count 3 ;;
             *)       python bot.py ;;
+          esac
+
+      - name: Надіслати шкільні тести
+        if: >-
+          inputs.mode != 'setup-webhook' && inputs.mode != 'check-quiz'
+          && inputs.mode != 'test' && inputs.mode != 'dry-run'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MODE: ${{ inputs.mode || 'schedule' }}
+        run: |
+          case "$MODE" in
+            quiz-test)    python bot.py --quiz --test ;;
+            quiz-dry-run) python bot.py --quiz --dry-run --count 3 ;;
+            *)            python bot.py --quiz ;;
           esac
 
       - name: Запам'ятати зміни

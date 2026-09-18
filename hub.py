@@ -65,10 +65,15 @@ class Hub:
 
 
 def config_snapshot(config):
-    """Те, що потрібно Netlify, щоб намалювати меню."""
+    """Те, що потрібно Netlify, щоб намалювати меню й вчасно будити бота."""
+    quiz = config.get("quiz") or {}
+    quiz_times = ([str(t) for t in quiz.get("send_times", []) or []]
+                  if quiz.get("enabled") else [])
     return {
         "posts_per_day": int(config.get("posts_per_day", 0) or 0),
         "send_times": [str(t) for t in config.get("send_times", []) or []],
+        # Будильнику на Netlify: у ці години теж треба розбудити бота.
+        "quiz_times": quiz_times,
         "topics": [
             {"name": topic.get("name", "?"), "enabled": bool(topic.get("enabled"))}
             for topic in config.get("topics", []) or []

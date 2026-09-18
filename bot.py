@@ -5,6 +5,9 @@
     python bot.py --dry-run --count 3   показати пости, нічого не надсилаючи
     python bot.py --test                надіслати одну новину зараз
     python bot.py                       звичайний запуск за розкладом
+    python bot.py --quiz                надіслати шкільні тести за розкладом
+    python bot.py --quiz --test         надіслати один тест зараз
+    python bot.py --check-quiz          перевірити файли з питаннями
 """
 
 import argparse
@@ -18,6 +21,7 @@ import yaml
 
 import hub as hub_module
 import interact
+import quiz
 import settings
 import sources
 import telegram_api
@@ -25,6 +29,10 @@ from translator import Translator
 
 CONFIG_FILE = "config.yaml"
 STATE_FILE = "state.json"
+
+# Де в пам'яті лежать відпрацьовані слоти: окремо новини, окремо тести.
+NEWS_SLOTS = "served_slots"
+QUIZ_SLOTS = "quiz_slots"
 
 # Скільки днів пам'ятати відпрацьовані слоти.
 SLOT_MEMORY_DAYS = 7
@@ -63,6 +71,9 @@ def load_state(path=STATE_FILE):
         state = {}
     state.setdefault("sent", {})
     state.setdefault("served_slots", [])
+    state.setdefault("quiz_slots", [])
+    state.setdefault("quiz_asked", [])
+    state.setdefault("quiz_last_subject", "")
     # Раніше пам'ятався лише останній слот — переносимо його в новий список.
     if state.pop("last_slot", ""):
         pass
@@ -94,18 +105,18 @@ def prune_state(state):
 
 # ----------------------------------------------------------------- розклад
 
-def parse_send_times(config):
-    """Список часів розсилки як (година, хвилина), відсортований."""
+def parse_times(values):
+    """Список часів як (година, хвилина), відсортований."""
     parsed = []
-    for value in config.get("send_times", []) or []:
+    for value in values or []:
         text = str(value).strip()
         try:
             hour, minute = (int(part) for part in text.split(":"))
         except ValueError:
-            print(f"УВАГА: час '{text}' у send_times записаний неправильно, пропускаю.")
+            print(f"УВАГА: час '{text}' записаний неправильно, пропускаю.")
             continue
         if not (0 <= hour <= 23 and 0 <= minute <= 59):
-            print(f"УВАГА: час '{text}' у send_times не існує, пропускаю.")
+            print(f"УВАГА: часу '{text}' не існує, пропускаю.")
             continue
         parsed.append((hour, minute))
     parsed.sort()
@@ -121,8 +132,8 @@ def posts_for_slots(total, slot_count):
     return [base + (1 if i < extra else 0) for i in range(slot_count)]
 
 
-def due_slot(config, state, now):
-    """Який слот за сьогодні ще не відпрацьовано: (ключ, скільки новин) або (None, 0).
+def due_slot(state, now, times, total, memory_key=NEWS_SLOTS):
+    """Який слот за сьогодні ще не відпрацьовано: (ключ, скільки) або (None, 0).
 
     Ми НЕ вимагаємо, щоб бот прокинувся рівно у вузьке вікно після слоту:
     GitHub запускає його як доведеться, іноді з проміжками в кілька годин,
@@ -133,13 +144,12 @@ def due_slot(config, state, now):
     найсвіжіший, а давніші позначаємо як пропущені: краще свіжі новини зараз,
     ніж три порції поспіль за весь день.
     """
-    times = parse_send_times(config)
     if not times:
-        print("У config.yaml не задано жодного часу розсилки (send_times).")
+        print("У config.yaml не задано жодного часу розсилки.")
         return None, 0
 
-    counts = posts_for_slots(config.get("posts_per_day", 0), len(times))
-    served = set(state.get("served_slots", []))
+    counts = posts_for_slots(total, len(times))
+    served = set(state.get(memory_key, []) or [])
 
     due = []
     for index, (hour, minute) in enumerate(times):
@@ -158,7 +168,7 @@ def due_slot(config, state, now):
     chosen = due[-1]
     for _, key, _count in due[:-1]:
         print(f"Слот {key} пропущено — бот не прокидався вчасно, беру свіжіший.")
-        state.setdefault("served_slots", []).append(key)
+        state.setdefault(memory_key, []).append(key)
 
     late = int((now - chosen[0]).total_seconds() // 60)
     if late > 15:
@@ -166,11 +176,11 @@ def due_slot(config, state, now):
     return chosen[1], chosen[2]
 
 
-def prune_slots(state, now):
+def prune_slots(state, now, memory_key=NEWS_SLOTS):
     """Забути слоти, старші за тиждень."""
     cutoff = (now - timedelta(days=SLOT_MEMORY_DAYS)).strftime("%Y-%m-%d")
-    state["served_slots"] = sorted(
-        {key for key in state.get("served_slots", []) if key[:10] >= cutoff}
+    state[memory_key] = sorted(
+        {key for key in state.get(memory_key, []) or [] if key[:10] >= cutoff}
     )
     return state
 
@@ -284,6 +294,121 @@ def show_post(index, post):
 
 # ----------------------------------------------------------------- запуск
 
+def check_quiz(_args):
+    """Перевірити всі файли з питаннями: чи нема помилок і повторів."""
+    print("Перевіряю питання…")
+    bank, problems = quiz.load_bank({"quiz": {"levels": sorted(quiz.LEVELS)}})
+
+    seen = {}
+    for question in bank:
+        seen.setdefault(question["id"], []).append(question)
+    for copies in seen.values():
+        if len(copies) > 1:
+            where = ", ".join(sorted({q["subject"] for q in copies}))
+            problems.append(f"питання повторюється ({where}): {copies[0]['question']}")
+
+    print(f"\nУсього питань: {len(bank)}")
+    if problems:
+        print(f"Знайдено проблем: {len(problems)}")
+        for problem in problems:
+            print(f"  ✗ {problem}")
+        return 1
+    print("Помилок немає — усі питання готові до надсилання.")
+    return 0
+
+
+def run_quiz(args):
+    """Надіслати у групу шкільні тести — за розкладом або зараз."""
+    config = load_config(args.config)
+    quiz_settings = quiz.quiz_config(config)
+    tz = get_timezone(config)
+    now = datetime.now(tz)
+    state = prune_state(load_state())
+
+    manual = args.dry_run or args.test
+    if not quiz_settings["enabled"] and not manual:
+        print("Тести вимкнені в config.yaml (розділ quiz, рядок enabled).")
+        return 0
+
+    print("Беру питання…")
+    bank, problems = quiz.load_bank(config)
+    for problem in problems:
+        print(f"  УВАГА: {problem}")
+    if not bank:
+        print("Жодного питання не знайшлося. Перевірте папку questions/.")
+        return 1
+    print(f"Питань напоготові: {len(bank)}")
+
+    if args.dry_run:
+        slot_key, wanted = None, args.count or 3
+    elif args.test:
+        slot_key, wanted = None, args.count or 1
+        print("Тестовий запуск: надішлю тест просто зараз.")
+    else:
+        prune_slots(state, now, QUIZ_SLOTS)
+        slot_key, wanted = due_slot(
+            state, now, parse_times(quiz_settings["send_times"]),
+            quiz_settings["per_day"], QUIZ_SLOTS,
+        )
+        if not slot_key:
+            print("Зараз не час для тестів: сьогоднішні вже надіслано "
+                  "або ще попереду.")
+            save_state(state)
+            return 0
+        if wanted <= 0:
+            print(f"На слот {slot_key} припадає 0 тестів. Позначаю слот і виходжу.")
+            state[QUIZ_SLOTS].append(slot_key)
+            save_state(state)
+            return 0
+        print(f"Слот {slot_key}: треба надіслати тестів — {wanted}")
+
+    chosen = quiz.pick_questions(bank, state, wanted)
+    if not chosen:
+        print("Не вдалося підібрати питання. Спробую наступного разу.")
+        return 0
+
+    if args.dry_run:
+        for index, question in enumerate(chosen, 1):
+            quiz.show(index, question)
+        print("\n" + "─" * 60)
+        print(f"Це був пробний показ ({len(chosen)} шт.), нічого не надіслано.")
+        return 0
+
+    sender = telegram_api.TelegramSender(
+        os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+        os.environ.get("TELEGRAM_CHAT_ID", ""),
+    )
+    if not sender.configured:
+        print("ПОМИЛКА: немає TELEGRAM_BOT_TOKEN або TELEGRAM_CHAT_ID.")
+        print("Додайте їх у секрети репозиторію на GitHub.")
+        return 1
+
+    sent_count = 0
+    for question in chosen:
+        mixed = quiz.shuffle_options(question)
+        message_id = sender.send_quiz(
+            quiz.poll_question(mixed),
+            mixed["options"],
+            mixed["answer_index"],
+            explanation=quiz.explanation(mixed),
+            anonymous=not quiz_settings["show_who_answers"],
+            open_period=quiz_settings["time_limit_seconds"],
+        )
+        if message_id:
+            quiz.remember(state, [question])
+            sent_count += 1
+            print(f"    надіслано: {question['subject']} — {question['question'][:60]}")
+        else:
+            print(f"    НЕ надіслано: {question['question'][:60]}")
+
+    if slot_key and sent_count:
+        state[QUIZ_SLOTS].append(slot_key)
+
+    save_state(state)
+    print(f"\nНадіслано тестів: {sent_count} з {len(chosen)}")
+    return 0 if sent_count else 1
+
+
 def listen(args):
     """Забрати з Telegram команди й натискання кнопок і відповісти на них."""
     config = load_config(args.config)
@@ -381,7 +506,10 @@ def run(args):
         print("Тестовий запуск: надішлю одну новину просто зараз.")
     else:
         prune_slots(state, now)
-        slot_key, wanted = due_slot(config, state, now)
+        slot_key, wanted = due_slot(
+            state, now, parse_times(config.get("send_times")),
+            config.get("posts_per_day", 0),
+        )
         if not slot_key:
             print("Усі сьогоднішні розсилки вже відпрацьовано. Нічого не роблю.")
             save_state(state)
@@ -465,6 +593,10 @@ def main():
                         help="показати пости, нічого не надсилаючи")
     parser.add_argument("--test", action="store_true",
                         help="надіслати одну новину прямо зараз")
+    parser.add_argument("--quiz", action="store_true",
+                        help="надіслати у групу шкільні тести")
+    parser.add_argument("--check-quiz", action="store_true",
+                        help="перевірити файли з питаннями, нічого не надсилаючи")
     parser.add_argument("--listen", action="store_true",
                         help="відповісти на команди й кнопки з групи")
     parser.add_argument("--setup-webhook", action="store_true",
@@ -476,6 +608,10 @@ def main():
     try:
         if args.setup_webhook:
             return setup_webhook(args)
+        if args.check_quiz:
+            return check_quiz(args)
+        if args.quiz:
+            return run_quiz(args)
         return listen(args) if args.listen else run(args)
     except KeyboardInterrupt:
         return 130
