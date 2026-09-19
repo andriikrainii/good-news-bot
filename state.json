@@ -336,6 +336,18 @@
       ],
       "up": []
     },
+    "147": {
+      "at": "2026-09-19T17:57:42.414193+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/",
+      "source": "Good News Network",
+      "title": "❄️ Учені розгадали таємницю рекордного снігопаду в Антарктиді",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "15": {
       "at": "2026-09-03T06:29:30.084203+00:00",
       "down": [],
@@ -1109,6 +1121,7 @@
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
+    "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/": "2026-09-19T17:57:42.414193+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
@@ -1176,7 +1189,8 @@
     "2026-09-18 14:00",
     "2026-09-18 20:00",
     "2026-09-19 09:00",
-    "2026-09-19 14:00"
+    "2026-09-19 14:00",
+    "2026-09-19 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
