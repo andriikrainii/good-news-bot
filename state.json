@@ -303,6 +303,17 @@
       ],
       "up": []
     },
+    "139": {
+      "at": "2026-09-19T11:10:04.102262+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024808.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Вчені готуються перевірити теорію Ейнштейна на екзотичній матерії",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "14": {
       "at": "2026-09-03T06:29:29.401154+00:00",
       "down": [],
@@ -311,6 +322,17 @@
       "title": "🍕 Два підлітки зі Флориди створили додаток для благодійної допомоги",
       "topics": [
         "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "140": {
+      "at": "2026-09-19T11:10:04.451117+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/",
+      "source": "Good News Network",
+      "title": "🏛️ У Перу розкопали 600-річну гробницю елітної цивілізації",
+      "topics": [
+        "Наука і медицина"
       ],
       "up": []
     },
@@ -1084,6 +1106,7 @@
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
+    "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
@@ -1112,6 +1135,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260917003712.htm": "2026-09-18T06:00:56.647136+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260917003715.htm": "2026-09-18T11:26:20.244491+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260917003737.htm": "2026-09-17T17:15:53.784853+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918024808.htm": "2026-09-19T11:10:04.102262+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024816.htm": "2026-09-18T18:21:05.247156+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1145,7 +1169,8 @@
     "2026-09-18 09:00",
     "2026-09-18 14:00",
     "2026-09-18 20:00",
-    "2026-09-19 09:00"
+    "2026-09-19 09:00",
+    "2026-09-19 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
