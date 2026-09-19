@@ -1004,6 +1004,11 @@
       "up": []
     }
   },
+  "quiz_asked": [
+    "022f99a8ec"
+  ],
+  "quiz_last_subject": "Історія",
+  "quiz_slots": [],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
