@@ -6,7 +6,7 @@
  * Тому час стежить Netlify: коли настав час розсилки, він сам просить
  * GitHub запустити бота.
  *
- * Будильник не шле новини — це й далі робить GitHub. Він лише стукає.
+ * Будильник не шле новини й тести — це й далі робить GitHub. Він лише стукає.
  */
 
 import { getStore } from "@netlify/blobs";
@@ -89,7 +89,11 @@ export default async () => {
   const store = getStore(STORE);
   const warming = keepButtonsAwake();
   const config = await store.get("config", { type: "json" });
-  const times = config?.send_times || [];
+  // Будимо бота і в години новин, і в години шкільних тестів.
+  const times = [...new Set([
+    ...(config?.send_times || []),
+    ...(config?.quiz_times || []),
+  ])];
   if (!times.length) {
     console.log("розклад ще не відомий — GitHub не присилав знімка налаштувань");
     await warming;

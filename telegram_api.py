@@ -133,6 +133,32 @@ class TelegramSender:
             print("    надсилаю без картинки")
         return self.send_message(body, keyboard)
 
+    def send_quiz(self, question, options, correct_index,
+                  explanation="", anonymous=True, open_period=0):
+        """Надіслати вікторину: питання з варіантами й однією правильною.
+
+        Telegram сам покаже, хто відповів і чи вгадав, — боту рахувати
+        нічого не треба. Повертає номер повідомлення або None.
+        """
+        payload = {
+            "chat_id": self.chat_id,
+            "question": question[:300],
+            "options": json.dumps(options, ensure_ascii=False),
+            "type": "quiz",
+            "correct_option_id": int(correct_index),
+            "is_anonymous": "true" if anonymous else "false",
+        }
+        if explanation:
+            payload["explanation"] = explanation[:200]
+            payload["explanation_parse_mode"] = "HTML"
+        if open_period:
+            payload["open_period"] = max(5, min(600, int(open_period)))
+        ok, info = self._call("sendPoll", payload)
+        if not ok:
+            print(f"    sendPoll не спрацював: {info}")
+            return None
+        return self._message_id(info)
+
     # ---------- слухання: команди й натискання кнопок ----------
 
     def get_updates(self, offset=0, timeout=0):
