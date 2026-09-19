@@ -1049,10 +1049,14 @@
     }
   },
   "quiz_asked": [
-    "022f99a8ec"
+    "022f99a8ec",
+    "1ede60065e",
+    "91dec99b7f"
   ],
-  "quiz_last_subject": "Історія",
-  "quiz_slots": [],
+  "quiz_last_subject": "Географія",
+  "quiz_slots": [
+    "2026-09-19 16:00"
+  ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
@@ -1177,7 +1181,7 @@
     "sources": {
       "Good News Network": {
         "down": 5,
-        "up": 7
+        "up": 8
       },
       "Positive News": {
         "down": 0,
@@ -1193,7 +1197,7 @@
       },
       "Smithsonian": {
         "down": 2,
-        "up": 0
+        "up": 1
       }
     },
     "topics": {
@@ -1203,7 +1207,7 @@
       },
       "Наука і медицина": {
         "down": 9,
-        "up": 12
+        "up": 13
       },
       "Природа і тварини": {
         "down": 7,
@@ -1211,7 +1215,7 @@
       },
       "Технології та екологія": {
         "down": 2,
-        "up": 4
+        "up": 5
       }
     }
   }
