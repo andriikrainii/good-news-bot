@@ -1051,11 +1051,13 @@
   "quiz_asked": [
     "022f99a8ec",
     "1ede60065e",
-    "91dec99b7f"
+    "91dec99b7f",
+    "bd94af9c56"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
-    "2026-09-19 16:00"
+    "2026-09-19 16:00",
+    "2026-09-19 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
