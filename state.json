@@ -416,6 +416,19 @@
       ],
       "up": []
     },
+    "161": {
+      "at": "2026-09-20T17:39:39.011035+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+      "source": "ScienceDaily",
+      "title": "🐱 Учені розгадали секрет кошачих \"посвідчень\"",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "17": {
       "at": "2026-09-03T11:43:03.651199+00:00",
       "down": [],
@@ -1210,6 +1223,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T06:07:11.814961+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024816.htm": "2026-09-18T18:21:05.247156+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031022.htm": "2026-09-20T11:17:51.611781+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-20T17:39:39.011035+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1243,7 +1257,8 @@
     "2026-09-19 14:00",
     "2026-09-19 20:00",
     "2026-09-20 09:00",
-    "2026-09-20 14:00"
+    "2026-09-20 14:00",
+    "2026-09-20 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
