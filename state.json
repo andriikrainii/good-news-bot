@@ -1111,13 +1111,15 @@
     "91dec99b7f",
     "bd94af9c56",
     "7ec35b3593",
-    "17056abf7d"
+    "17056abf7d",
+    "1160338acb"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-09-19 16:00",
     "2026-09-19 19:30",
-    "2026-09-20 16:00"
+    "2026-09-20 16:00",
+    "2026-09-20 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
