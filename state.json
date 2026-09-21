@@ -475,6 +475,17 @@
       ],
       "up": []
     },
+    "169": {
+      "at": "2026-09-21T17:11:26.400256+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260920222358.htm",
+      "source": "ScienceDaily",
+      "title": "🌌 Чорні діри слідують одному універсальному закону",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "17": {
       "at": "2026-09-03T11:43:03.651199+00:00",
       "down": [],
@@ -1173,15 +1184,17 @@
     "17056abf7d",
     "1160338acb",
     "86847917e1",
-    "ac49d6c7e3"
+    "ac49d6c7e3",
+    "42e5b7b2e6"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-09-19 16:00",
     "2026-09-19 19:30",
     "2026-09-20 16:00",
     "2026-09-20 19:30",
-    "2026-09-21 16:00"
+    "2026-09-21 16:00",
+    "2026-09-21 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
@@ -1277,6 +1290,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260919031022.htm": "2026-09-20T11:17:51.611781+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031030.htm": "2026-09-21T06:13:13.466947+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-20T17:39:39.011035+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260920222358.htm": "2026-09-21T17:11:26.400256+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1310,7 +1324,8 @@
     "2026-09-20 14:00",
     "2026-09-20 20:00",
     "2026-09-21 09:00",
-    "2026-09-21 14:00"
+    "2026-09-21 14:00",
+    "2026-09-21 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
