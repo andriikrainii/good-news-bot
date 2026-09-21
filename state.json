@@ -429,6 +429,29 @@
       ],
       "up": []
     },
+    "163": {
+      "at": "2026-09-21T06:13:13.466947+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
+      "source": "ScienceDaily",
+      "title": "✨ Нанотехнологія виявить небезпечні домішки в ліках",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "164": {
+      "at": "2026-09-21T06:13:13.866954+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
+      "source": "Good News Network",
+      "title": "🐕 Британська пара виховала 59 собак і не зупиняється",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "17": {
       "at": "2026-09-03T11:43:03.651199+00:00",
       "down": [],
@@ -1162,6 +1185,7 @@
     "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/": "2026-09-20T11:17:52.043074+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/companys-textile-dyes-work-through-magnetism-cutting-fashions-water-use-energy-and-pollution/": "2026-09-19T09:43:18.774617+00:00",
+    "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/": "2026-09-21T06:13:13.866954+00:00",
     "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
@@ -1223,6 +1247,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T06:07:11.814961+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024816.htm": "2026-09-18T18:21:05.247156+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031022.htm": "2026-09-20T11:17:51.611781+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260919031030.htm": "2026-09-21T06:13:13.466947+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-20T17:39:39.011035+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1255,7 +1280,8 @@
     "2026-09-19 20:00",
     "2026-09-20 09:00",
     "2026-09-20 14:00",
-    "2026-09-20 20:00"
+    "2026-09-20 20:00",
+    "2026-09-21 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
