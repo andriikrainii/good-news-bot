@@ -497,6 +497,29 @@
       ],
       "up": []
     },
+    "171": {
+      "at": "2026-09-22T07:46:59.739705+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/",
+      "source": "Good News Network",
+      "title": "🫀 Штучний інтелект навчився виявляти хвороби серця за ЕКГ",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "172": {
+      "at": "2026-09-22T07:47:00.217527+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/",
+      "source": "Good News Network",
+      "title": "🇫🇷 Мери французьких сіл врятували улюблене кафе",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1242,11 +1265,13 @@
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/massive-footprints-reveal-first-ever-adult-t-rex-trackway/": "2026-09-13T06:00:52.158971+00:00",
     "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
+    "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/": "2026-09-22T07:46:59.739705+00:00",
     "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/": "2026-09-18T11:26:20.574995+00:00",
     "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/": "2026-09-06T06:02:10.954618+00:00",
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/researchers-use-math-to-ensure-a-wordle-win-99-of-the-time/": "2026-09-13T17:03:31.105051+00:00",
+    "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/": "2026-09-22T07:47:00.217527+00:00",
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
@@ -1322,7 +1347,8 @@
     "2026-09-20 20:00",
     "2026-09-21 09:00",
     "2026-09-21 14:00",
-    "2026-09-21 20:00"
+    "2026-09-21 20:00",
+    "2026-09-22 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
