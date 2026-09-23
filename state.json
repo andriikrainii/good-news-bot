@@ -554,6 +554,29 @@
       ],
       "up": []
     },
+    "182": {
+      "at": "2026-09-23T06:04:37.458749+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/",
+      "source": "Good News Network",
+      "title": "🔬 Новий тест сечі розпізнає рак сечового міхура з точністю 92%",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "183": {
+      "at": "2026-09-23T06:04:37.978259+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/",
+      "source": "Good News Network",
+      "title": "🐦 У лісах Еквадору знайшли доселі невідомий вид птаха",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1291,6 +1314,7 @@
     "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
+    "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/": "2026-09-23T06:04:37.458749+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
     "https://www.goodnewsnetwork.org/first-permit-to-clean-up-old-mine-waste-issued-for-wa-state-under-2024-good-samaritan-act/": "2026-09-11T18:38:41.948711+00:00",
     "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
@@ -1319,6 +1343,7 @@
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
+    "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/": "2026-09-23T06:04:37.978259+00:00",
     "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
@@ -1389,7 +1414,8 @@
     "2026-09-21 20:00",
     "2026-09-22 09:00",
     "2026-09-22 14:00",
-    "2026-09-22 20:00"
+    "2026-09-22 20:00",
+    "2026-09-23 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
