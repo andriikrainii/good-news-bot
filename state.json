@@ -599,6 +599,18 @@
       ],
       "up": []
     },
+    "187": {
+      "at": "2026-09-23T17:12:24.095305+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/",
+      "source": "Good News Network",
+      "title": "🔋 Учені відновили акумулятор електромобіля без розбирання",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1364,6 +1376,7 @@
     "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/": "2026-09-22T07:47:00.217527+00:00",
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
+    "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/": "2026-09-23T17:12:24.095305+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
     "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/": "2026-09-19T17:57:42.414193+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
@@ -1443,7 +1456,8 @@
     "2026-09-22 14:00",
     "2026-09-22 20:00",
     "2026-09-23 09:00",
-    "2026-09-23 14:00"
+    "2026-09-23 14:00",
+    "2026-09-23 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
