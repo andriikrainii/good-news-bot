@@ -656,6 +656,18 @@
       ],
       "up": []
     },
+    "194": {
+      "at": "2026-09-24T17:57:19.898380+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-daughter-households-greater-happiness-son.html",
+      "source": "Phys.org",
+      "title": "👨‍👩‍👧‍👧 У Китаї батьки двох дочок щасливіші, ніж батьки самих синів",
+      "topics": [
+        "Наука і медицина",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1350,9 +1362,10 @@
     "f5c49e56e8",
     "9dff41eea5",
     "c1e1a8f47f",
-    "55b6b0830d"
+    "55b6b0830d",
+    "5ecb873897"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-09-19 16:00",
     "2026-09-19 19:30",
@@ -1364,11 +1377,13 @@
     "2026-09-22 19:30",
     "2026-09-23 16:00",
     "2026-09-23 19:30",
-    "2026-09-24 16:00"
+    "2026-09-24 16:00",
+    "2026-09-24 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
+    "https://phys.org/news/2026-09-daughter-households-greater-happiness-son.html": "2026-09-24T17:57:19.898380+00:00",
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
@@ -1508,7 +1523,8 @@
     "2026-09-23 14:00",
     "2026-09-23 20:00",
     "2026-09-24 09:00",
-    "2026-09-24 14:00"
+    "2026-09-24 14:00",
+    "2026-09-24 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
