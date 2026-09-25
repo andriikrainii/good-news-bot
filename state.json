@@ -668,6 +668,30 @@
       ],
       "up": []
     },
+    "198": {
+      "at": "2026-09-25T06:36:26.679389+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260924020355.htm",
+      "source": "ScienceDaily",
+      "title": "🌍 Магнітне поле допомагало будувати нашу Сонячну систему",
+      "topics": [
+        "Наука і медицина",
+        "Люди й добрі вчинки",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "199": {
+      "at": "2026-09-25T06:36:27.061637+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/australian-biologists-livestream-a-remote-desert-waterhole-and-all-its-wild-visitors/",
+      "source": "Good News Network",
+      "title": "🎥 Австралійські біологи транслюють життя пустельного водопою",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1408,6 +1432,7 @@
     "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/": "2026-09-10T11:10:54.232088+00:00",
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/": "2026-09-16T06:08:20.060558+00:00",
+    "https://www.goodnewsnetwork.org/australian-biologists-livestream-a-remote-desert-waterhole-and-all-its-wild-visitors/": "2026-09-25T06:36:27.061637+00:00",
     "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/": "2026-09-24T06:45:01.614438+00:00",
     "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/": "2026-09-20T11:17:52.043074+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
@@ -1489,6 +1514,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260921081054.htm": "2026-09-22T18:08:30.990494+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922005709.htm": "2026-09-24T12:54:01.265680+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035930.htm": "2026-09-24T06:45:01.157544+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260924020355.htm": "2026-09-25T06:36:26.679389+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1521,7 +1547,8 @@
     "2026-09-23 20:00",
     "2026-09-24 09:00",
     "2026-09-24 14:00",
-    "2026-09-24 20:00"
+    "2026-09-24 20:00",
+    "2026-09-25 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
