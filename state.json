@@ -692,6 +692,28 @@
       ],
       "up": []
     },
+    "200": {
+      "at": "2026-09-25T12:13:51.205191+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260923035939.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Учені відкрили новий спосіб боротьби з раком",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "201": {
+      "at": "2026-09-25T12:13:51.581680+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/09/ethiopias-green-legacy-initiative-is-turning-citizens-into-foresters/",
+      "source": "Optimist Daily",
+      "title": "🌱 Ефіопія навчає людей вирощувати ліси",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1477,6 +1499,7 @@
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
     "https://www.optimistdaily.com/2026/09/can-dogs-sniff-out-cancer-new-ai-study-shows-promise/": "2026-09-21T11:05:46.228828+00:00",
+    "https://www.optimistdaily.com/2026/09/ethiopias-green-legacy-initiative-is-turning-citizens-into-foresters/": "2026-09-25T12:13:51.581680+00:00",
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/society/how-housing-first-is-helping-people-leave-rough-sleeping-behind/": "2026-09-14T13:55:36.532313+00:00",
@@ -1514,6 +1537,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260921081054.htm": "2026-09-22T18:08:30.990494+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922005709.htm": "2026-09-24T12:54:01.265680+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035930.htm": "2026-09-24T06:45:01.157544+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:13:51.205191+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020355.htm": "2026-09-25T06:36:26.679389+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1548,7 +1572,8 @@
     "2026-09-24 09:00",
     "2026-09-24 14:00",
     "2026-09-24 20:00",
-    "2026-09-25 09:00"
+    "2026-09-25 09:00",
+    "2026-09-25 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
