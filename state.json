@@ -774,6 +774,17 @@
       ],
       "up": []
     },
+    "218": {
+      "at": "2026-09-26T17:05:56.097190+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925093201.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Вчені переглядають розуміння давньої Землі",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1474,9 +1485,10 @@
     "785bcd3a91",
     "8a8c680791",
     "d74afd3ec3",
-    "ae0c851228"
+    "ae0c851228",
+    "97e8264941"
   ],
-  "quiz_last_subject": "Біологія",
+  "quiz_last_subject": "Географія",
   "quiz_slots": [
     "2026-09-19 16:00",
     "2026-09-19 19:30",
@@ -1492,7 +1504,8 @@
     "2026-09-24 19:30",
     "2026-09-25 16:00",
     "2026-09-25 19:30",
-    "2026-09-26 16:00"
+    "2026-09-26 16:00",
+    "2026-09-26 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
@@ -1608,6 +1621,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:13:51.205191+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020355.htm": "2026-09-25T06:36:26.679389+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925005412.htm": "2026-09-25T17:32:14.039504+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925093201.htm": "2026-09-26T17:05:56.097190+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1646,7 +1660,8 @@
     "2026-09-25 14:00",
     "2026-09-25 20:00",
     "2026-09-26 09:00",
-    "2026-09-26 14:00"
+    "2026-09-26 14:00",
+    "2026-09-26 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1669,7 +1684,7 @@
       },
       "Smithsonian": {
         "down": 2,
-        "up": 1
+        "up": 2
       }
     },
     "topics": {
@@ -1679,11 +1694,11 @@
       },
       "Наука і медицина": {
         "down": 10,
-        "up": 14
+        "up": 15
       },
       "Природа і тварини": {
         "down": 8,
-        "up": 1
+        "up": 2
       },
       "Технології та екологія": {
         "down": 2,
