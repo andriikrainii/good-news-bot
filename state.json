@@ -830,6 +830,17 @@
       ],
       "up": []
     },
+    "226": {
+      "at": "2026-09-27T17:17:08.866345+00:00",
+      "down": [],
+      "link": "https://www.smithsonianmag.com/smart-news/where-did-bats-originate-huge-genetic-study-may-have-settled-the-longstanding-debate-and-rewritten-the-creatures-evolutionary-tree-180989568/",
+      "source": "Smithsonian",
+      "title": "🦇 Вчені розгадали походження кажанів",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1533,9 +1544,10 @@
     "ae0c851228",
     "97e8264941",
     "39ce49f425",
-    "e1182271d3"
+    "e1182271d3",
+    "638bfd44c7"
   ],
-  "quiz_last_subject": "Українська мова",
+  "quiz_last_subject": "Історія",
   "quiz_slots": [
     "2026-09-20 16:00",
     "2026-09-20 19:30",
@@ -1551,7 +1563,8 @@
     "2026-09-25 19:30",
     "2026-09-26 16:00",
     "2026-09-26 19:30",
-    "2026-09-27 16:00"
+    "2026-09-27 16:00",
+    "2026-09-27 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
@@ -1685,6 +1698,7 @@
     "https://www.smithsonianmag.com/smart-news/two-new-stick-insect-species-have-been-discovered-in-australiaand-another-one-was-hiding-in-plain-sight-180989575/": "2026-09-26T07:34:41.737431+00:00",
     "https://www.smithsonianmag.com/smart-news/two-thousand-years-ago-julius-caesar-conquered-the-settlement-that-eventually-became-paris-archaeologists-may-have-just-found-it-180989569/": "2026-09-26T13:00:35.994753+00:00",
     "https://www.smithsonianmag.com/smart-news/unsealed-for-the-first-time-in-600-years-this-tomb-in-peru-was-just-declared-the-discovery-of-the-decade-180989497/": "2026-09-15T07:38:46.651821+00:00",
+    "https://www.smithsonianmag.com/smart-news/where-did-bats-originate-huge-genetic-study-may-have-settled-the-longstanding-debate-and-rewritten-the-creatures-evolutionary-tree-180989568/": "2026-09-27T17:17:08.866345+00:00",
     "https://www.smithsonianmag.com/smart-news/workers-excavating-gravel-from-the-danube-river-dredged-up-a-2200-year-old-rusty-treasure-that-could-have-equipped-an-army-180989542/": "2026-09-22T13:28:20.759065+00:00"
   },
   "served_slots": [
@@ -1710,7 +1724,8 @@
     "2026-09-26 14:00",
     "2026-09-26 20:00",
     "2026-09-27 09:00",
-    "2026-09-27 14:00"
+    "2026-09-27 14:00",
+    "2026-09-27 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
