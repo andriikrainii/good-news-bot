@@ -808,6 +808,28 @@
       ],
       "up": []
     },
+    "222": {
+      "at": "2026-09-27T12:26:58.145102+00:00",
+      "down": [],
+      "link": "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/",
+      "source": "Positive News",
+      "title": "🌟 Молі Ламберт допомагає людям розпізнати ОКР",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "223": {
+      "at": "2026-09-27T12:26:59.086492+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/",
+      "source": "Optimist Daily",
+      "title": "🐱 У хмарному лісі Болівії знайшли новий вид дикої кішки",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1604,7 +1626,9 @@
     "https://www.optimistdaily.com/2026/09/can-dogs-sniff-out-cancer-new-ai-study-shows-promise/": "2026-09-21T11:05:46.228828+00:00",
     "https://www.optimistdaily.com/2026/09/ethiopias-green-legacy-initiative-is-turning-citizens-into-foresters/": "2026-09-25T12:13:51.581680+00:00",
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
+    "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
+    "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/": "2026-09-27T12:26:58.145102+00:00",
     "https://www.positive.news/society/how-housing-first-is-helping-people-leave-rough-sleeping-behind/": "2026-09-14T13:55:36.532313+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015150.htm": "2026-09-03T11:43:03.243449+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260901010721.htm": "2026-09-01T18:24:38.050423+00:00",
@@ -1682,7 +1706,8 @@
     "2026-09-26 09:00",
     "2026-09-26 14:00",
     "2026-09-26 20:00",
-    "2026-09-27 09:00"
+    "2026-09-27 09:00",
+    "2026-09-27 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1690,6 +1715,10 @@
       "Good News Network": {
         "down": 5,
         "up": 9
+      },
+      "Optimist Daily": {
+        "down": 1,
+        "up": 0
       },
       "Positive News": {
         "down": 0,
@@ -1700,8 +1729,8 @@
         "up": 1
       },
       "ScienceDaily": {
-        "down": 6,
-        "up": 9
+        "down": 7,
+        "up": 10
       },
       "Smithsonian": {
         "down": 2,
@@ -1714,15 +1743,15 @@
         "up": 6
       },
       "Наука і медицина": {
-        "down": 11,
-        "up": 15
+        "down": 12,
+        "up": 16
       },
       "Природа і тварини": {
         "down": 8,
         "up": 2
       },
       "Технології та екологія": {
-        "down": 2,
+        "down": 3,
         "up": 6
       }
     }
