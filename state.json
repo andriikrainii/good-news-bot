@@ -785,6 +785,29 @@
       ],
       "up": []
     },
+    "220": {
+      "at": "2026-09-27T08:02:24.783966+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
+      "source": "ScienceDaily",
+      "title": "🔍 Вчені розшифрували давні звитки завдяки рентгену",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "221": {
+      "at": "2026-09-27T08:02:25.358807+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/millions-channeled-to-irrigation-improvements-leak-repairs-along-colorado-river-by-corporate-coalition/",
+      "source": "Good News Network",
+      "title": "🌊 Amazon інвестує 20 млн доларів у рятування річки Колорадо",
+      "topics": [
+        "Природа і тварини",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1556,6 +1579,7 @@
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/massive-footprints-reveal-first-ever-adult-t-rex-trackway/": "2026-09-13T06:00:52.158971+00:00",
+    "https://www.goodnewsnetwork.org/millions-channeled-to-irrigation-improvements-leak-repairs-along-colorado-river-by-corporate-coalition/": "2026-09-27T08:02:25.358807+00:00",
     "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
     "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/": "2026-09-22T07:46:59.739705+00:00",
     "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/": "2026-09-18T11:26:20.574995+00:00",
@@ -1619,6 +1643,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:13:51.205191+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020355.htm": "2026-09-25T06:36:26.679389+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925005412.htm": "2026-09-25T17:32:14.039504+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925005414.htm": "2026-09-27T08:02:24.783966+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093201.htm": "2026-09-26T17:05:56.097190+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1656,7 +1681,8 @@
     "2026-09-25 20:00",
     "2026-09-26 09:00",
     "2026-09-26 14:00",
-    "2026-09-26 20:00"
+    "2026-09-26 20:00",
+    "2026-09-27 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
