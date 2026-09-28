@@ -898,6 +898,17 @@
       ],
       "up": []
     },
+    "235": {
+      "at": "2026-09-28T17:48:56.117957+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/",
+      "source": "Good News Network",
+      "title": "🐵 В'єтнам створює заповідник для найрідкісніших мавп планети",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1592,9 +1603,10 @@
     "e1182271d3",
     "638bfd44c7",
     "2f39b4d902",
-    "7b6f8e454e"
+    "7b6f8e454e",
+    "d852a7d6dd"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-09-21 16:00",
     "2026-09-21 19:30",
@@ -1610,7 +1622,8 @@
     "2026-09-26 19:30",
     "2026-09-27 16:00",
     "2026-09-27 19:30",
-    "2026-09-28 16:00"
+    "2026-09-28 16:00",
+    "2026-09-28 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
@@ -1685,6 +1698,7 @@
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
     "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/": "2026-09-23T06:04:37.978259+00:00",
     "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
+    "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/": "2026-09-28T17:48:56.117957+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
     "https://www.optimistdaily.com/2026/09/can-dogs-sniff-out-cancer-new-ai-study-shows-promise/": "2026-09-21T11:05:46.228828+00:00",
@@ -1774,7 +1788,8 @@
     "2026-09-27 14:00",
     "2026-09-27 20:00",
     "2026-09-28 09:00",
-    "2026-09-28 14:00"
+    "2026-09-28 14:00",
+    "2026-09-28 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
