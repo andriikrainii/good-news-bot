@@ -841,6 +841,29 @@
       ],
       "up": []
     },
+    "228": {
+      "at": "2026-09-28T06:43:40.299317+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/",
+      "source": "Good News Network",
+      "title": "🐝 Учені знайшли запах, що захищає бджіл від отрути",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "229": {
+      "at": "2026-09-28T06:43:40.742470+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+      "source": "ScienceDaily",
+      "title": "🧬 Одна ін'єкція CRISPR зменшила шкідливий холестерин наполовину",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "23": {
       "at": "2026-09-03T18:34:07.646749+00:00",
       "down": [],
@@ -1594,6 +1617,7 @@
     "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/": "2026-09-16T06:08:20.060558+00:00",
     "https://www.goodnewsnetwork.org/australian-biologists-livestream-a-remote-desert-waterhole-and-all-its-wild-visitors/": "2026-09-25T06:36:27.061637+00:00",
     "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/": "2026-09-24T06:45:01.614438+00:00",
+    "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/": "2026-09-28T06:43:40.299317+00:00",
     "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/": "2026-09-20T11:17:52.043074+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/companys-textile-dyes-work-through-magnetism-cutting-fashions-water-use-energy-and-pollution/": "2026-09-19T09:43:18.774617+00:00",
@@ -1682,6 +1706,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260924020355.htm": "2026-09-25T06:36:26.679389+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925005412.htm": "2026-09-25T17:32:14.039504+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925005414.htm": "2026-09-27T08:02:24.783966+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925005434.htm": "2026-09-28T06:43:40.742470+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093201.htm": "2026-09-26T17:05:56.097190+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1720,7 +1745,8 @@
     "2026-09-26 20:00",
     "2026-09-27 09:00",
     "2026-09-27 14:00",
-    "2026-09-27 20:00"
+    "2026-09-27 20:00",
+    "2026-09-28 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
