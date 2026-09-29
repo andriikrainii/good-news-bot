@@ -1843,16 +1843,20 @@
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 5,
+        "down": 6,
         "up": 9
       },
       "Optimist Daily": {
-        "down": 1,
+        "down": 2,
         "up": 0
+      },
+      "Phys.org": {
+        "down": 0,
+        "up": 1
       },
       "Positive News": {
         "down": 0,
-        "up": 1
+        "up": 2
       },
       "Reasons to be Cheerful": {
         "down": 2,
@@ -1860,24 +1864,24 @@
       },
       "ScienceDaily": {
         "down": 7,
-        "up": 10
+        "up": 12
       },
       "Smithsonian": {
-        "down": 2,
+        "down": 4,
         "up": 2
       }
     },
     "topics": {
       "Люди й добрі вчинки": {
         "down": 2,
-        "up": 6
+        "up": 7
       },
       "Наука і медицина": {
-        "down": 12,
-        "up": 16
+        "down": 14,
+        "up": 19
       },
       "Природа і тварини": {
-        "down": 8,
+        "down": 11,
         "up": 2
       },
       "Технології та екологія": {
