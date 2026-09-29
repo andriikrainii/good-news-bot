@@ -953,6 +953,18 @@
       ],
       "up": []
     },
+    "246": {
+      "at": "2026-09-29T20:41:48.109816+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-cultures-children-peers.html",
+      "source": "Phys.org",
+      "title": "🤝 Діти в усьому світі допомагають одна одній",
+      "topics": [
+        "Наука і медицина",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1650,9 +1662,10 @@
     "7b6f8e454e",
     "d852a7d6dd",
     "5a0790d972",
-    "6341695789"
+    "6341695789",
+    "da4dd1f341"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-09-22 16:00",
     "2026-09-22 19:30",
@@ -1668,12 +1681,14 @@
     "2026-09-27 19:30",
     "2026-09-28 16:00",
     "2026-09-28 19:30",
-    "2026-09-29 16:00"
+    "2026-09-29 16:00",
+    "2026-09-29 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
+    "https://phys.org/news/2026-09-cultures-children-peers.html": "2026-09-29T20:41:48.109816+00:00",
     "https://phys.org/news/2026-09-daughter-households-greater-happiness-son.html": "2026-09-24T17:57:19.898380+00:00",
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
@@ -1837,7 +1852,8 @@
     "2026-09-28 14:00",
     "2026-09-28 20:00",
     "2026-09-29 09:00",
-    "2026-09-29 14:00"
+    "2026-09-29 14:00",
+    "2026-09-29 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
