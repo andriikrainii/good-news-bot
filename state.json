@@ -909,6 +909,28 @@
       ],
       "up": []
     },
+    "237": {
+      "at": "2026-09-29T08:22:01.061330+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/",
+      "source": "Good News Network",
+      "title": "🍌 На півдні Франції виростили перші тропічні фрукти",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "238": {
+      "at": "2026-09-29T08:22:01.512144+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html",
+      "source": "Phys.org",
+      "title": "🔍 Давні вістря розкривають секрети першопоселенців Америки",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1624,6 +1646,7 @@
     "2026-09-28 19:30"
   ],
   "sent": {
+    "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
     "https://phys.org/news/2026-09-daughter-households-greater-happiness-son.html": "2026-09-24T17:57:19.898380+00:00",
@@ -1685,6 +1708,7 @@
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/portuguese-company-turns-cork-wood-into-limitless-material-even-to-insulate-spacecraft/": "2026-09-24T12:54:01.775008+00:00",
     "https://www.goodnewsnetwork.org/researchers-use-math-to-ensure-a-wordle-win-99-of-the-time/": "2026-09-13T17:03:31.105051+00:00",
+    "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/": "2026-09-29T08:22:01.061330+00:00",
     "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/": "2026-09-22T07:47:00.217527+00:00",
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
@@ -1784,7 +1808,8 @@
     "2026-09-27 20:00",
     "2026-09-28 09:00",
     "2026-09-28 14:00",
-    "2026-09-28 20:00"
+    "2026-09-28 20:00",
+    "2026-09-29 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
