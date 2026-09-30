@@ -987,6 +987,28 @@
       ],
       "up": []
     },
+    "253": {
+      "at": "2026-09-30T13:37:03.312679+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/chris-evans-puts-his-limelight-on-a-bonded-dog-pair-with-cute-video-immediately-sees-them-adopted/",
+      "source": "Good News Network",
+      "title": "🐕 Крісом Евансом знайшли дім для двох невіддільних собачок",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "254": {
+      "at": "2026-09-30T13:37:03.757249+00:00",
+      "down": [],
+      "link": "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/",
+      "source": "Positive News",
+      "title": "🌲 Як індіанці Перу врятували ліс від пожеж",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1685,9 +1707,11 @@
     "d852a7d6dd",
     "5a0790d972",
     "6341695789",
-    "da4dd1f341"
+    "da4dd1f341",
+    "efc8632d24",
+    "0dc4e2ae39"
   ],
-  "quiz_last_subject": "Біологія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-09-23 16:00",
     "2026-09-23 19:30",
@@ -1702,7 +1726,8 @@
     "2026-09-28 16:00",
     "2026-09-28 19:30",
     "2026-09-29 16:00",
-    "2026-09-29 19:30"
+    "2026-09-29 19:30",
+    "2026-09-30 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1741,6 +1766,7 @@
     "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/": "2026-09-24T06:45:01.614438+00:00",
     "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/": "2026-09-28T06:43:40.299317+00:00",
     "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/": "2026-09-20T11:17:52.043074+00:00",
+    "https://www.goodnewsnetwork.org/chris-evans-puts-his-limelight-on-a-bonded-dog-pair-with-cute-video-immediately-sees-them-adopted/": "2026-09-30T13:37:03.312679+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/companys-textile-dyes-work-through-magnetism-cutting-fashions-water-use-energy-and-pollution/": "2026-09-19T09:43:18.774617+00:00",
     "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/": "2026-09-21T06:13:13.866954+00:00",
@@ -1791,6 +1817,7 @@
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
     "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
+    "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
     "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/": "2026-09-27T12:26:58.145102+00:00",
     "https://www.positive.news/society/how-housing-first-is-helping-people-leave-rough-sleeping-behind/": "2026-09-14T13:55:36.532313+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015150.htm": "2026-09-03T11:43:03.243449+00:00",
@@ -1873,7 +1900,8 @@
     "2026-09-29 09:00",
     "2026-09-29 14:00",
     "2026-09-29 20:00",
-    "2026-09-30 09:00"
+    "2026-09-30 09:00",
+    "2026-09-30 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
