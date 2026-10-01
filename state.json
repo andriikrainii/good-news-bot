@@ -1065,6 +1065,18 @@
       ],
       "up": []
     },
+    "271": {
+      "at": "2026-10-01T18:49:46.375435+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+      "source": "ScienceDaily",
+      "title": "🪲 Вчені відкрили два нові види австралійських палицівок",
+      "topics": [
+        "Наука і медицина",
+        "Природа і тварини"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1284,17 +1296,6 @@
       ],
       "up": []
     },
-    "5": {
-      "at": "2026-09-01T17:52:04.823699+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/",
-      "source": "Smithsonian",
-      "title": "🦗 Древня істота з 24 лапками розкрила таємницю еволюції",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "53": {
       "at": "2026-09-07T18:23:38.754960+00:00",
       "down": [],
@@ -1357,17 +1358,6 @@
       "link": "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/",
       "source": "Smithsonian",
       "title": "🔬 Вчені можуть наблизитися до розгадки темної матерії",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "6": {
-      "at": "2026-09-01T18:24:38.050423+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
-      "source": "ScienceDaily",
-      "title": "🧘 Медитація знижує тиск за 8 тижнів",
       "topics": [
         "Наука і медицина"
       ],
@@ -1927,6 +1917,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260928100531.htm": "2026-10-01T13:03:14.881665+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100537.htm": "2026-10-01T06:07:09.657477+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260930020315.htm": "2026-10-01T18:49:46.375435+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1967,7 +1958,8 @@
     "2026-09-30 14:00",
     "2026-09-30 20:00",
     "2026-10-01 09:00",
-    "2026-10-01 14:00"
+    "2026-10-01 14:00",
+    "2026-10-01 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1994,7 +1986,7 @@
       },
       "ScienceDaily": {
         "down": 7,
-        "up": 12
+        "up": 10
       },
       "Smithsonian": {
         "down": 4,
@@ -2008,7 +2000,7 @@
       },
       "Наука і медицина": {
         "down": 14,
-        "up": 21
+        "up": 19
       },
       "Природа і тварини": {
         "down": 11,
