@@ -1043,6 +1043,28 @@
       ],
       "up": []
     },
+    "263": {
+      "at": "2026-10-01T13:03:14.881665+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260928100531.htm",
+      "source": "ScienceDaily",
+      "title": "🌋 Везувій допоміг учёным точніше датувати минуле Землі",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "264": {
+      "at": "2026-10-01T13:03:15.260957+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-short-good.html",
+      "source": "Phys.org",
+      "title": "⏰ Мало часу — це може бути корисним",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1744,9 +1766,11 @@
     "da4dd1f341",
     "efc8632d24",
     "0dc4e2ae39",
-    "c5f10e41a0"
+    "c5f10e41a0",
+    "8779e70926",
+    "3ebed08974"
   ],
-  "quiz_last_subject": "Українська мова",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-09-24 16:00",
     "2026-09-24 19:30",
@@ -1761,7 +1785,8 @@
     "2026-09-29 16:00",
     "2026-09-29 19:30",
     "2026-09-30 16:00",
-    "2026-09-30 19:30"
+    "2026-09-30 19:30",
+    "2026-10-01 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1779,6 +1804,7 @@
     "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html": "2026-09-06T06:02:11.475702+00:00",
     "https://phys.org/news/2026-09-nightstand-empathy-cognitive-health.html": "2026-09-30T06:37:49.199241+00:00",
     "https://phys.org/news/2026-09-prehistoric-builders-hauled-tonne-stones.html": "2026-09-09T09:37:59.010289+00:00",
+    "https://phys.org/news/2026-09-short-good.html": "2026-10-01T13:03:15.260957+00:00",
     "https://phys.org/news/2026-09-smart-pen-pressure-movement-children.html": "2026-09-14T06:08:34.114632+00:00",
     "https://phys.org/news/2026-09-statistical-method-flag-hidden-anomalies.html": "2026-09-29T15:42:46.880608+00:00",
     "https://phys.org/news/2026-09-wildfires-pottery.html": "2026-09-10T11:10:53.688256+00:00",
@@ -1896,6 +1922,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260925005434.htm": "2026-09-28T06:43:40.742470+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093201.htm": "2026-09-26T17:05:56.097190+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927034331.htm": "2026-09-28T15:20:38.582517+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260928100531.htm": "2026-10-01T13:03:14.881665+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100537.htm": "2026-10-01T06:07:09.657477+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
@@ -1937,7 +1964,8 @@
     "2026-09-30 09:00",
     "2026-09-30 14:00",
     "2026-09-30 20:00",
-    "2026-10-01 09:00"
+    "2026-10-01 09:00",
+    "2026-10-01 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
