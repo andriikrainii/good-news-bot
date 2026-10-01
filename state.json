@@ -1021,6 +1021,28 @@
       ],
       "up": []
     },
+    "260": {
+      "at": "2026-10-01T06:07:09.657477+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
+      "source": "ScienceDaily",
+      "title": "🔴 Марсохід знайшов сліди древніх вод на Марсі",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "261": {
+      "at": "2026-10-01T06:07:10.070482+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-community-archaeology-uncovers-major-monastery.html",
+      "source": "Phys.org",
+      "title": "🏛️ На Шотландії знайшли легендарний середньовічний монастир",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1744,6 +1766,7 @@
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
     "https://phys.org/news/2026-09-beatles-permeated-papers-academic-disciplines.html": "2026-09-09T18:30:50.912139+00:00",
+    "https://phys.org/news/2026-09-community-archaeology-uncovers-major-monastery.html": "2026-10-01T06:07:10.070482+00:00",
     "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html": "2026-09-10T09:49:50.749365+00:00",
     "https://phys.org/news/2026-09-cultures-children-peers.html": "2026-09-29T20:41:48.109816+00:00",
     "https://phys.org/news/2026-09-daughter-households-greater-happiness-son.html": "2026-09-24T17:57:19.898380+00:00",
@@ -1873,6 +1896,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260925005434.htm": "2026-09-28T06:43:40.742470+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093201.htm": "2026-09-26T17:05:56.097190+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927034331.htm": "2026-09-28T15:20:38.582517+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260928100537.htm": "2026-10-01T06:07:09.657477+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1912,7 +1936,8 @@
     "2026-09-29 20:00",
     "2026-09-30 09:00",
     "2026-09-30 14:00",
-    "2026-09-30 20:00"
+    "2026-09-30 20:00",
+    "2026-10-01 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
