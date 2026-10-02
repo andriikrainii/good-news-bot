@@ -1077,6 +1077,29 @@
       ],
       "up": []
     },
+    "272": {
+      "at": "2026-10-02T07:31:00.452811+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+      "source": "ScienceDaily",
+      "title": "🧪 Квантові комп'ютери стали на 100 разів точніше",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "273": {
+      "at": "2026-10-02T07:31:00.767547+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/chinese-commercial-reactor-achieves-nuclear-fusion-with-clean-hydrogen-boron-fuel/",
+      "source": "Good News Network",
+      "title": "🔬 Китай вперше отримав термоядерний синтез на чистому паливі",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1816,6 +1839,7 @@
     "https://www.goodnewsnetwork.org/australian-biologists-livestream-a-remote-desert-waterhole-and-all-its-wild-visitors/": "2026-09-25T06:36:27.061637+00:00",
     "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/": "2026-09-24T06:45:01.614438+00:00",
     "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/": "2026-09-28T06:43:40.299317+00:00",
+    "https://www.goodnewsnetwork.org/chinese-commercial-reactor-achieves-nuclear-fusion-with-clean-hydrogen-boron-fuel/": "2026-10-02T07:31:00.767547+00:00",
     "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/": "2026-09-20T11:17:52.043074+00:00",
     "https://www.goodnewsnetwork.org/chris-evans-puts-his-limelight-on-a-bonded-dog-pair-with-cute-video-immediately-sees-them-adopted/": "2026-09-30T13:37:03.312679+00:00",
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
@@ -1915,6 +1939,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260928100531.htm": "2026-10-01T13:03:14.881665+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100537.htm": "2026-10-01T06:07:09.657477+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260930020309.htm": "2026-10-02T07:31:00.452811+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020315.htm": "2026-10-01T18:49:46.375435+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1954,7 +1979,8 @@
     "2026-09-30 20:00",
     "2026-10-01 09:00",
     "2026-10-01 14:00",
-    "2026-10-01 20:00"
+    "2026-10-01 20:00",
+    "2026-10-02 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
