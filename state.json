@@ -51,18 +51,6 @@
       ],
       "up": []
     },
-    "11": {
-      "at": "2026-09-02T12:02:06.237265+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/",
-      "source": "Good News Network",
-      "title": "🫁 У Лондоні легені дітей розвиваються швидше без забруднення",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "112": {
       "at": "2026-09-15T18:07:53.131322+00:00",
       "down": [],
@@ -129,17 +117,6 @@
       "topics": [
         "Наука і медицина",
         "Технології та екологія"
-      ],
-      "up": []
-    },
-    "12": {
-      "at": "2026-09-02T12:02:06.625044+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/",
-      "source": "Smithsonian",
-      "title": "🦎 Рептилії видають набагато більше звуків, ніж ми думали",
-      "topics": [
-        "Наука і медицина"
       ],
       "up": []
     },
@@ -1089,6 +1066,28 @@
       ],
       "up": []
     },
+    "274": {
+      "at": "2026-10-02T12:48:44.072819+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+      "source": "ScienceDaily",
+      "title": "🧠 Правильна їжа сповільнює старіння мозку на 2,5 роки",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "275": {
+      "at": "2026-10-02T12:48:44.582363+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/",
+      "source": "Optimist Daily",
+      "title": "🩺 Простий тест урину замість інвазивних процедур при раку матки",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "28": {
       "at": "2026-09-04T07:02:27.183440+00:00",
       "down": [],
@@ -1869,6 +1868,7 @@
     "https://www.optimistdaily.com/2026/09/ethiopias-green-legacy-initiative-is-turning-citizens-into-foresters/": "2026-09-25T12:13:51.581680+00:00",
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
     "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
+    "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
     "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/": "2026-09-27T12:26:58.145102+00:00",
@@ -1919,6 +1919,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020309.htm": "2026-10-02T07:31:00.452811+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020315.htm": "2026-10-01T18:49:46.375435+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260930225503.htm": "2026-10-02T12:48:44.072819+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
     "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/": "2026-09-17T11:34:11.411749+00:00",
@@ -1958,14 +1959,15 @@
     "2026-10-01 09:00",
     "2026-10-01 14:00",
     "2026-10-01 20:00",
-    "2026-10-02 09:00"
+    "2026-10-02 09:00",
+    "2026-10-02 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 6,
-        "up": 8
+        "up": 7
       },
       "Optimist Daily": {
         "down": 2,
@@ -1988,7 +1990,7 @@
         "up": 10
       },
       "Smithsonian": {
-        "down": 4,
+        "down": 3,
         "up": 2
       }
     },
@@ -1998,8 +2000,8 @@
         "up": 7
       },
       "Наука і медицина": {
-        "down": 14,
-        "up": 18
+        "down": 13,
+        "up": 17
       },
       "Природа і тварини": {
         "down": 11,
@@ -2007,7 +2009,7 @@
       },
       "Технології та екологія": {
         "down": 3,
-        "up": 6
+        "up": 5
       }
     }
   }
