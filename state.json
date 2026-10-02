@@ -3,17 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "10": {
-      "at": "2026-09-02T07:33:00.212170+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/good-samaritan-helps-mother-after-seeing-her-destroyed-home-on-the-news-hes-been-a-blessing/",
-      "source": "Good News Network",
-      "title": "🤝 Добрий самарянин допоміг мамі після пожежі",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "101": {
       "at": "2026-09-15T07:38:46.180189+00:00",
       "down": [],
@@ -1654,17 +1643,6 @@
       ],
       "up": []
     },
-    "9": {
-      "at": "2026-09-02T07:32:59.675473+00:00",
-      "down": [],
-      "link": "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/",
-      "source": "Positive News",
-      "title": "🫁 У Лондоні діти мають здоровіші легені завдяки чистому повітрю",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "90": {
       "at": "2026-09-13T11:42:16.462216+00:00",
       "down": [],
@@ -1987,7 +1965,7 @@
     "sources": {
       "Good News Network": {
         "down": 6,
-        "up": 9
+        "up": 8
       },
       "Optimist Daily": {
         "down": 2,
@@ -1999,7 +1977,7 @@
       },
       "Positive News": {
         "down": 0,
-        "up": 3
+        "up": 2
       },
       "Reasons to be Cheerful": {
         "down": 2,
@@ -2017,11 +1995,11 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 2,
-        "up": 8
+        "up": 7
       },
       "Наука і медицина": {
         "down": 14,
-        "up": 19
+        "up": 18
       },
       "Природа і тварини": {
         "down": 11,
