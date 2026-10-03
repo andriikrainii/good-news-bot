@@ -336,18 +336,6 @@
       ],
       "up": []
     },
-    "16": {
-      "at": "2026-09-03T11:43:03.243449+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/08/260831015150.htm",
-      "source": "ScienceDaily",
-      "title": "🎨 ADHD може дати несподівану перевагу в творчості",
-      "topics": [
-        "Наука і медицина",
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "161": {
       "at": "2026-09-20T17:39:39.011035+00:00",
       "down": [],
@@ -413,17 +401,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260920222358.htm",
       "source": "ScienceDaily",
       "title": "🌌 Чорні діри слідують одному універсальному закону",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "17": {
-      "at": "2026-09-03T11:43:03.651199+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/",
-      "source": "Good News Network",
-      "title": "🦷 Омега-3 з аспірином допомагає при запаленні ясен так само, як антибіотики",
       "topics": [
         "Наука і медицина"
       ],
@@ -1095,6 +1072,29 @@
       "title": "🍫 Давня кераміка розповіла про якао в Джорджії 1000 років тому",
       "topics": [
         "Наука і медицина"
+      ],
+      "up": []
+    },
+    "285": {
+      "at": "2026-10-03T12:27:37.762101+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/09/260928100554.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Фізики Caltech підтвердили 40-річну передбачення про квантову енергію",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "286": {
+      "at": "2026-10-03T12:27:38.382096+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/antarcticas-wind-farm-saves-122000-gallons-of-diesel-over-15-years-powering-mcmurdo-station/",
+      "source": "Good News Network",
+      "title": "🌬️ Вітряки Антарктиди заощадили 460 тисяч літрів дизелю",
+      "topics": [
+        "Технології та екологія"
       ],
       "up": []
     },
@@ -1812,6 +1812,7 @@
     "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/": "2026-09-04T07:02:27.183440+00:00",
     "https://www.goodnewsnetwork.org/a-terrier-rescued-after-spending-2-days-underground-lost-in-a-badger-warren/": "2026-09-04T14:16:46.828451+00:00",
     "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/": "2026-09-05T18:11:51.025227+00:00",
+    "https://www.goodnewsnetwork.org/antarcticas-wind-farm-saves-122000-gallons-of-diesel-over-15-years-powering-mcmurdo-station/": "2026-10-03T12:27:38.382096+00:00",
     "https://www.goodnewsnetwork.org/arthritis-drug-demonstrates-substantial-hair-regrowth-in-1400-alopecia-patients/": "2026-09-10T11:10:54.232088+00:00",
     "https://www.goodnewsnetwork.org/astronomers-new-gallery-of-16-cosmic-gems/": "2026-09-07T06:38:10.348442+00:00",
     "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/": "2026-09-16T06:08:20.060558+00:00",
@@ -1919,6 +1920,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260928100531.htm": "2026-10-01T13:03:14.881665+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100537.htm": "2026-10-01T06:07:09.657477+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-09-30T19:09:55.066004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260928100554.htm": "2026-10-03T12:27:37.762101+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020309.htm": "2026-10-02T07:31:00.452811+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020315.htm": "2026-10-01T18:49:46.375435+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225448.htm": "2026-10-02T18:30:41.401106+00:00",
@@ -1964,7 +1966,8 @@
     "2026-10-02 09:00",
     "2026-10-02 14:00",
     "2026-10-02 20:00",
-    "2026-10-03 09:00"
+    "2026-10-03 09:00",
+    "2026-10-03 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1990,30 +1993,30 @@
         "up": 0
       },
       "ScienceDaily": {
-        "down": 7,
-        "up": 10
+        "down": 8,
+        "up": 13
       },
       "Smithsonian": {
-        "down": 3,
+        "down": 4,
         "up": 2
       }
     },
     "topics": {
       "Люди й добрі вчинки": {
         "down": 2,
-        "up": 5
+        "up": 4
       },
       "Наука і медицина": {
-        "down": 10,
-        "up": 16
+        "down": 12,
+        "up": 18
       },
       "Природа і тварини": {
-        "down": 9,
+        "down": 10,
         "up": 3
       },
       "Технології та екологія": {
         "down": 3,
-        "up": 5
+        "up": 7
       }
     }
   }
