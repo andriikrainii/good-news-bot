@@ -1098,6 +1098,17 @@
       ],
       "up": []
     },
+    "289": {
+      "at": "2026-10-03T17:12:34.619866+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Учені знайшли фермент, який захищає від ожиріння печінки",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "29": {
       "at": "2026-09-04T07:02:27.651128+00:00",
       "down": [],
@@ -1763,9 +1774,10 @@
     "c9f9b1ec30",
     "f6e4e3d80d",
     "eabc25ba17",
-    "7a0de11222"
+    "7a0de11222",
+    "477c04a938"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-09-26 16:00",
     "2026-09-26 19:30",
@@ -1781,7 +1793,8 @@
     "2026-10-01 19:30",
     "2026-10-02 16:00",
     "2026-10-02 19:30",
-    "2026-10-03 16:00"
+    "2026-10-03 16:00",
+    "2026-10-03 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1929,6 +1942,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260930225448.htm": "2026-10-02T18:30:41.401106+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-03T06:27:34.721638+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225503.htm": "2026-10-02T12:48:44.072819+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080020.htm": "2026-10-03T17:12:34.619866+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1970,7 +1984,8 @@
     "2026-10-02 14:00",
     "2026-10-02 20:00",
     "2026-10-03 09:00",
-    "2026-10-03 14:00"
+    "2026-10-03 14:00",
+    "2026-10-03 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
