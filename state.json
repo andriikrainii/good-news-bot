@@ -268,17 +268,6 @@
       ],
       "up": []
     },
-    "14": {
-      "at": "2026-09-03T06:29:29.401154+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/",
-      "source": "Good News Network",
-      "title": "🍕 Два підлітки зі Флориди створили додаток для благодійної допомоги",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "140": {
       "at": "2026-09-19T11:10:04.451117+00:00",
       "down": [],
@@ -321,17 +310,6 @@
       "title": "🌳 Park Avenue в Нью-Йорку знову стає паркою",
       "topics": [
         "Природа і тварини"
-      ],
-      "up": []
-    },
-    "15": {
-      "at": "2026-09-03T06:29:30.084203+00:00",
-      "down": [],
-      "link": "https://reasonstobecheerful.world/what-were-reading-baltimore-911-crisis-support/",
-      "source": "Reasons to be Cheerful",
-      "title": "🆘 У Балтиморі 911 тепер допомагає при психічних кризах",
-      "topics": [
-        "Наука і медицина"
       ],
       "up": []
     },
@@ -1993,7 +1971,7 @@
     "sources": {
       "Good News Network": {
         "down": 4,
-        "up": 7
+        "up": 5
       },
       "Optimist Daily": {
         "down": 2,
@@ -2008,8 +1986,8 @@
         "up": 2
       },
       "Reasons to be Cheerful": {
-        "down": 2,
-        "up": 1
+        "down": 1,
+        "up": 0
       },
       "ScienceDaily": {
         "down": 7,
@@ -2023,11 +2001,11 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 2,
-        "up": 7
+        "up": 5
       },
       "Наука і медицина": {
-        "down": 11,
-        "up": 17
+        "down": 10,
+        "up": 16
       },
       "Природа і тварини": {
         "down": 9,
