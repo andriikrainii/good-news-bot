@@ -1108,6 +1108,28 @@
       ],
       "up": []
     },
+    "291": {
+      "at": "2026-10-04T06:46:44.480843+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
+      "source": "ScienceDaily",
+      "title": "🚀 Апарат Juice в безпечно пролетів повз Землю до Юпітера",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "292": {
+      "at": "2026-10-04T06:46:44.869318+00:00",
+      "down": [],
+      "link": "https://phys.org/news/2026-09-group-dissenters-stronger-arguments.html",
+      "source": "Phys.org",
+      "title": "🤝 Коли в групі чується безпека, діссиденти переконують краще",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "30": {
       "at": "2026-09-04T14:16:46.409447+00:00",
       "down": [],
@@ -1792,6 +1814,7 @@
     "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html": "2026-09-08T09:34:36.572256+00:00",
     "https://phys.org/news/2026-09-global-dataset-immigrating.html": "2026-09-09T14:29:04.577361+00:00",
     "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html": "2026-09-07T13:00:51.881174+00:00",
+    "https://phys.org/news/2026-09-group-dissenters-stronger-arguments.html": "2026-10-04T06:46:44.869318+00:00",
     "https://phys.org/news/2026-09-history-rewritten-archaeological-site-morocco.html": "2026-09-16T06:08:19.557268+00:00",
     "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html": "2026-09-05T12:37:58.403007+00:00",
     "https://phys.org/news/2026-09-lebanon-years-climate-landscape-history.html": "2026-09-15T07:38:46.180189+00:00",
@@ -1928,6 +1951,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260930225448.htm": "2026-10-02T18:30:41.401106+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-03T06:27:34.721638+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225503.htm": "2026-10-02T12:48:44.072819+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261001214102.htm": "2026-10-04T06:46:44.480843+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080020.htm": "2026-10-03T17:12:34.619866+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
@@ -1968,7 +1992,8 @@
     "2026-10-02 20:00",
     "2026-10-03 09:00",
     "2026-10-03 14:00",
-    "2026-10-03 20:00"
+    "2026-10-03 20:00",
+    "2026-10-04 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
