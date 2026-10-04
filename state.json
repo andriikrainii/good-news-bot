@@ -1030,17 +1030,6 @@
       ],
       "up": []
     },
-    "28": {
-      "at": "2026-09-04T07:02:27.183440+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/",
-      "source": "Good News Network",
-      "title": "🦪 Три мільйони устриць вибудовують рифи Нью-Йорка",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "280": {
       "at": "2026-10-03T06:27:34.721638+00:00",
       "down": [],
@@ -1092,17 +1081,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
       "source": "ScienceDaily",
       "title": "🔬 Учені знайшли фермент, який захищає від ожиріння печінки",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "29": {
-      "at": "2026-09-04T07:02:27.651128+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-      "source": "ScienceDaily",
-      "title": "🪐 На Сатурні виявили дивну десятикутну фігуру",
       "topics": [
         "Наука і медицина"
       ],
@@ -1999,7 +1977,7 @@
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 4,
+        "down": 3,
         "up": 6
       },
       "Optimist Daily": {
@@ -2020,7 +1998,7 @@
       },
       "ScienceDaily": {
         "down": 8,
-        "up": 13
+        "up": 12
       },
       "Smithsonian": {
         "down": 4,
@@ -2034,14 +2012,14 @@
       },
       "Наука і медицина": {
         "down": 12,
-        "up": 18
+        "up": 17
       },
       "Природа і тварини": {
         "down": 10,
         "up": 3
       },
       "Технології та екологія": {
-        "down": 3,
+        "down": 2,
         "up": 8
       }
     }
