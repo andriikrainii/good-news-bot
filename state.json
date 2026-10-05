@@ -1187,17 +1187,6 @@
       ],
       "up": []
     },
-    "39": {
-      "at": "2026-09-05T18:11:51.025227+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/",
-      "source": "Good News Network",
-      "title": "🚂 Швеція та Фінляндія з'єднали залізниці після 30 років розриву",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "40": {
       "at": "2026-09-06T06:02:10.954618+00:00",
       "down": [],
@@ -1771,8 +1760,6 @@
   ],
   "quiz_last_subject": "Математика",
   "quiz_slots": [
-    "2026-09-28 16:00",
-    "2026-09-28 19:30",
     "2026-09-29 16:00",
     "2026-09-29 19:30",
     "2026-09-30 16:00",
@@ -1962,9 +1949,6 @@
     "https://www.smithsonianmag.com/smart-news/workers-excavating-gravel-from-the-danube-river-dredged-up-a-2200-year-old-rusty-treasure-that-could-have-equipped-an-army-180989542/": "2026-09-22T13:28:20.759065+00:00"
   },
   "served_slots": [
-    "2026-09-28 09:00",
-    "2026-09-28 14:00",
-    "2026-09-28 20:00",
     "2026-09-29 09:00",
     "2026-09-29 14:00",
     "2026-09-29 20:00",
