@@ -1164,26 +1164,26 @@
       ],
       "up": []
     },
-    "37": {
-      "at": "2026-09-05T12:37:57.751365+00:00",
+    "301": {
+      "at": "2026-10-05T15:55:04.119369+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/",
-      "source": "Good News Network",
-      "title": "🧹 Сусіди приєдналися до марафону чоловіка: 100 днів чистити街 у Нью-Йорку",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
+      "source": "ScienceDaily",
+      "title": "🧠 Стимуляція допомагає мозку краще вчитися",
       "topics": [
-        "Люди й добрі вчинки",
-        "Технології та екологія"
+        "Наука і медицина",
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
-    "38": {
-      "at": "2026-09-05T12:37:58.403007+00:00",
+    "302": {
+      "at": "2026-10-05T15:55:04.529239+00:00",
       "down": [],
-      "link": "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html",
-      "source": "Phys.org",
-      "title": "🧴 Чому малята пахнуть краще від підлітків",
+      "link": "https://www.goodnewsnetwork.org/nonprofit-brings-free-music-education-to-more-than-20000-miami-students-in-131-schools/",
+      "source": "Good News Network",
+      "title": "🎵 Понад 20 тисяч дітей Майамі отримали доступ до безплатних музичних занять",
       "topics": [
-        "Наука і медицина"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
@@ -1765,9 +1765,11 @@
     "477c04a938",
     "bcc746ad17",
     "9d1afde55c",
-    "dfe5eae3e7"
+    "dfe5eae3e7",
+    "9346679897",
+    "90a7ec95c5"
   ],
-  "quiz_last_subject": "Біологія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-09-28 16:00",
     "2026-09-28 19:30",
@@ -1782,7 +1784,8 @@
     "2026-10-03 16:00",
     "2026-10-03 19:30",
     "2026-10-04 16:00",
-    "2026-10-04 19:30"
+    "2026-10-04 19:30",
+    "2026-10-05 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1857,6 +1860,7 @@
     "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/": "2026-09-06T06:02:10.954618+00:00",
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/": "2026-09-28T15:20:39.027001+00:00",
+    "https://www.goodnewsnetwork.org/nonprofit-brings-free-music-education-to-more-than-20000-miami-students-in-131-schools/": "2026-10-05T15:55:04.529239+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/pomegranates-walnuts-and-berries-could-unlock-heart-failure-treatment-with-urolithin-a/": "2026-10-05T06:55:08.120515+00:00",
     "https://www.goodnewsnetwork.org/portuguese-company-turns-cork-wood-into-limitless-material-even-to-insulate-spacecraft/": "2026-09-24T12:54:01.775008+00:00",
@@ -1938,6 +1942,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261001214102.htm": "2026-10-04T06:46:44.480843+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080012.htm": "2026-10-04T13:09:18.486710+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080020.htm": "2026-10-03T17:12:34.619866+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080034.htm": "2026-10-05T15:55:04.119369+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1978,7 +1983,8 @@
     "2026-10-04 09:00",
     "2026-10-04 14:00",
     "2026-10-04 20:00",
-    "2026-10-05 09:00"
+    "2026-10-05 09:00",
+    "2026-10-05 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
