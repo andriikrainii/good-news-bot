@@ -1142,26 +1142,25 @@
       ],
       "up": []
     },
-    "35": {
-      "at": "2026-09-05T06:18:35.767721+00:00",
+    "299": {
+      "at": "2026-10-05T06:55:08.120515+00:00",
       "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
-      "source": "ScienceDaily",
-      "title": "🧬 Вчені подвоїли генетичний алфавіт природи",
+      "link": "https://www.goodnewsnetwork.org/pomegranates-walnuts-and-berries-could-unlock-heart-failure-treatment-with-urolithin-a/",
+      "source": "Good News Network",
+      "title": "🍎 Гранати та грецькі горіхи можуть допомогти серцю",
       "topics": [
         "Наука і медицина"
       ],
       "up": []
     },
-    "36": {
-      "at": "2026-09-05T06:18:36.066903+00:00",
+    "300": {
+      "at": "2026-10-05T06:55:08.601283+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/",
-      "source": "Good News Network",
-      "title": "🐟 У каліфорнійські річки повернулося 30 тисяч лосів",
+      "link": "https://phys.org/news/2026-10-sunken-silk-road-city-reveals.html",
+      "source": "Phys.org",
+      "title": "🏛️ На дні озера знайшли давнє місто Шовкового шляху",
       "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
@@ -1806,6 +1805,7 @@
     "https://phys.org/news/2026-09-smart-pen-pressure-movement-children.html": "2026-09-14T06:08:34.114632+00:00",
     "https://phys.org/news/2026-09-statistical-method-flag-hidden-anomalies.html": "2026-09-29T15:42:46.880608+00:00",
     "https://phys.org/news/2026-09-wildfires-pottery.html": "2026-09-10T11:10:53.688256+00:00",
+    "https://phys.org/news/2026-10-sunken-silk-road-city-reveals.html": "2026-10-05T06:55:08.601283+00:00",
     "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/": "2026-09-06T17:08:11.951989+00:00",
     "https://reasonstobecheerful.world/how-afghan-women-are-rebuilding-reproductive-health-care/": "2026-09-15T13:28:18.793083+00:00",
     "https://reasonstobecheerful.world/the-national-park-that-stretches-from-coast-to-coast/": "2026-09-11T11:10:59.446478+00:00",
@@ -1858,6 +1858,7 @@
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/": "2026-09-28T15:20:39.027001+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
+    "https://www.goodnewsnetwork.org/pomegranates-walnuts-and-berries-could-unlock-heart-failure-treatment-with-urolithin-a/": "2026-10-05T06:55:08.120515+00:00",
     "https://www.goodnewsnetwork.org/portuguese-company-turns-cork-wood-into-limitless-material-even-to-insulate-spacecraft/": "2026-09-24T12:54:01.775008+00:00",
     "https://www.goodnewsnetwork.org/researchers-use-math-to-ensure-a-wordle-win-99-of-the-time/": "2026-09-13T17:03:31.105051+00:00",
     "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/": "2026-09-29T08:22:01.061330+00:00",
@@ -1976,7 +1977,8 @@
     "2026-10-03 20:00",
     "2026-10-04 09:00",
     "2026-10-04 14:00",
-    "2026-10-04 20:00"
+    "2026-10-04 20:00",
+    "2026-10-05 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
