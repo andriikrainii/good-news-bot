@@ -1187,26 +1187,25 @@
       ],
       "up": []
     },
-    "40": {
-      "at": "2026-09-06T06:02:10.954618+00:00",
+    "305": {
+      "at": "2026-10-06T10:07:13.406911+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/",
-      "source": "Good News Network",
-      "title": "🏋️ У Парижі відкрили тренажерний зал для людей без дому",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080013.htm",
+      "source": "ScienceDaily",
+      "title": "🧠 Учені знайшли ген мозку, який вміє «стрибати» по ДНК",
       "topics": [
-        "Наука і медицина",
-        "Люди й добрі вчинки"
+        "Наука і медицина"
       ],
       "up": []
     },
-    "41": {
-      "at": "2026-09-06T06:02:11.475702+00:00",
+    "306": {
+      "at": "2026-10-06T10:07:13.927337+00:00",
       "down": [],
-      "link": "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html",
-      "source": "Phys.org",
-      "title": "🏛️ Майже 4 мільйони монет розповідають про економіку Риму",
+      "link": "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/",
+      "source": "Good News Network",
+      "title": "🦍 Сирота-горила стала мамою в дикій природі",
       "topics": [
-        "Наука і медицина"
+        "Природа і тварини"
       ],
       "up": []
     },
@@ -1848,6 +1847,7 @@
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/": "2026-09-28T15:20:39.027001+00:00",
     "https://www.goodnewsnetwork.org/nonprofit-brings-free-music-education-to-more-than-20000-miami-students-in-131-schools/": "2026-10-05T15:55:04.529239+00:00",
+    "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/": "2026-10-06T10:07:13.927337+00:00",
     "https://www.goodnewsnetwork.org/pokemon-fans-rally-to-help-child-after-he-was-scammed-out-of-his-most-valuable-card/": "2026-09-01T17:30:12.806043+00:00",
     "https://www.goodnewsnetwork.org/pomegranates-walnuts-and-berries-could-unlock-heart-failure-treatment-with-urolithin-a/": "2026-10-05T06:55:08.120515+00:00",
     "https://www.goodnewsnetwork.org/portuguese-company-turns-cork-wood-into-limitless-material-even-to-insulate-spacecraft/": "2026-09-24T12:54:01.775008+00:00",
@@ -1928,6 +1928,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260930225503.htm": "2026-10-02T12:48:44.072819+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261001214102.htm": "2026-10-04T06:46:44.480843+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080012.htm": "2026-10-04T13:09:18.486710+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-06T10:07:13.406911+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080020.htm": "2026-10-03T17:12:34.619866+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080034.htm": "2026-10-05T15:55:04.119369+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
@@ -1968,7 +1969,8 @@
     "2026-10-04 14:00",
     "2026-10-04 20:00",
     "2026-10-05 09:00",
-    "2026-10-05 14:00"
+    "2026-10-05 14:00",
+    "2026-10-06 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
