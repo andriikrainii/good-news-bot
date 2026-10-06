@@ -1209,26 +1209,25 @@
       ],
       "up": []
     },
-    "42": {
-      "at": "2026-09-06T11:05:28.970090+00:00",
+    "307": {
+      "at": "2026-10-06T16:46:26.448514+00:00",
       "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/after-an-eight-year-journey-two-spacecraft-have-begun-their-arrival-to-mercury-the-inner-solar-systems-most-mysterious-planet-180989458/",
-      "source": "Smithsonian",
-      "title": "🚀 Два космічних апарати наконец дійшли до Меркурія",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+      "source": "ScienceDaily",
+      "title": "🦵 Учені навчилися відновлювати хрящ у колінах",
       "topics": [
         "Наука і медицина",
-        "Технології та екологія"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
-    "43": {
-      "at": "2026-09-06T11:05:29.638066+00:00",
+    "308": {
+      "at": "2026-10-06T16:46:27.098485+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/",
+      "link": "https://www.goodnewsnetwork.org/events061005/",
       "source": "Good News Network",
-      "title": "🐕 12 золотистих щеняток святкують перший день народження з мамою",
+      "title": "🎸 Джон Бон Джові запустив благодійну їдальню для бідних",
       "topics": [
-        "Природа і тварини",
         "Люди й добрі вчинки"
       ],
       "up": []
@@ -1755,9 +1754,10 @@
     "9d1afde55c",
     "dfe5eae3e7",
     "9346679897",
-    "90a7ec95c5"
+    "90a7ec95c5",
+    "922e30763f"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-09-29 16:00",
     "2026-09-29 19:30",
@@ -1771,7 +1771,9 @@
     "2026-10-03 19:30",
     "2026-10-04 16:00",
     "2026-10-04 19:30",
-    "2026-10-05 16:00"
+    "2026-10-05 16:00",
+    "2026-10-06 16:00",
+    "2026-10-06 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1825,6 +1827,7 @@
     "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
+    "https://www.goodnewsnetwork.org/events061005/": "2026-10-06T16:46:27.098485+00:00",
     "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/": "2026-09-23T06:04:37.458749+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
     "https://www.goodnewsnetwork.org/first-permit-to-clean-up-old-mine-waste-issued-for-wa-state-under-2024-good-samaritan-act/": "2026-09-11T18:38:41.948711+00:00",
@@ -1931,6 +1934,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-06T10:07:13.406911+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080020.htm": "2026-10-03T17:12:34.619866+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080034.htm": "2026-10-05T15:55:04.119369+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T16:46:26.448514+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1970,14 +1974,15 @@
     "2026-10-04 20:00",
     "2026-10-05 09:00",
     "2026-10-05 14:00",
-    "2026-10-06 09:00"
+    "2026-10-06 09:00",
+    "2026-10-06 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 2,
-        "up": 6
+        "up": 7
       },
       "Optimist Daily": {
         "down": 2,
@@ -2015,7 +2020,7 @@
       },
       "Природа і тварини": {
         "down": 9,
-        "up": 3
+        "up": 4
       },
       "Технології та екологія": {
         "down": 2,
