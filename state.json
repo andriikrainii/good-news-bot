@@ -1266,26 +1266,27 @@
       ],
       "up": []
     },
-    "47": {
-      "at": "2026-09-07T13:00:51.881174+00:00",
+    "313": {
+      "at": "2026-10-07T16:22:40.633368+00:00",
       "down": [],
-      "link": "https://phys.org/news/2026-09-grand-temples-recycled-bronze-age.html",
-      "source": "Phys.org",
-      "title": "🏛️ Римляни перетворили давню гробницю на святиню",
+      "link": "https://www.goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles/",
+      "source": "Good News Network",
+      "title": "🌞 Сонячна електростанція в Саудівській Аравії врятувала газелей",
       "topics": [
-        "Наука і медицина",
+        "Природа і тварини",
         "Технології та екологія"
       ],
       "up": []
     },
-    "48": {
-      "at": "2026-09-07T13:00:52.241068+00:00",
+    "314": {
+      "at": "2026-10-07T16:22:41.194467+00:00",
       "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 Учені знайшли спосіб ослабити найнебезпечніший рак мозку",
+      "link": "https://www.positive.news/environment/the-women-putting-community-at-the-heart-of-elephant-conservation/",
+      "source": "Positive News",
+      "title": "🐘 Жінки на передовій захисту слонів в Африці",
       "topics": [
-        "Наука і медицина"
+        "Природа і тварини",
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
@@ -1753,9 +1754,11 @@
     "dfe5eae3e7",
     "9346679897",
     "90a7ec95c5",
-    "922e30763f"
+    "922e30763f",
+    "2917a7aae0",
+    "a4664155b4"
   ],
-  "quiz_last_subject": "Українська мова",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-09-30 16:00",
     "2026-09-30 19:30",
@@ -1769,7 +1772,8 @@
     "2026-10-04 19:30",
     "2026-10-05 16:00",
     "2026-10-06 16:00",
-    "2026-10-06 19:30"
+    "2026-10-06 19:30",
+    "2026-10-07 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1855,6 +1859,7 @@
     "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/": "2026-09-29T08:22:01.061330+00:00",
     "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/": "2026-09-22T07:47:00.217527+00:00",
     "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/": "2026-09-08T14:27:08.366342+00:00",
+    "https://www.goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles/": "2026-10-07T16:22:40.633368+00:00",
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
     "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/": "2026-09-23T17:12:24.095305+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
@@ -1874,6 +1879,7 @@
     "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
+    "https://www.positive.news/environment/the-women-putting-community-at-the-heart-of-elephant-conservation/": "2026-10-07T16:22:41.194467+00:00",
     "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/": "2026-09-27T12:26:58.145102+00:00",
     "https://www.positive.news/society/how-housing-first-is-helping-people-leave-rough-sleeping-behind/": "2026-09-14T13:55:36.532313+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015150.htm": "2026-09-03T11:43:03.243449+00:00",
@@ -1973,7 +1979,8 @@
     "2026-10-06 09:00",
     "2026-10-06 14:00",
     "2026-10-06 20:00",
-    "2026-10-07 09:00"
+    "2026-10-07 09:00",
+    "2026-10-07 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
