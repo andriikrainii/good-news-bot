@@ -1290,6 +1290,28 @@
       ],
       "up": []
     },
+    "318": {
+      "at": "2026-10-08T08:51:14.090527+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261005071533.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Учені розробили «вбивцю» лімфоми",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "319": {
+      "at": "2026-10-08T08:51:14.507908+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/",
+      "source": "Good News Network",
+      "title": "🏠 Незнайомці прийшли помогти чоловікові після бурі",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "54": {
       "at": "2026-09-08T09:34:36.211441+00:00",
       "down": [],
@@ -1853,6 +1875,7 @@
     "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/": "2026-09-23T17:12:24.095305+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
     "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/": "2026-09-19T17:57:42.414193+00:00",
+    "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/": "2026-10-08T08:51:14.507908+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
@@ -1929,6 +1952,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261004001843.htm": "2026-10-06T17:16:23.317226+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T16:46:26.448514+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005012230.htm": "2026-10-07T08:33:53.196738+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T08:51:14.090527+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1966,7 +1990,8 @@
     "2026-10-06 14:00",
     "2026-10-06 20:00",
     "2026-10-07 09:00",
-    "2026-10-07 14:00"
+    "2026-10-07 14:00",
+    "2026-10-08 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
