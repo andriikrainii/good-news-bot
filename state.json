@@ -1312,48 +1312,25 @@
       ],
       "up": []
     },
-    "54": {
-      "at": "2026-09-08T09:34:36.211441+00:00",
+    "320": {
+      "at": "2026-10-08T16:24:33.830803+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/",
-      "source": "Good News Network",
-      "title": "🫀 Малюк Макс отримав штучне серце і розцвітає на очах",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261006234528.htm",
+      "source": "ScienceDaily",
+      "title": "🧬 Ліки від епілепсії можуть зупинити артроз",
       "topics": [
         "Люди й добрі вчинки"
       ],
       "up": []
     },
-    "55": {
-      "at": "2026-09-08T09:34:36.572256+00:00",
+    "321": {
+      "at": "2026-10-08T16:24:34.322099+00:00",
       "down": [],
-      "link": "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html",
-      "source": "Phys.org",
-      "title": "🦣 Археологи розкрили великий неандертальський табір віком 46 тисяч років",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "56": {
-      "at": "2026-09-08T14:27:07.943258+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
-      "source": "ScienceDaily",
-      "title": "🐍 У крові гримучих змій знайшли суперліки від отрути",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "57": {
-      "at": "2026-09-08T14:27:08.366342+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/",
+      "link": "https://www.goodnewsnetwork.org/neighbors-flock-to-rescue-a-wounded-owl-tangled-up-in-barbed-wire/",
       "source": "Good News Network",
-      "title": "🐧 Аквариум святкує «бебі-бум» зникаючих пінгвінів",
+      "title": "🦉 Сусіди врятували пораненого сову з колючого дроту",
       "topics": [
-        "Природа і тварини"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
@@ -1768,9 +1745,11 @@
     "922e30763f",
     "2917a7aae0",
     "a4664155b4",
-    "df63a9230e"
+    "df63a9230e",
+    "3d5919b0a0",
+    "0a6db026ac"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-10-01 16:00",
     "2026-10-01 19:30",
@@ -1784,7 +1763,8 @@
     "2026-10-06 16:00",
     "2026-10-06 19:30",
     "2026-10-07 16:00",
-    "2026-10-07 19:30"
+    "2026-10-07 19:30",
+    "2026-10-08 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1854,6 +1834,7 @@
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/massive-footprints-reveal-first-ever-adult-t-rex-trackway/": "2026-09-13T06:00:52.158971+00:00",
     "https://www.goodnewsnetwork.org/millions-channeled-to-irrigation-improvements-leak-repairs-along-colorado-river-by-corporate-coalition/": "2026-09-27T08:02:25.358807+00:00",
+    "https://www.goodnewsnetwork.org/neighbors-flock-to-rescue-a-wounded-owl-tangled-up-in-barbed-wire/": "2026-10-08T16:24:34.322099+00:00",
     "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/": "2026-09-05T12:37:57.751365+00:00",
     "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/": "2026-09-22T07:46:59.739705+00:00",
     "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/": "2026-09-18T11:26:20.574995+00:00",
@@ -1953,6 +1934,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T16:46:26.448514+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005012230.htm": "2026-10-07T08:33:53.196738+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T08:51:14.090527+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261006234528.htm": "2026-10-08T16:24:33.830803+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1991,7 +1973,8 @@
     "2026-10-06 20:00",
     "2026-10-07 09:00",
     "2026-10-07 14:00",
-    "2026-10-08 09:00"
+    "2026-10-08 09:00",
+    "2026-10-08 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
