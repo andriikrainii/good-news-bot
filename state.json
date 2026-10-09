@@ -1334,6 +1334,28 @@
       ],
       "up": []
     },
+    "325": {
+      "at": "2026-10-09T08:55:28.990673+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261007233136.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Вчені відкрили організм із неймовірним генетичним кодом",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "326": {
+      "at": "2026-10-09T08:55:29.379494+00:00",
+      "down": [],
+      "link": "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/",
+      "source": "Positive News",
+      "title": "🌅 Чому сніданок — це більше ніж їжа",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
     "62": {
       "at": "2026-09-09T09:37:59.010289+00:00",
       "down": [],
@@ -1859,6 +1881,7 @@
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
     "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
     "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
+    "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/": "2026-10-09T08:55:29.379494+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
     "https://www.positive.news/environment/the-women-putting-community-at-the-heart-of-elephant-conservation/": "2026-10-07T16:22:41.194467+00:00",
@@ -1924,6 +1947,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261005012230.htm": "2026-10-07T08:33:53.196738+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T08:51:14.090527+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234528.htm": "2026-10-08T16:24:33.830803+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T08:55:28.990673+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1960,7 +1984,8 @@
     "2026-10-07 09:00",
     "2026-10-07 14:00",
     "2026-10-08 09:00",
-    "2026-10-08 14:00"
+    "2026-10-08 14:00",
+    "2026-10-09 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
