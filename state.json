@@ -1436,14 +1436,14 @@
       ],
       "up": []
     },
-    "76": {
-      "at": "2026-09-10T17:52:00.976424+00:00",
+    "339": {
+      "at": "2026-10-10T18:41:42.648088+00:00",
       "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/the-tip-of-this-snakes-tail-looks-like-a-spider-but-inside-its-bones-are-bizarrely-normal-180989478/",
-      "source": "Smithsonian",
-      "title": "🐍 Хвіст гадюки приховує дивовижну будову",
+      "link": "https://www.goodnewsnetwork.org/daughter-gets-to-join-dad-as-co-pilot-with-mom-serving-on-cabin-crew/",
+      "source": "Good News Network",
+      "title": "🛩️ Дочка вперше летіла пілотом разом з батьком-капітаном",
       "topics": [
-        "Природа і тварини"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
@@ -1740,9 +1740,10 @@
     "1696ebe4f4",
     "561d2945b3",
     "82053ca83c",
-    "a324067b4e"
+    "a324067b4e",
+    "59512e23cc"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-10-03 16:00",
     "2026-10-03 19:30",
@@ -1757,7 +1758,8 @@
     "2026-10-08 19:30",
     "2026-10-09 16:00",
     "2026-10-09 19:30",
-    "2026-10-10 16:00"
+    "2026-10-10 16:00",
+    "2026-10-10 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1808,6 +1810,7 @@
     "https://www.goodnewsnetwork.org/common-supplement-rivals-antibiotics-for-severe-gum-disease-when-taken-with-low-dose-aspirin/": "2026-09-03T11:43:03.651199+00:00",
     "https://www.goodnewsnetwork.org/companys-textile-dyes-work-through-magnetism-cutting-fashions-water-use-energy-and-pollution/": "2026-09-19T09:43:18.774617+00:00",
     "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/": "2026-09-21T06:13:13.866954+00:00",
+    "https://www.goodnewsnetwork.org/daughter-gets-to-join-dad-as-co-pilot-with-mom-serving-on-cabin-crew/": "2026-10-10T18:41:42.648088+00:00",
     "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/": "2026-09-13T11:42:15.918781+00:00",
     "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/": "2026-09-05T06:18:36.066903+00:00",
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
@@ -1975,7 +1978,8 @@
     "2026-10-09 14:00",
     "2026-10-09 20:00",
     "2026-10-10 09:00",
-    "2026-10-10 14:00"
+    "2026-10-10 14:00",
+    "2026-10-10 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
