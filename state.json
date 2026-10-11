@@ -1492,6 +1492,17 @@
       ],
       "up": []
     },
+    "349": {
+      "at": "2026-10-11T18:00:32.731663+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
+      "source": "ScienceDaily",
+      "title": "🧬 Неандертальці знали про природні антибіотики",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
     "81": {
       "at": "2026-09-11T18:38:41.948711+00:00",
       "down": [],
@@ -1742,9 +1753,10 @@
     "a324067b4e",
     "59512e23cc",
     "aaa2e39074",
-    "8dc2e35b3d"
+    "8dc2e35b3d",
+    "0a0d036c65"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-10-04 16:00",
     "2026-10-04 19:30",
@@ -1759,7 +1771,8 @@
     "2026-10-09 19:30",
     "2026-10-10 16:00",
     "2026-10-10 19:30",
-    "2026-10-11 16:00"
+    "2026-10-11 16:00",
+    "2026-10-11 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1942,6 +1955,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261007042118.htm": "2026-10-09T16:07:25.800338+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T08:55:28.990673+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T09:01:40.431712+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261008005256.htm": "2026-10-11T18:00:32.731663+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102701.htm": "2026-10-11T12:40:20.849234+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
@@ -1982,7 +1996,8 @@
     "2026-10-10 14:00",
     "2026-10-10 20:00",
     "2026-10-11 09:00",
-    "2026-10-11 14:00"
+    "2026-10-11 14:00",
+    "2026-10-11 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -2012,7 +2027,7 @@
         "up": 13
       },
       "Smithsonian": {
-        "down": 4,
+        "down": 5,
         "up": 2
       }
     },
@@ -2026,7 +2041,7 @@
         "up": 23
       },
       "Природа і тварини": {
-        "down": 9,
+        "down": 10,
         "up": 6
       },
       "Технології та екологія": {
