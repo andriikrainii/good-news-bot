@@ -1447,25 +1447,25 @@
       ],
       "up": []
     },
-    "77": {
-      "at": "2026-09-11T06:37:54.282916+00:00",
+    "341": {
+      "at": "2026-10-11T09:01:40.064199+00:00",
       "down": [],
-      "link": "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/",
-      "source": "Optimist Daily",
-      "title": "🩺 Простий домашній тест виявляє рак сечового міхура",
+      "link": "https://www.goodnewsnetwork.org/youre-walking-dad-surprises-children-having-recovered-ability-to-walk-after-serious-brain-injury/",
+      "source": "Good News Network",
+      "title": "🚶 Тато знову ходить! Чудо після 3 років одужання",
       "topics": [
         "Наука і медицина"
       ],
       "up": []
     },
-    "78": {
-      "at": "2026-09-11T06:37:55.736540+00:00",
+    "342": {
+      "at": "2026-10-11T09:01:40.431712+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/",
-      "source": "Good News Network",
-      "title": "🚀 Європа відправила зонд до Меркурія",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005254.htm",
+      "source": "ScienceDaily",
+      "title": "👁️ У оці знайшли невидиму систему очищення",
       "topics": [
-        "Технології та екологія"
+        "Наука і медицина"
       ],
       "up": []
     },
@@ -1861,6 +1861,7 @@
     "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
     "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/": "2026-09-28T17:48:56.117957+00:00",
     "https://www.goodnewsnetwork.org/worlds-largest-glacial-archeology-expedition-recovers-48-stone-age-arrowheads-and-shafts/": "2026-10-10T07:15:27.127435+00:00",
+    "https://www.goodnewsnetwork.org/youre-walking-dad-surprises-children-having-recovered-ability-to-walk-after-serious-brain-injury/": "2026-10-11T09:01:40.064199+00:00",
     "https://www.optimistdaily.com/2026/09/at-home-urine-test-spots-bladder-cancer-in-nine-of-ten-cases/": "2026-09-11T06:37:54.282916+00:00",
     "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/": "2026-09-16T11:46:50.876451+00:00",
     "https://www.optimistdaily.com/2026/09/can-dogs-sniff-out-cancer-new-ai-study-shows-promise/": "2026-09-21T11:05:46.228828+00:00",
@@ -1938,6 +1939,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261007042102.htm": "2026-10-10T13:49:58.003946+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042118.htm": "2026-10-09T16:07:25.800338+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T08:55:28.990673+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T09:01:40.431712+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1974,7 +1976,8 @@
     "2026-10-09 20:00",
     "2026-10-10 09:00",
     "2026-10-10 14:00",
-    "2026-10-10 20:00"
+    "2026-10-10 20:00",
+    "2026-10-11 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
