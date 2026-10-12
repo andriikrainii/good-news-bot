@@ -1549,15 +1549,14 @@
       ],
       "up": []
     },
-    "86": {
-      "at": "2026-09-12T17:02:11.755172+00:00",
+    "366": {
+      "at": "2026-10-12T18:57:47.502863+00:00",
       "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261011211550.htm",
       "source": "ScienceDaily",
-      "title": "🧬 Оземпік може сповільнити саме старіння",
+      "title": "🌿 Ваніль виявилась чудо-лікарем",
       "topics": [
-        "Наука і медицина",
-        "Люди й добрі вчинки"
+        "Наука і медицина"
       ],
       "up": []
     },
@@ -1743,9 +1742,10 @@
     "8dc2e35b3d",
     "0a0d036c65",
     "322532578f",
-    "d4d28cf69e"
+    "d4d28cf69e",
+    "76cbbbeb6e"
   ],
-  "quiz_last_subject": "Біологія",
+  "quiz_last_subject": "Географія",
   "quiz_slots": [
     "2026-10-05 16:00",
     "2026-10-06 16:00",
@@ -1760,7 +1760,8 @@
     "2026-10-10 19:30",
     "2026-10-11 16:00",
     "2026-10-11 19:30",
-    "2026-10-12 16:00"
+    "2026-10-12 16:00",
+    "2026-10-12 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1949,6 +1950,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T09:01:40.431712+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005256.htm": "2026-10-11T18:00:32.731663+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102701.htm": "2026-10-11T12:40:20.849234+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T18:57:47.502863+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1988,7 +1990,8 @@
     "2026-10-11 14:00",
     "2026-10-11 20:00",
     "2026-10-12 09:00",
-    "2026-10-12 14:00"
+    "2026-10-12 14:00",
+    "2026-10-12 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
