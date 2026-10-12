@@ -1503,6 +1503,29 @@
       ],
       "up": []
     },
+    "351": {
+      "at": "2026-10-12T06:09:19.138915+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/new-way-to-relieve-arthritic-knees-without-drugs-or-surgery-by-changing-your-gait/",
+      "source": "Good News Network",
+      "title": "🦵 Артрит колін можна полегшити, змінивши хід ходьби",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "352": {
+      "at": "2026-10-12T06:09:19.560824+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+      "source": "ScienceDaily",
+      "title": "🔬 Крихітний прилад допоможе позбутись хронічного болю",
+      "topics": [
+        "Наука і медицина",
+        "Технології та екологія"
+      ],
+      "up": []
+    },
     "82": {
       "at": "2026-09-12T06:30:47.789210+00:00",
       "down": [],
@@ -1836,6 +1859,7 @@
     "https://www.goodnewsnetwork.org/new-ai-model-can-detect-heart-disease-markers-in-simple-electrocardiogram-readings-a-breakthrough/": "2026-09-22T07:46:59.739705+00:00",
     "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/": "2026-09-18T11:26:20.574995+00:00",
     "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/": "2026-09-06T06:02:10.954618+00:00",
+    "https://www.goodnewsnetwork.org/new-way-to-relieve-arthritic-knees-without-drugs-or-surgery-by-changing-your-gait/": "2026-10-12T06:09:19.138915+00:00",
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/": "2026-09-28T15:20:39.027001+00:00",
     "https://www.goodnewsnetwork.org/nonprofit-brings-free-music-education-to-more-than-20000-miami-students-in-131-schools/": "2026-10-05T15:55:04.529239+00:00",
@@ -1940,6 +1964,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261007042102.htm": "2026-10-10T13:49:58.003946+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042118.htm": "2026-10-09T16:07:25.800338+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T08:55:28.990673+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261008005253.htm": "2026-10-12T06:09:19.560824+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T09:01:40.431712+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005256.htm": "2026-10-11T18:00:32.731663+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102701.htm": "2026-10-11T12:40:20.849234+00:00",
@@ -1980,7 +2005,8 @@
     "2026-10-10 20:00",
     "2026-10-11 09:00",
     "2026-10-11 14:00",
-    "2026-10-11 20:00"
+    "2026-10-11 20:00",
+    "2026-10-12 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
