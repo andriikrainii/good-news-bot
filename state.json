@@ -1526,26 +1526,26 @@
       ],
       "up": []
     },
-    "84": {
-      "at": "2026-09-12T11:15:17.275886+00:00",
+    "353": {
+      "at": "2026-10-12T15:42:16.068402+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/",
-      "source": "Good News Network",
-      "title": "🦗 Вчені відтворили спів комах з епохи динозаврів",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005244.htm",
+      "source": "ScienceDaily",
+      "title": "🧪 Вчені знайшли спосіб зробити хімічні реакції в 6 разів ефективнішими",
       "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
+        "Наука і медицина"
       ],
       "up": []
     },
-    "85": {
-      "at": "2026-09-12T11:15:17.668098+00:00",
+    "354": {
+      "at": "2026-10-12T15:42:16.544292+00:00",
       "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
-      "source": "ScienceDaily",
-      "title": "🌙 Місяць міг утворитися цілком за кілька годин",
+      "link": "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/",
+      "source": "Good News Network",
+      "title": "🌳 Берлінці «усиновили» міські дерева через мобільний додаток",
       "topics": [
-        "Наука і медицина"
+        "Люди й добрі вчинки",
+        "Технології та екологія"
       ],
       "up": []
     },
@@ -1741,9 +1741,11 @@
     "59512e23cc",
     "aaa2e39074",
     "8dc2e35b3d",
-    "0a0d036c65"
+    "0a0d036c65",
+    "322532578f",
+    "d4d28cf69e"
   ],
-  "quiz_last_subject": "Українська мова",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-10-05 16:00",
     "2026-10-06 16:00",
@@ -1757,7 +1759,8 @@
     "2026-10-10 16:00",
     "2026-10-10 19:30",
     "2026-10-11 16:00",
-    "2026-10-11 19:30"
+    "2026-10-11 19:30",
+    "2026-10-12 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1825,6 +1828,7 @@
     "https://www.goodnewsnetwork.org/hotel-staff-give-girls-lost-plushie-the-vip-treatment-before-sending-her-home-with-a-note-look/": "2026-09-12T06:30:48.168995+00:00",
     "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/": "2026-09-11T06:37:55.736540+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
+    "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/": "2026-10-12T15:42:16.544292+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/": "2026-10-09T16:07:26.126634+00:00",
     "https://www.goodnewsnetwork.org/massive-footprints-reveal-first-ever-adult-t-rex-trackway/": "2026-09-13T06:00:52.158971+00:00",
@@ -1940,6 +1944,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261007042102.htm": "2026-10-10T13:49:58.003946+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042118.htm": "2026-10-09T16:07:25.800338+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T08:55:28.990673+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261008005244.htm": "2026-10-12T15:42:16.068402+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005253.htm": "2026-10-12T06:09:19.560824+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T09:01:40.431712+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005256.htm": "2026-10-11T18:00:32.731663+00:00",
@@ -1982,7 +1987,8 @@
     "2026-10-11 09:00",
     "2026-10-11 14:00",
     "2026-10-11 20:00",
-    "2026-10-12 09:00"
+    "2026-10-12 09:00",
+    "2026-10-12 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
