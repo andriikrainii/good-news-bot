@@ -1604,12 +1604,12 @@
       ],
       "up": []
     },
-    "91": {
-      "at": "2026-09-13T17:03:31.105051+00:00",
+    "372": {
+      "at": "2026-10-13T17:32:55.046686+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/researchers-use-math-to-ensure-a-wordle-win-99-of-the-time/",
-      "source": "Good News Network",
-      "title": "🧮 Математики знайшли спосіб вигравати Wordle на 99%",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+      "source": "ScienceDaily",
+      "title": "🔭 Телескоп Джеймса Вебба розкрив таємниці ранньої Всесвіту",
       "topics": [
         "Наука і медицина"
       ],
@@ -1740,9 +1740,10 @@
     "0a0d036c65",
     "322532578f",
     "d4d28cf69e",
-    "76cbbbeb6e"
+    "76cbbbeb6e",
+    "d2f7883d33"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-10-06 16:00",
     "2026-10-06 19:30",
@@ -1757,7 +1758,9 @@
     "2026-10-11 16:00",
     "2026-10-11 19:30",
     "2026-10-12 16:00",
-    "2026-10-12 19:30"
+    "2026-10-12 19:30",
+    "2026-10-13 16:00",
+    "2026-10-13 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1951,6 +1954,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261008102701.htm": "2026-10-11T12:40:20.849234+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102721.htm": "2026-10-13T09:19:18.483454+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T18:57:47.502863+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261012185021.htm": "2026-10-13T17:32:55.046686+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1991,7 +1995,8 @@
     "2026-10-12 14:00",
     "2026-10-12 20:00",
     "2026-10-13 09:00",
-    "2026-10-13 14:00"
+    "2026-10-13 14:00",
+    "2026-10-13 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
