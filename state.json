@@ -1582,26 +1582,25 @@
       ],
       "up": []
     },
-    "89": {
-      "at": "2026-09-13T11:42:15.918781+00:00",
+    "370": {
+      "at": "2026-10-13T11:54:27.986811+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/",
+      "link": "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/",
       "source": "Good News Network",
-      "title": "🐘 Слони вміють стримувати імпульси й обирати розумне рішення",
+      "title": "🍋 Лимонад допомагає: дитячий бізнес зібрав 5 мільйонів доларів",
       "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
+        "Люди й добрі вчинки"
       ],
       "up": []
     },
-    "90": {
-      "at": "2026-09-13T11:42:16.462216+00:00",
+    "371": {
+      "at": "2026-10-13T11:54:28.518261+00:00",
       "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm",
-      "source": "ScienceDaily",
-      "title": "🧬 Учені знайшли природний тумблер для вимкнення запалення",
+      "link": "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/",
+      "source": "Optimist Daily",
+      "title": "☀️ Як плаваюча тінь рятує корали від спеки",
       "topics": [
-        "Наука і медицина"
+        "Природа і тварини"
       ],
       "up": []
     },
@@ -1861,6 +1860,7 @@
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
+    "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/": "2026-10-13T11:54:27.986811+00:00",
     "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/": "2026-09-23T06:04:37.978259+00:00",
     "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
     "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/": "2026-09-28T17:48:56.117957+00:00",
@@ -1872,6 +1872,7 @@
     "https://www.optimistdaily.com/2026/09/ethiopias-green-legacy-initiative-is-turning-citizens-into-foresters/": "2026-09-25T12:13:51.581680+00:00",
     "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/": "2026-09-23T11:25:58.176377+00:00",
     "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
+    "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/": "2026-10-13T11:54:28.518261+00:00",
     "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
     "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/": "2026-10-09T08:55:29.379494+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
@@ -1989,7 +1990,8 @@
     "2026-10-12 09:00",
     "2026-10-12 14:00",
     "2026-10-12 20:00",
-    "2026-10-13 09:00"
+    "2026-10-13 09:00",
+    "2026-10-13 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
