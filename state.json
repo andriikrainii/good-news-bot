@@ -1660,14 +1660,16 @@
       ],
       "up": []
     },
-    "98": {
-      "at": "2026-09-14T17:03:11.224585+00:00",
+    "386": {
+      "at": "2026-10-14T18:31:41.484460+00:00",
       "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/see-nine-stunning-images-from-this-years-ocean-photographer-of-the-year-contest-that-show-the-majesty-of-marine-life-180989489/",
-      "source": "Smithsonian",
-      "title": "🌊 Дев'ять чарівних знімків морського життя з конкурсу фотографів",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261013015801.htm",
+      "source": "ScienceDaily",
+      "title": "🐱 Учені знайшли рідкісний генетичний синдром у котів",
       "topics": [
-        "Природа і тварини"
+        "Наука і медицина",
+        "Природа і тварини",
+        "Люди й добрі вчинки"
       ],
       "up": []
     }
@@ -1743,9 +1745,10 @@
     "76cbbbeb6e",
     "d2f7883d33",
     "d5e59aa029",
-    "bf73aee85d"
+    "bf73aee85d",
+    "ca5ed0c477"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-10-07 16:00",
     "2026-10-07 19:30",
@@ -1761,7 +1764,8 @@
     "2026-10-12 19:30",
     "2026-10-13 16:00",
     "2026-10-13 19:30",
-    "2026-10-14 16:00"
+    "2026-10-14 16:00",
+    "2026-10-14 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1958,6 +1962,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261008102721.htm": "2026-10-13T09:19:18.483454+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T18:57:47.502863+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261012185021.htm": "2026-10-13T17:32:55.046686+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261013015801.htm": "2026-10-14T18:31:41.484460+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013015805.htm": "2026-10-14T13:38:11.527685+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014001406.htm": "2026-10-14T07:30:05.606320+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
@@ -2000,7 +2005,8 @@
     "2026-10-13 14:00",
     "2026-10-13 20:00",
     "2026-10-14 09:00",
-    "2026-10-14 14:00"
+    "2026-10-14 14:00",
+    "2026-10-14 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
