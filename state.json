@@ -1615,26 +1615,26 @@
       ],
       "up": []
     },
-    "92": {
-      "at": "2026-09-14T06:08:33.624709+00:00",
+    "374": {
+      "at": "2026-10-14T07:30:05.606320+00:00",
       "down": [],
-      "link": "https://www.goodnewsnetwork.org/homeless-guy-famous-for-playing-piano-in-church-raising-50k/",
-      "source": "Good News Network",
-      "title": "🎹 Безхатько став знаменитістю і зібрав $50K на благодійність",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
+      "source": "ScienceDaily",
+      "title": "🐍 У Індії знайшли залишки мегазмії віком 47 мільйонів років",
       "topics": [
-        "Люди й добрі вчинки"
+        "Наука і медицина"
       ],
       "up": []
     },
-    "93": {
-      "at": "2026-09-14T06:08:34.114632+00:00",
+    "375": {
+      "at": "2026-10-14T07:30:06.256752+00:00",
       "down": [],
-      "link": "https://phys.org/news/2026-09-smart-pen-pressure-movement-children.html",
-      "source": "Phys.org",
-      "title": "🖊️ Розумна ручка помічає проблеми з письмом у дітей раніше",
+      "link": "https://www.goodnewsnetwork.org/scientists-shocked-to-discover-d-rex-a-giant-fungus-from-chinese-forests-dating-back-65-million-years/",
+      "source": "Good News Network",
+      "title": "🍄 Вчені знайшли грибного велетня віком 65 мільйонів років",
       "topics": [
         "Наука і медицина",
-        "Технології та екологія"
+        "Природа і тварини"
       ],
       "up": []
     },
@@ -1856,6 +1856,7 @@
     "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/": "2026-09-17T06:03:47.089117+00:00",
     "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/": "2026-09-23T17:12:24.095305+00:00",
     "https://www.goodnewsnetwork.org/scientists-recreated-chirps-of-jurassic-insects-simulating-a-165-million-yo-soundscape-listen/": "2026-09-12T11:15:17.275886+00:00",
+    "https://www.goodnewsnetwork.org/scientists-shocked-to-discover-d-rex-a-giant-fungus-from-chinese-forests-dating-back-65-million-years/": "2026-10-14T07:30:06.256752+00:00",
     "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/": "2026-09-19T17:57:42.414193+00:00",
     "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/": "2026-10-08T08:51:14.507908+00:00",
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
@@ -1953,6 +1954,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261008102721.htm": "2026-10-13T09:19:18.483454+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T18:57:47.502863+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261012185021.htm": "2026-10-13T17:32:55.046686+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261014001406.htm": "2026-10-14T07:30:05.606320+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -1991,7 +1993,8 @@
     "2026-10-12 20:00",
     "2026-10-13 09:00",
     "2026-10-13 14:00",
-    "2026-10-13 20:00"
+    "2026-10-13 20:00",
+    "2026-10-14 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
