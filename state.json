@@ -1672,6 +1672,28 @@
         "Люди й добрі вчинки"
       ],
       "up": []
+    },
+    "388": {
+      "at": "2026-10-15T06:26:47.627300+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/teen-triathlete-raises-more-than-30000-to-donate-bikes-and-riding-lessons-to-low-income-families/",
+      "source": "Good News Network",
+      "title": "🚴 Підліток зібрав $30,000 на велосипеди для малозабезпечених",
+      "topics": [
+        "Люди й добрі вчинки"
+      ],
+      "up": []
+    },
+    "389": {
+      "at": "2026-10-15T06:26:47.947410+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/10/scientists-discovered-the-worlds-largest-octopus-nursery-off-the-california-coast/",
+      "source": "Optimist Daily",
+      "title": "🐙 Учені знайшли найбільший у світі розплідник восьминогів",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1867,6 +1889,7 @@
     "https://www.goodnewsnetwork.org/stray-cat-nursed-back-to-health-by-train-staff-climbs-the-ranks-to-become-stationmaster/": "2026-09-02T17:07:35.193773+00:00",
     "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/": "2026-09-18T06:00:57.020411+00:00",
     "https://www.goodnewsnetwork.org/teen-discovers-coconut-fungi-can-filter-plastic-and-sunscreen-from-sea/": "2026-09-07T06:38:09.827330+00:00",
+    "https://www.goodnewsnetwork.org/teen-triathlete-raises-more-than-30000-to-donate-bikes-and-riding-lessons-to-low-income-families/": "2026-10-15T06:26:47.627300+00:00",
     "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/": "2026-10-13T11:54:27.986811+00:00",
     "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/": "2026-09-23T06:04:37.978259+00:00",
     "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/": "2026-09-19T11:10:04.451117+00:00",
@@ -1882,6 +1905,7 @@
     "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/": "2026-09-27T12:26:59.086492+00:00",
     "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/": "2026-10-13T11:54:28.518261+00:00",
     "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
+    "https://www.optimistdaily.com/2026/10/scientists-discovered-the-worlds-largest-octopus-nursery-off-the-california-coast/": "2026-10-15T06:26:47.947410+00:00",
     "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/": "2026-10-09T08:55:29.379494+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
@@ -2002,7 +2026,8 @@
     "2026-10-13 20:00",
     "2026-10-14 09:00",
     "2026-10-14 14:00",
-    "2026-10-14 20:00"
+    "2026-10-14 20:00",
+    "2026-10-15 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
