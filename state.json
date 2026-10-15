@@ -3,30 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "101": {
-      "at": "2026-09-15T07:38:46.180189+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-09-lebanon-years-climate-landscape-history.html",
-      "source": "Phys.org",
-      "title": "🔬 Вчені розкрили 400 тисяч років історії Лівану",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "102": {
-      "at": "2026-09-15T07:38:46.651821+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/unsealed-for-the-first-time-in-600-years-this-tomb-in-peru-was-just-declared-the-discovery-of-the-decade-180989497/",
-      "source": "Smithsonian",
-      "title": "🏛️ У Перу розкрили гробницю, закриту 600 років",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "108": {
       "at": "2026-09-15T13:28:18.191181+00:00",
       "down": [],
@@ -1694,6 +1670,28 @@
         "Наука і медицина"
       ],
       "up": []
+    },
+    "390": {
+      "at": "2026-10-15T11:41:18.576754+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/italian-biomethane-plant-comes-online-providing-renewable-gas-supply-to-over-3000-homes/",
+      "source": "Good News Network",
+      "title": "🌱 У Південній Італії запустили установку з біогазу",
+      "topics": [
+        "Технології та екологія"
+      ],
+      "up": []
+    },
+    "391": {
+      "at": "2026-10-15T11:41:19.143699+00:00",
+      "down": [],
+      "link": "https://www.smithsonianmag.com/smart-news/see-the-stunning-winners-of-the-wildlife-photographer-of-the-year-contest-capturing-the-splendor-and-drama-of-nature-180989681/",
+      "source": "Smithsonian",
+      "title": "🦁 Найкрасивіші знімки природи року",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1853,6 +1851,7 @@
     "https://www.goodnewsnetwork.org/hotel-staff-give-girls-lost-plushie-the-vip-treatment-before-sending-her-home-with-a-note-look/": "2026-09-12T06:30:48.168995+00:00",
     "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/": "2026-09-11T06:37:55.736540+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
+    "https://www.goodnewsnetwork.org/italian-biomethane-plant-comes-online-providing-renewable-gas-supply-to-over-3000-homes/": "2026-10-15T11:41:18.576754+00:00",
     "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/": "2026-10-12T15:42:16.544292+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/": "2026-10-09T16:07:26.126634+00:00",
@@ -1996,6 +1995,7 @@
     "https://www.smithsonianmag.com/smart-news/scientists-invent-a-digestible-paper-based-battery-that-can-power-swallowed-or-implanted-medical-devices-180989549/": "2026-09-26T13:00:35.033829+00:00",
     "https://www.smithsonianmag.com/smart-news/scientists-may-have-finally-detected-a-hint-of-dark-matter-the-mysterious-invisible-stuff-that-holds-the-universe-together-180989440/": "2026-09-08T18:34:26.344833+00:00",
     "https://www.smithsonianmag.com/smart-news/see-nine-stunning-images-from-this-years-ocean-photographer-of-the-year-contest-that-show-the-majesty-of-marine-life-180989489/": "2026-09-14T17:03:11.224585+00:00",
+    "https://www.smithsonianmag.com/smart-news/see-the-stunning-winners-of-the-wildlife-photographer-of-the-year-contest-capturing-the-splendor-and-drama-of-nature-180989681/": "2026-10-15T11:41:19.143699+00:00",
     "https://www.smithsonianmag.com/smart-news/the-tip-of-this-snakes-tail-looks-like-a-spider-but-inside-its-bones-are-bizarrely-normal-180989478/": "2026-09-10T17:52:00.976424+00:00",
     "https://www.smithsonianmag.com/smart-news/this-ancient-insect-had-24-legs-and-could-help-explain-how-the-ancestors-of-modern-day-bugs-took-over-the-land-180989420/": "2026-09-01T17:52:04.823699+00:00",
     "https://www.smithsonianmag.com/smart-news/two-heads-are-better-than-one-rare-double-headed-turtle-hatchling-discovered-on-cape-cod-180989579/": "2026-09-29T15:42:47.705159+00:00",
@@ -2027,7 +2027,8 @@
     "2026-10-14 09:00",
     "2026-10-14 14:00",
     "2026-10-14 20:00",
-    "2026-10-15 09:00"
+    "2026-10-15 09:00",
+    "2026-10-15 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
