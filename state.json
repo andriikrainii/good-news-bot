@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "116": {
-      "at": "2026-09-16T11:46:50.876451+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/09/baked-bites-how-frisco-students-turned-a-passion-for-baking-into-a-force-for-community-change/",
-      "source": "Optimist Daily",
-      "title": "🍰 Юні пекарі з Фріско змінили громаду через випічку",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "117": {
-      "at": "2026-09-16T11:46:51.593182+00:00",
-      "down": [],
-      "link": "https://reasonstobecheerful.world/what-were-reading-klamath-river-salmon-return/",
-      "source": "Reasons to be Cheerful",
-      "title": "🐟 20 тисяч лососів повернулися в річку Кламат",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "118": {
       "at": "2026-09-16T17:06:58.923821+00:00",
       "down": [],
@@ -1666,6 +1644,29 @@
         "Люди й добрі вчинки"
       ],
       "up": []
+    },
+    "398": {
+      "at": "2026-10-16T11:54:06.389142+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
+      "source": "Good News Network",
+      "title": "🦬 На американських прериях живе вже 1000 бізонів",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "399": {
+      "at": "2026-10-16T11:54:06.729010+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/",
+      "source": "Good News Network",
+      "title": "🌲 Техаська родина подарувала 650 акрів під державний парк",
+      "topics": [
+        "Природа і тварини",
+        "Люди й добрі вчинки"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1819,6 +1820,7 @@
     "https://www.goodnewsnetwork.org/events060911/": "2026-09-11T11:10:58.994094+00:00",
     "https://www.goodnewsnetwork.org/events061005/": "2026-10-06T16:46:27.098485+00:00",
     "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/": "2026-09-23T06:04:37.458749+00:00",
+    "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/": "2026-10-16T11:54:06.729010+00:00",
     "https://www.goodnewsnetwork.org/firm-buys-texas-coal-plant-to-leverage-its-grid-connections-for-new-massive-solar-project/": "2026-09-07T18:23:38.754960+00:00",
     "https://www.goodnewsnetwork.org/first-permit-to-clean-up-old-mine-waste-issued-for-wa-state-under-2024-good-samaritan-act/": "2026-09-11T18:38:41.948711+00:00",
     "https://www.goodnewsnetwork.org/fitted-with-a-berlin-heart-little-macs-is-absolutely-thriving-while-he-waits-for-a-heart-transplant/": "2026-09-08T09:34:36.211441+00:00",
@@ -1831,6 +1833,7 @@
     "https://www.goodnewsnetwork.org/humanitys-3rd-visit-to-mercury-kicks-off-with-the-successful-arrival-of-bepicolombo-mission/": "2026-09-11T06:37:55.736540+00:00",
     "https://www.goodnewsnetwork.org/in-london-childrens-lungs-grow-faster-as-traffic-pollution-falls/": "2026-09-02T12:02:06.237265+00:00",
     "https://www.goodnewsnetwork.org/italian-biomethane-plant-comes-online-providing-renewable-gas-supply-to-over-3000-homes/": "2026-10-15T11:41:18.576754+00:00",
+    "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/": "2026-10-16T11:54:06.389142+00:00",
     "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/": "2026-10-12T15:42:16.544292+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/": "2026-10-09T16:07:26.126634+00:00",
@@ -2008,7 +2011,8 @@
     "2026-10-15 09:00",
     "2026-10-15 14:00",
     "2026-10-15 20:00",
-    "2026-10-16 09:00"
+    "2026-10-16 09:00",
+    "2026-10-16 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
