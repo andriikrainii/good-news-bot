@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "123": {
-      "at": "2026-09-17T06:03:46.793835+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260916232525.htm",
-      "source": "ScienceDaily",
-      "title": "🌍 На Плутоні знайшли ознаки рідкого азоту",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "124": {
-      "at": "2026-09-17T06:03:47.089117+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/scientists-determine-australias-vast-red-deserts-could-fuel-a-hydrogen-powered-energy-revolution/",
-      "source": "Good News Network",
-      "title": "🌞 Австралія може стати світовою столицею зеленої енергії",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "125": {
       "at": "2026-09-17T11:34:11.030498+00:00",
       "down": [],
@@ -1667,6 +1644,28 @@
         "Технології та екологія"
       ],
       "up": []
+    },
+    "402": {
+      "at": "2026-10-17T06:11:30.425551+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/",
+      "source": "Good News Network",
+      "title": "🌲 Найбільший дикий переход у Північній Америці врятував тисячі тварин",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
+    },
+    "403": {
+      "at": "2026-10-17T06:11:30.812704+00:00",
+      "down": [],
+      "link": "https://www.optimistdaily.com/2026/10/what-to-leave-alone-in-your-garden-this-october-to-help-overwintering-bees/",
+      "source": "Optimist Daily",
+      "title": "🐝 Що залишити в саду восени для бджіл",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1852,6 +1851,7 @@
     "https://www.goodnewsnetwork.org/new-york-city-is-putting-the-park-back-in-park-avenue/": "2026-09-20T06:07:12.299846+00:00",
     "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/": "2026-09-28T15:20:39.027001+00:00",
     "https://www.goodnewsnetwork.org/nonprofit-brings-free-music-education-to-more-than-20000-miami-students-in-131-schools/": "2026-10-05T15:55:04.529239+00:00",
+    "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/": "2026-10-17T06:11:30.425551+00:00",
     "https://www.goodnewsnetwork.org/npr-inspired-homework-leads-teen-to-find-hidden-message-a-decade-after-a-strangers-kindness/": "2026-10-09T21:00:08.242784+00:00",
     "https://www.goodnewsnetwork.org/oldest-man-in-oregon-credits-clean-diet-and-good-mind-for-reaching-108-years-young/": "2026-10-07T08:33:52.870911+00:00",
     "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/": "2026-10-06T10:07:13.927337+00:00",
@@ -1890,6 +1890,7 @@
     "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/": "2026-10-13T11:54:28.518261+00:00",
     "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/": "2026-10-02T12:48:44.582363+00:00",
     "https://www.optimistdaily.com/2026/10/scientists-discovered-the-worlds-largest-octopus-nursery-off-the-california-coast/": "2026-10-15T06:26:47.947410+00:00",
+    "https://www.optimistdaily.com/2026/10/what-to-leave-alone-in-your-garden-this-october-to-help-overwintering-bees/": "2026-10-17T06:11:30.812704+00:00",
     "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/": "2026-10-09T08:55:29.379494+00:00",
     "https://www.positive.news/environment/londons-ulez-linked-to-healthier-lung-growth-in-children/": "2026-09-02T07:32:59.675473+00:00",
     "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/": "2026-09-30T13:37:03.757249+00:00",
@@ -2012,14 +2013,15 @@
     "2026-10-15 20:00",
     "2026-10-16 09:00",
     "2026-10-16 14:00",
-    "2026-10-16 20:00"
+    "2026-10-16 20:00",
+    "2026-10-17 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 3,
-        "up": 18
+        "up": 17
       },
       "Optimist Daily": {
         "down": 2,
@@ -2034,7 +2036,7 @@
         "up": 2
       },
       "ScienceDaily": {
-        "down": 12,
+        "down": 11,
         "up": 16
       },
       "Smithsonian": {
@@ -2048,8 +2050,8 @@
         "up": 7
       },
       "Наука і медицина": {
-        "down": 13,
-        "up": 28
+        "down": 12,
+        "up": 27
       },
       "Природа і тварини": {
         "down": 10,
@@ -2057,7 +2059,7 @@
       },
       "Технології та екологія": {
         "down": 3,
-        "up": 10
+        "up": 9
       }
     }
   }
