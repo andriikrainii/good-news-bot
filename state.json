@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "125": {
-      "at": "2026-09-17T11:34:11.030498+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260915232134.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 У черепі знайшли приховане імунне прибережжя",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "126": {
-      "at": "2026-09-17T11:34:11.411749+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/a-66-million-year-old-feather-trapped-in-dinosaur-poop-might-help-explain-why-some-birds-survived-mass-extinction-180989496/",
-      "source": "Smithsonian",
-      "title": "🦖 Перо з динозаврячого послиду розповіло про древніх птахів",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "127": {
       "at": "2026-09-17T17:15:53.784853+00:00",
       "down": [],
@@ -1766,9 +1744,11 @@
     "4544916b69",
     "138543d4d8",
     "8c5c21bc79",
-    "b89d3b2a7d"
+    "b89d3b2a7d",
+    "2ff7622204",
+    "8b0d12349c"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Географія",
   "quiz_slots": [
     "2026-10-10 16:00",
     "2026-10-10 19:30",
@@ -1783,7 +1763,8 @@
     "2026-10-15 16:00",
     "2026-10-15 19:30",
     "2026-10-16 16:00",
-    "2026-10-16 19:30"
+    "2026-10-16 19:30",
+    "2026-10-17 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -2062,10 +2043,10 @@
       },
       "ScienceDaily": {
         "down": 11,
-        "up": 16
+        "up": 15
       },
       "Smithsonian": {
-        "down": 5,
+        "down": 4,
         "up": 2
       }
     },
@@ -2076,10 +2057,10 @@
       },
       "Наука і медицина": {
         "down": 12,
-        "up": 27
+        "up": 26
       },
       "Природа і тварини": {
-        "down": 10,
+        "down": 9,
         "up": 7
       },
       "Технології та екологія": {
