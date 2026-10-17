@@ -1666,6 +1666,18 @@
         "Наука і медицина"
       ],
       "up": []
+    },
+    "409": {
+      "at": "2026-10-17T17:03:30.336800+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "source": "ScienceDaily",
+      "title": "🔭 Телескоп NASA Roman бачить Всесвіт гостріше, ніж чекали",
+      "topics": [
+        "Люди й добрі вчинки",
+        "Технології та екологія"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1746,9 +1758,10 @@
     "8c5c21bc79",
     "b89d3b2a7d",
     "2ff7622204",
-    "8b0d12349c"
+    "8b0d12349c",
+    "e765430a9b"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-10-10 16:00",
     "2026-10-10 19:30",
@@ -1764,7 +1777,8 @@
     "2026-10-15 19:30",
     "2026-10-16 16:00",
     "2026-10-16 19:30",
-    "2026-10-17 16:00"
+    "2026-10-17 16:00",
+    "2026-10-17 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1977,6 +1991,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261014001406.htm": "2026-10-14T07:30:05.606320+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015507.htm": "2026-10-17T11:10:47.178372+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015517.htm": "2026-10-17T11:10:46.742174+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261016070630.htm": "2026-10-17T17:03:30.336800+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
     "https://www.smithsonianmag.com/science-nature/reptiles-make-a-surprising-amount-of-noise-heres-what-those-sounds-might-mean-from-pops-to-hoots-to-bellows-180989422/": "2026-09-02T12:02:06.625044+00:00",
@@ -2020,7 +2035,8 @@
     "2026-10-16 14:00",
     "2026-10-16 20:00",
     "2026-10-17 09:00",
-    "2026-10-17 14:00"
+    "2026-10-17 14:00",
+    "2026-10-17 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
