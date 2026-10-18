@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "128": {
-      "at": "2026-09-18T06:00:56.647136+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
-      "source": "ScienceDaily",
-      "title": "🪐 Астрономи знайшли наймолодшу планету в космосі",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "129": {
-      "at": "2026-09-18T06:00:57.020411+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/team-sequesters-plastic-and-makes-new-products-before-it-breaks-down-in-environment/",
-      "source": "Good News Network",
-      "title": "🔄 Родина з Каліфорнії врятувала пластик від сміттєзвалища",
-      "topics": [
-        "Люди й добрі вчинки",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "133": {
       "at": "2026-09-18T11:26:20.244491+00:00",
       "down": [],
@@ -1665,6 +1642,28 @@
         "Технології та екологія"
       ],
       "up": []
+    },
+    "412": {
+      "at": "2026-10-18T06:01:47.402494+00:00",
+      "down": [],
+      "link": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+      "source": "ScienceDaily",
+      "title": "🐦 Крила європейського козодоя: секрет мандрівника",
+      "topics": [
+        "Наука і медицина"
+      ],
+      "up": []
+    },
+    "413": {
+      "at": "2026-10-18T06:01:47.841250+00:00",
+      "down": [],
+      "link": "https://www.goodnewsnetwork.org/massive-70lb-dog-the-size-of-baby-hippo-sheds-lbs/",
+      "source": "Good News Network",
+      "title": "🐾 Пегі Сью похудла і знайшла нову сім'ю",
+      "topics": [
+        "Природа і тварини"
+      ],
+      "up": []
     }
   },
   "quiz_asked": [
@@ -1840,6 +1839,7 @@
     "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/": "2026-10-12T15:42:16.544292+00:00",
     "https://www.goodnewsnetwork.org/living-roof-grows-atop-fords-largest-factory-saving-energy-and-boosting-biodiversity/": "2026-09-10T09:49:51.155978+00:00",
     "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/": "2026-10-09T16:07:26.126634+00:00",
+    "https://www.goodnewsnetwork.org/massive-70lb-dog-the-size-of-baby-hippo-sheds-lbs/": "2026-10-18T06:01:47.841250+00:00",
     "https://www.goodnewsnetwork.org/massive-footprints-reveal-first-ever-adult-t-rex-trackway/": "2026-09-13T06:00:52.158971+00:00",
     "https://www.goodnewsnetwork.org/millions-channeled-to-irrigation-improvements-leak-repairs-along-colorado-river-by-corporate-coalition/": "2026-09-27T08:02:25.358807+00:00",
     "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/": "2026-10-13T09:19:18.887037+00:00",
@@ -1976,6 +1976,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261014001406.htm": "2026-10-14T07:30:05.606320+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015507.htm": "2026-10-17T11:10:47.178372+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015517.htm": "2026-10-17T11:10:46.742174+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261016070624.htm": "2026-10-18T06:01:47.402494+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261016070630.htm": "2026-10-17T17:03:30.336800+00:00",
     "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/": "2026-09-19T09:43:19.130681+00:00",
     "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/": "2026-10-03T06:27:35.193844+00:00",
@@ -2018,14 +2019,15 @@
     "2026-10-16 20:00",
     "2026-10-17 09:00",
     "2026-10-17 14:00",
-    "2026-10-17 20:00"
+    "2026-10-17 20:00",
+    "2026-10-18 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 3,
-        "up": 17
+        "up": 16
       },
       "Optimist Daily": {
         "down": 2,
@@ -2040,7 +2042,7 @@
         "up": 2
       },
       "ScienceDaily": {
-        "down": 10,
+        "down": 9,
         "up": 15
       },
       "Smithsonian": {
@@ -2051,10 +2053,10 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 3,
-        "up": 7
+        "up": 6
       },
       "Наука і медицина": {
-        "down": 11,
+        "down": 10,
         "up": 26
       },
       "Природа і тварини": {
@@ -2063,7 +2065,7 @@
       },
       "Технології та екологія": {
         "down": 2,
-        "up": 9
+        "up": 8
       }
     }
   }
