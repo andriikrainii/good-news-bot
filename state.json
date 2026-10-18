@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "133": {
-      "at": "2026-09-18T11:26:20.244491+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260917003715.htm",
-      "source": "ScienceDaily",
-      "title": "🌙 На Місяці утворився найбільший новий кратер",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "134": {
-      "at": "2026-09-18T11:26:20.574995+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/",
-      "source": "Good News Network",
-      "title": "🐱 У Болівії знайшли новий вид котів вперше за 100 років",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "135": {
       "at": "2026-09-18T18:21:05.247156+00:00",
       "down": [],
@@ -1745,9 +1723,11 @@
     "b89d3b2a7d",
     "2ff7622204",
     "8b0d12349c",
-    "e765430a9b"
+    "e765430a9b",
+    "d5226102c5",
+    "2f28730b53"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Історія",
   "quiz_slots": [
     "2026-10-11 16:00",
     "2026-10-11 19:30",
@@ -1762,7 +1742,8 @@
     "2026-10-16 16:00",
     "2026-10-16 19:30",
     "2026-10-17 16:00",
-    "2026-10-17 19:30"
+    "2026-10-17 19:30",
+    "2026-10-18 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -2027,7 +2008,7 @@
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 3,
+        "down": 2,
         "up": 16
       },
       "Optimist Daily": {
@@ -2044,7 +2025,7 @@
       },
       "ScienceDaily": {
         "down": 9,
-        "up": 15
+        "up": 14
       },
       "Smithsonian": {
         "down": 4,
@@ -2061,12 +2042,12 @@
         "up": 26
       },
       "Природа і тварини": {
-        "down": 8,
+        "down": 7,
         "up": 7
       },
       "Технології та екологія": {
         "down": 2,
-        "up": 8
+        "up": 7
       }
     }
   }
