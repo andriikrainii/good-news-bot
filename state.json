@@ -3,18 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "135": {
-      "at": "2026-09-18T18:21:05.247156+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm",
-      "source": "ScienceDaily",
-      "title": "🐍 На честь легенди Guns N' Roses назвали нову змію",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "137": {
       "at": "2026-09-19T09:43:18.774617+00:00",
       "down": [],
@@ -2027,7 +2015,7 @@
         "up": 2
       },
       "ScienceDaily": {
-        "down": 9,
+        "down": 8,
         "up": 14
       },
       "Smithsonian": {
@@ -2041,11 +2029,11 @@
         "up": 6
       },
       "Наука і медицина": {
-        "down": 10,
+        "down": 9,
         "up": 26
       },
       "Природа і тварини": {
-        "down": 7,
+        "down": 6,
         "up": 7
       },
       "Технології та екологія": {
