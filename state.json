@@ -3,50 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "137": {
-      "at": "2026-09-19T09:43:18.774617+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/companys-textile-dyes-work-through-magnetism-cutting-fashions-water-use-energy-and-pollution/",
-      "source": "Good News Network",
-      "title": "🧵 Французька компанія винайшла барвники без хімії і кип'ятіння",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "138": {
-      "at": "2026-09-19T09:43:19.130681+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/innovation/from-22000-miles-up-this-satellite-tracks-airborne-health-threats-almost-in-real-time-180989523/",
-      "source": "Smithsonian",
-      "title": "🛰️ Супутник стежить за забруденням повітря в режимі реального часу",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "139": {
-      "at": "2026-09-19T11:10:04.102262+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260918024808.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Вчені готуються перевірити теорію Ейнштейна на екзотичній матерії",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "140": {
-      "at": "2026-09-19T11:10:04.451117+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/unsealed-for-the-first-time-this-600-yo-tomb-in-peru-was-just-declared-the-discovery-of-the-decade/",
-      "source": "Good News Network",
-      "title": "🏛️ У Перу розкопали 600-річну гробницю елітної цивілізації",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "147": {
       "at": "2026-09-19T17:57:42.414193+00:00",
       "down": [],
@@ -1989,14 +1945,15 @@
     "2026-10-18 09:00",
     "2026-10-18 14:00",
     "2026-10-18 20:00",
-    "2026-10-19 09:00"
+    "2026-10-19 09:00",
+    "2026-10-19 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 2,
-        "up": 16
+        "up": 15
       },
       "Optimist Daily": {
         "down": 2,
@@ -2016,7 +1973,7 @@
       },
       "Smithsonian": {
         "down": 4,
-        "up": 2
+        "up": 1
       }
     },
     "topics": {
@@ -2026,7 +1983,7 @@
       },
       "Наука і медицина": {
         "down": 9,
-        "up": 26
+        "up": 25
       },
       "Природа і тварини": {
         "down": 6,
@@ -2034,7 +1991,7 @@
       },
       "Технології та екологія": {
         "down": 2,
-        "up": 7
+        "up": 6
       }
     }
   }
