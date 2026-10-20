@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "152": {
-      "at": "2026-09-20T11:17:51.611781+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260919031022.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Вчені відкрили секрет стійкості складних систем",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "153": {
-      "at": "2026-09-20T11:17:52.043074+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/chinese-scientists-develop-new-oil-refining-method-that-cuts-energy-use-by-90/",
-      "source": "Good News Network",
-      "title": "🔬 Китайські вчені зменшили витрати енергії на нафтопереробку на 90%",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "161": {
       "at": "2026-09-20T17:39:39.011035+00:00",
       "down": [],
@@ -1914,14 +1891,15 @@
     "2026-10-19 09:00",
     "2026-10-19 14:00",
     "2026-10-19 20:00",
-    "2026-10-20 09:00"
+    "2026-10-20 09:00",
+    "2026-10-20 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 2,
-        "up": 15
+        "up": 16
       },
       "Optimist Daily": {
         "down": 2,
@@ -1955,7 +1933,7 @@
       },
       "Природа і тварини": {
         "down": 6,
-        "up": 7
+        "up": 8
       },
       "Технології та екологія": {
         "down": 2,
