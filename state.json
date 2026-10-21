@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "163": {
-      "at": "2026-09-21T06:13:13.466947+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
-      "source": "ScienceDaily",
-      "title": "✨ Нанотехнологія виявить небезпечні домішки в ліках",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "164": {
-      "at": "2026-09-21T06:13:13.866954+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
-      "source": "Good News Network",
-      "title": "🐕 Британська пара виховала 59 собак і не зупиняється",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "165": {
       "at": "2026-09-21T11:05:45.259870+00:00",
       "down": [],
@@ -1878,14 +1855,15 @@
     "2026-10-19 20:00",
     "2026-10-20 09:00",
     "2026-10-20 14:00",
-    "2026-10-20 20:00"
+    "2026-10-20 20:00",
+    "2026-10-21 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 2,
-        "up": 16
+        "up": 15
       },
       "Optimist Daily": {
         "down": 2,
@@ -1901,7 +1879,7 @@
       },
       "ScienceDaily": {
         "down": 7,
-        "up": 14
+        "up": 13
       },
       "Smithsonian": {
         "down": 4,
@@ -1915,15 +1893,15 @@
       },
       "Наука і медицина": {
         "down": 8,
-        "up": 25
+        "up": 24
       },
       "Природа і тварини": {
         "down": 5,
-        "up": 8
+        "up": 7
       },
       "Технології та екологія": {
         "down": 2,
-        "up": 6
+        "up": 5
       }
     }
   }
