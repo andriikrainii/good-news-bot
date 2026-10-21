@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "165": {
-      "at": "2026-09-21T11:05:45.259870+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/historic-philanthropic-gift-will-expand-veterinary-care-access-to-millions-of-americans-and-their-pets/",
-      "source": "Good News Network",
-      "title": "🐾 250 мільйонів на ветеринарну допомогу для тварин",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "166": {
-      "at": "2026-09-21T11:05:46.228828+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/09/can-dogs-sniff-out-cancer-new-ai-study-shows-promise/",
-      "source": "Optimist Daily",
-      "title": "🐕 Собаки можуть виявляти рак — AI знайшов підтвердження",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "169": {
       "at": "2026-09-21T17:11:26.400256+00:00",
       "down": [],
@@ -1581,9 +1558,11 @@
     "09ab4683b4",
     "217c19d86e",
     "125f68f8d0",
-    "207ef6f234"
+    "207ef6f234",
+    "32f08ccbd5",
+    "e130025410"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Географія",
   "quiz_slots": [
     "2026-10-14 16:00",
     "2026-10-14 19:30",
@@ -1598,7 +1577,8 @@
     "2026-10-19 16:00",
     "2026-10-19 19:30",
     "2026-10-20 16:00",
-    "2026-10-20 19:30"
+    "2026-10-20 19:30",
+    "2026-10-21 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1856,7 +1836,8 @@
     "2026-10-20 09:00",
     "2026-10-20 14:00",
     "2026-10-20 20:00",
-    "2026-10-21 09:00"
+    "2026-10-21 09:00",
+    "2026-10-21 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
