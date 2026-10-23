@@ -3,18 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "187": {
-      "at": "2026-09-23T17:12:24.095305+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/scientists-pioneer-chemical-bath-method-to-restore-aging-ev-batteries-without-breaking-them-down/",
-      "source": "Good News Network",
-      "title": "🔋 Учені відновили акумулятор електромобіля без розбирання",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "188": {
       "at": "2026-09-24T06:45:01.157544+00:00",
       "down": [],
@@ -1453,9 +1441,10 @@
     "636d6c66e2",
     "ac6d4a80c9",
     "bfcf2f6a51",
-    "8f22e631d3"
+    "8f22e631d3",
+    "693e1575ef"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-10-16 16:00",
     "2026-10-16 19:30",
@@ -1471,7 +1460,8 @@
     "2026-10-21 19:30",
     "2026-10-22 16:00",
     "2026-10-22 19:30",
-    "2026-10-23 16:00"
+    "2026-10-23 16:00",
+    "2026-10-23 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1730,7 +1720,8 @@
     "2026-10-22 14:00",
     "2026-10-22 20:00",
     "2026-10-23 09:00",
-    "2026-10-23 14:00"
+    "2026-10-23 14:00",
+    "2026-10-23 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
