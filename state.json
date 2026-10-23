@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "182": {
-      "at": "2026-09-23T06:04:37.458749+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/exceptional-detection-rates-of-bladder-cancer-recorded-in-study-of-simple-yet-state-of-the-art-test/",
-      "source": "Good News Network",
-      "title": "🔬 Новий тест сечі розпізнає рак сечового міхура з точністю 92%",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "183": {
-      "at": "2026-09-23T06:04:37.978259+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/",
-      "source": "Good News Network",
-      "title": "🐦 У лісах Еквадору знайшли доселі невідомий вид птаха",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "184": {
       "at": "2026-09-23T11:25:58.176377+00:00",
       "down": [],
@@ -1770,7 +1747,8 @@
     "2026-10-21 20:00",
     "2026-10-22 09:00",
     "2026-10-22 14:00",
-    "2026-10-22 20:00"
+    "2026-10-22 20:00",
+    "2026-10-23 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
