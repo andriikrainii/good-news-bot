@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "184": {
-      "at": "2026-09-23T11:25:58.176377+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/09/how-reefvive-is-rebuilding-coral-reefs-from-discarded-oyster-shells/",
-      "source": "Optimist Daily",
-      "title": "🪨 Як Reefvive відбудовує коралові рифи зі старих устричних раковин",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "185": {
-      "at": "2026-09-23T11:25:58.652758+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/165mi-bike-trail-through-minnesota-finally-completed-after-30-yrs/",
-      "source": "Good News Network",
-      "title": "🚴 165 кілометрів красоти: найдовший велотрек Мінесоти готовий",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "187": {
       "at": "2026-09-23T17:12:24.095305+00:00",
       "down": [],
@@ -1473,9 +1451,11 @@
     "de34b01748",
     "4316fefcd5",
     "636d6c66e2",
-    "ac6d4a80c9"
+    "ac6d4a80c9",
+    "bfcf2f6a51",
+    "8f22e631d3"
   ],
-  "quiz_last_subject": "Біологія",
+  "quiz_last_subject": "Математика",
   "quiz_slots": [
     "2026-10-16 16:00",
     "2026-10-16 19:30",
@@ -1490,7 +1470,8 @@
     "2026-10-21 16:00",
     "2026-10-21 19:30",
     "2026-10-22 16:00",
-    "2026-10-22 19:30"
+    "2026-10-22 19:30",
+    "2026-10-23 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1748,7 +1729,8 @@
     "2026-10-22 09:00",
     "2026-10-22 14:00",
     "2026-10-22 20:00",
-    "2026-10-23 09:00"
+    "2026-10-23 09:00",
+    "2026-10-23 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
