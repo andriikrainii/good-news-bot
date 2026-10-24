@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "188": {
-      "at": "2026-09-24T06:45:01.157544+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
-      "source": "ScienceDaily",
-      "title": "😴 Більше REM-сну — менше хвороб",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "189": {
-      "at": "2026-09-24T06:45:01.614438+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/bikes-outnumbered-cars-on-scottish-rush-hour-route-for-the-first-time-ever/",
-      "source": "Good News Network",
-      "title": "🚴 Велосипеди вперше перевищили авто на дорогах Единбурга",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "190": {
       "at": "2026-09-24T12:54:01.265680+00:00",
       "down": [],
@@ -1716,7 +1694,8 @@
     "2026-10-22 20:00",
     "2026-10-23 09:00",
     "2026-10-23 14:00",
-    "2026-10-23 20:00"
+    "2026-10-23 20:00",
+    "2026-10-24 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
