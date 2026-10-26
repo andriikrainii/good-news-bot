@@ -3,30 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "214": {
-      "at": "2026-09-26T13:00:35.033829+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/scientists-invent-a-digestible-paper-based-battery-that-can-power-swallowed-or-implanted-medical-devices-180989549/",
-      "source": "Smithsonian",
-      "title": "🔋 Вчені створили батарею з паперу, яку можна проковтнути",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "215": {
-      "at": "2026-09-26T13:00:35.994753+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/two-thousand-years-ago-julius-caesar-conquered-the-settlement-that-eventually-became-paris-archaeologists-may-have-just-found-it-180989569/",
-      "source": "Smithsonian",
-      "title": "🏛️ Археологи знайшли стіну давньої Лютеції під Парижем",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "218": {
       "at": "2026-09-26T17:05:56.097190+00:00",
       "down": [],
@@ -1309,9 +1285,11 @@
     "69f17e8a75",
     "695afd35ba",
     "76dc9e9ebd",
-    "bb13ca4712"
+    "bb13ca4712",
+    "0a78926dbd",
+    "2ab59fc2f1"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Географія",
   "quiz_slots": [
     "2026-10-19 16:00",
     "2026-10-19 19:30",
@@ -1326,7 +1304,8 @@
     "2026-10-24 16:00",
     "2026-10-24 19:30",
     "2026-10-25 16:00",
-    "2026-10-25 19:30"
+    "2026-10-25 19:30",
+    "2026-10-26 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1612,7 +1591,7 @@
       },
       "Smithsonian": {
         "down": 4,
-        "up": 1
+        "up": 0
       }
     },
     "topics": {
@@ -1622,11 +1601,11 @@
       },
       "Наука і медицина": {
         "down": 8,
-        "up": 23
+        "up": 22
       },
       "Природа і тварини": {
         "down": 5,
-        "up": 7
+        "up": 6
       },
       "Технології та екологія": {
         "down": 1,
