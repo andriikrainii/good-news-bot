@@ -3,30 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "212": {
-      "at": "2026-09-26T07:34:41.376088+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/in-a-first-sea-turtles-were-spotted-nesting-on-the-us-west-coast-scientists-say-the-super-el-nino-could-have-brought-them-there-180989574/",
-      "source": "Smithsonian",
-      "title": "🐢 Морські черепахи вперше отклали яйця на західному узбережжі США",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "213": {
-      "at": "2026-09-26T07:34:41.737431+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/two-new-stick-insect-species-have-been-discovered-in-australiaand-another-one-was-hiding-in-plain-sight-180989575/",
-      "source": "Smithsonian",
-      "title": "🦗 В Австралії знайшли два нові види паличників",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "214": {
       "at": "2026-09-26T13:00:35.033829+00:00",
       "down": [],
@@ -1608,7 +1584,8 @@
     "2026-10-25 09:00",
     "2026-10-25 14:00",
     "2026-10-25 20:00",
-    "2026-10-26 09:00"
+    "2026-10-26 09:00",
+    "2026-10-26 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
