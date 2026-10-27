@@ -3,17 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "226": {
-      "at": "2026-09-27T17:17:08.866345+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/where-did-bats-originate-huge-genetic-study-may-have-settled-the-longstanding-debate-and-rewritten-the-creatures-evolutionary-tree-180989568/",
-      "source": "Smithsonian",
-      "title": "🦇 Вчені розгадали походження кажанів",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "228": {
       "at": "2026-09-28T06:43:40.299317+00:00",
       "down": [],
@@ -1234,9 +1223,10 @@
     "2ab59fc2f1",
     "6905512f12",
     "a66d861820",
-    "2abdef336f"
+    "2abdef336f",
+    "357383b1ae"
   ],
-  "quiz_last_subject": "Історія",
+  "quiz_last_subject": "Біологія",
   "quiz_slots": [
     "2026-10-20 16:00",
     "2026-10-20 19:30",
@@ -1252,7 +1242,8 @@
     "2026-10-25 19:30",
     "2026-10-26 16:00",
     "2026-10-26 19:30",
-    "2026-10-27 16:00"
+    "2026-10-27 16:00",
+    "2026-10-27 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1511,7 +1502,8 @@
     "2026-10-26 14:00",
     "2026-10-26 20:00",
     "2026-10-27 09:00",
-    "2026-10-27 14:00"
+    "2026-10-27 14:00",
+    "2026-10-27 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1533,7 +1525,7 @@
         "up": 12
       },
       "Smithsonian": {
-        "down": 4,
+        "down": 3,
         "up": 0
       }
     },
@@ -1543,7 +1535,7 @@
         "up": 5
       },
       "Наука і медицина": {
-        "down": 6,
+        "down": 5,
         "up": 22
       },
       "Природа і тварини": {
