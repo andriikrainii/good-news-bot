@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "220": {
-      "at": "2026-09-27T08:02:24.783966+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
-      "source": "ScienceDaily",
-      "title": "🔍 Вчені розшифрували давні звитки завдяки рентгену",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "221": {
-      "at": "2026-09-27T08:02:25.358807+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/millions-channeled-to-irrigation-improvements-leak-repairs-along-colorado-river-by-corporate-coalition/",
-      "source": "Good News Network",
-      "title": "🌊 Amazon інвестує 20 млн доларів у рятування річки Колорадо",
-      "topics": [
-        "Природа і тварини",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "222": {
       "at": "2026-09-27T12:26:58.145102+00:00",
       "down": [],
@@ -1551,7 +1528,8 @@
     "2026-10-25 20:00",
     "2026-10-26 09:00",
     "2026-10-26 14:00",
-    "2026-10-26 20:00"
+    "2026-10-26 20:00",
+    "2026-10-27 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1573,7 +1551,7 @@
         "up": 2
       },
       "ScienceDaily": {
-        "down": 6,
+        "down": 5,
         "up": 12
       },
       "Smithsonian": {
@@ -1587,7 +1565,7 @@
         "up": 6
       },
       "Наука і медицина": {
-        "down": 7,
+        "down": 6,
         "up": 22
       },
       "Природа і тварини": {
