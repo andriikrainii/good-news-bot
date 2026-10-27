@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "222": {
-      "at": "2026-09-27T12:26:58.145102+00:00",
-      "down": [],
-      "link": "https://www.positive.news/lifestyle/life-after-a-diagnosis-for-panic-disorder/",
-      "source": "Positive News",
-      "title": "🌟 Молі Ламберт допомагає людям розпізнати ОКР",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "223": {
-      "at": "2026-09-27T12:26:59.086492+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/09/the-tilcayo-new-wildcat-species-discovered-in-bolivias-cloud-forest/",
-      "source": "Optimist Daily",
-      "title": "🐱 У хмарному лісі Болівії знайшли новий вид дикої кішки",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "226": {
       "at": "2026-09-27T17:17:08.866345+00:00",
       "down": [],
@@ -1254,9 +1232,11 @@
     "bb13ca4712",
     "0a78926dbd",
     "2ab59fc2f1",
-    "6905512f12"
+    "6905512f12",
+    "a66d861820",
+    "2abdef336f"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Історія",
   "quiz_slots": [
     "2026-10-20 16:00",
     "2026-10-20 19:30",
@@ -1271,7 +1251,8 @@
     "2026-10-25 16:00",
     "2026-10-25 19:30",
     "2026-10-26 16:00",
-    "2026-10-26 19:30"
+    "2026-10-26 19:30",
+    "2026-10-27 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1529,7 +1510,8 @@
     "2026-10-26 09:00",
     "2026-10-26 14:00",
     "2026-10-26 20:00",
-    "2026-10-27 09:00"
+    "2026-10-27 09:00",
+    "2026-10-27 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1538,17 +1520,13 @@
         "down": 2,
         "up": 15
       },
-      "Optimist Daily": {
-        "down": 1,
-        "up": 0
-      },
       "Phys.org": {
         "down": 0,
         "up": 3
       },
       "Positive News": {
         "down": 0,
-        "up": 2
+        "up": 1
       },
       "ScienceDaily": {
         "down": 5,
@@ -1562,14 +1540,14 @@
     "topics": {
       "Люди й добрі вчинки": {
         "down": 2,
-        "up": 6
+        "up": 5
       },
       "Наука і медицина": {
         "down": 6,
         "up": 22
       },
       "Природа і тварини": {
-        "down": 5,
+        "down": 4,
         "up": 6
       },
       "Технології та екологія": {
