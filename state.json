@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "228": {
-      "at": "2026-09-28T06:43:40.299317+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/",
-      "source": "Good News Network",
-      "title": "🐝 Учені знайшли запах, що захищає бджіл від отрути",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "229": {
-      "at": "2026-09-28T06:43:40.742470+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
-      "source": "ScienceDaily",
-      "title": "🧬 Одна ін'єкція CRISPR зменшила шкідливий холестерин наполовину",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "231": {
       "at": "2026-09-28T15:20:38.582517+00:00",
       "down": [],
@@ -1504,7 +1481,7 @@
   "votes": {
     "sources": {
       "Good News Network": {
-        "down": 2,
+        "down": 1,
         "up": 15
       },
       "Phys.org": {
@@ -1517,7 +1494,7 @@
       },
       "ScienceDaily": {
         "down": 5,
-        "up": 12
+        "up": 11
       },
       "Smithsonian": {
         "down": 3,
@@ -1530,11 +1507,11 @@
         "up": 5
       },
       "Наука і медицина": {
-        "down": 5,
-        "up": 22
+        "down": 4,
+        "up": 21
       },
       "Природа і тварини": {
-        "down": 4,
+        "down": 3,
         "up": 6
       },
       "Технології та екологія": {
