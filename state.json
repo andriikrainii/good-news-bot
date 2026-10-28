@@ -3,17 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "235": {
-      "at": "2026-09-28T17:48:56.117957+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/",
-      "source": "Good News Network",
-      "title": "🐵 В'єтнам створює заповідник для найрідкісніших мавп планети",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "237": {
       "at": "2026-09-29T08:22:01.061330+00:00",
       "down": [],
@@ -1181,9 +1170,10 @@
     "2abdef336f",
     "357383b1ae",
     "ae82b369e9",
-    "8dddbacca6"
+    "8dddbacca6",
+    "d8f4ef81e3"
   ],
-  "quiz_last_subject": "Математика",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-10-21 16:00",
     "2026-10-21 19:30",
@@ -1199,7 +1189,8 @@
     "2026-10-26 19:30",
     "2026-10-27 16:00",
     "2026-10-27 19:30",
-    "2026-10-28 16:00"
+    "2026-10-28 16:00",
+    "2026-10-28 19:30"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1458,7 +1449,8 @@
     "2026-10-27 14:00",
     "2026-10-27 20:00",
     "2026-10-28 09:00",
-    "2026-10-28 14:00"
+    "2026-10-28 14:00",
+    "2026-10-28 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
