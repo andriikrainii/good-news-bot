@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "231": {
-      "at": "2026-09-28T15:20:38.582517+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
-      "source": "ScienceDaily",
-      "title": "☕ Кава робить нас спокійнішими і розумнішими",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "232": {
-      "at": "2026-09-28T15:20:39.027001+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/",
-      "source": "Good News Network",
-      "title": "🐸 Студенти назвали древню амфібію на честь своїх мам",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "235": {
       "at": "2026-09-28T17:48:56.117957+00:00",
       "down": [],
@@ -1499,7 +1477,7 @@
       },
       "ScienceDaily": {
         "down": 5,
-        "up": 11
+        "up": 10
       },
       "Smithsonian": {
         "down": 3,
@@ -1513,7 +1491,7 @@
       },
       "Наука і медицина": {
         "down": 4,
-        "up": 21
+        "up": 20
       },
       "Природа і тварини": {
         "down": 3,
