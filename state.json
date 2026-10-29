@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "237": {
-      "at": "2026-09-29T08:22:01.061330+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/",
-      "source": "Good News Network",
-      "title": "🍌 На півдні Франції виростили перші тропічні фрукти",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "238": {
-      "at": "2026-09-29T08:22:01.512144+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html",
-      "source": "Phys.org",
-      "title": "🔍 Давні вістря розкривають секрети першопоселенців Америки",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "240": {
       "at": "2026-09-29T15:42:46.880608+00:00",
       "down": [],
@@ -1445,7 +1423,8 @@
     "2026-10-27 20:00",
     "2026-10-28 09:00",
     "2026-10-28 14:00",
-    "2026-10-28 20:00"
+    "2026-10-28 20:00",
+    "2026-10-29 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
