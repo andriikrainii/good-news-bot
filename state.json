@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "240": {
-      "at": "2026-09-29T15:42:46.880608+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-09-statistical-method-flag-hidden-anomalies.html",
-      "source": "Phys.org",
-      "title": "🔬 Австрійські вчені знайшли спосіб ловити помилки в даних",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "241": {
-      "at": "2026-09-29T15:42:47.705159+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/two-heads-are-better-than-one-rare-double-headed-turtle-hatchling-discovered-on-cape-cod-180989579/",
-      "source": "Smithsonian",
-      "title": "🐢 На мисі Код знайшли малюка з двома головами",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "246": {
       "at": "2026-09-29T20:41:48.109816+00:00",
       "down": [],
@@ -1439,7 +1417,7 @@
       },
       "Phys.org": {
         "down": 0,
-        "up": 3
+        "up": 2
       },
       "Positive News": {
         "down": 0,
@@ -1450,7 +1428,7 @@
         "up": 10
       },
       "Smithsonian": {
-        "down": 3,
+        "down": 2,
         "up": 0
       }
     },
@@ -1461,10 +1439,10 @@
       },
       "Наука і медицина": {
         "down": 4,
-        "up": 20
+        "up": 19
       },
       "Природа і тварини": {
-        "down": 3,
+        "down": 2,
         "up": 6
       },
       "Технології та екологія": {
