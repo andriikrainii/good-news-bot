@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "251": {
-      "at": "2026-09-30T06:37:48.699039+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/12-yos-annual-diaper-drive-dumps-30000-diapers-off-at-arizona-food-bank/",
-      "source": "Good News Network",
-      "title": "🎁 12-річна дівчинка подарувала 30 тисяч підгузників",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "252": {
-      "at": "2026-09-30T06:37:49.199241+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-09-nightstand-empathy-cognitive-health.html",
-      "source": "Phys.org",
-      "title": "📖 Романи роблять нас розумнішими й добрішими",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "253": {
       "at": "2026-09-30T13:37:03.312679+00:00",
       "down": [],
@@ -1392,7 +1370,8 @@
     "2026-10-28 20:00",
     "2026-10-29 09:00",
     "2026-10-29 14:00",
-    "2026-10-29 20:00"
+    "2026-10-29 20:00",
+    "2026-10-30 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
