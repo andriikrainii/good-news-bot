@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "253": {
-      "at": "2026-09-30T13:37:03.312679+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/chris-evans-puts-his-limelight-on-a-bonded-dog-pair-with-cute-video-immediately-sees-them-adopted/",
-      "source": "Good News Network",
-      "title": "🐕 Крісом Евансом знайшли дім для двох невіддільних собачок",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "254": {
-      "at": "2026-09-30T13:37:03.757249+00:00",
-      "down": [],
-      "link": "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/",
-      "source": "Positive News",
-      "title": "🌲 Як індіанці Перу врятували ліс від пожеж",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "258": {
       "at": "2026-09-30T19:09:55.066004+00:00",
       "down": [],
@@ -1096,9 +1074,11 @@
     "d8f4ef81e3",
     "de4dfb4c4d",
     "26c5f8040d",
-    "6ea8fd8793"
+    "6ea8fd8793",
+    "b11a1d7731",
+    "9bec548a4b"
   ],
-  "quiz_last_subject": "Географія",
+  "quiz_last_subject": "Українська мова",
   "quiz_slots": [
     "2026-10-23 16:00",
     "2026-10-23 19:30",
@@ -1113,7 +1093,8 @@
     "2026-10-28 16:00",
     "2026-10-28 19:30",
     "2026-10-29 16:00",
-    "2026-10-29 19:30"
+    "2026-10-29 19:30",
+    "2026-10-30 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -1371,7 +1352,8 @@
     "2026-10-29 09:00",
     "2026-10-29 14:00",
     "2026-10-29 20:00",
-    "2026-10-30 09:00"
+    "2026-10-30 09:00",
+    "2026-10-30 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1381,10 +1363,6 @@
         "up": 15
       },
       "Phys.org": {
-        "down": 0,
-        "up": 1
-      },
-      "Positive News": {
         "down": 0,
         "up": 1
       },
@@ -1408,7 +1386,7 @@
       },
       "Природа і тварини": {
         "down": 2,
-        "up": 6
+        "up": 5
       },
       "Технології та екологія": {
         "down": 1,
