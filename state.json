@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "263": {
-      "at": "2026-10-01T13:03:14.881665+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260928100531.htm",
-      "source": "ScienceDaily",
-      "title": "🌋 Везувій допоміг учёным точніше датувати минуле Землі",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "264": {
-      "at": "2026-10-01T13:03:15.260957+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-09-short-good.html",
-      "source": "Phys.org",
-      "title": "⏰ Мало часу — це може бути корисним",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "271": {
       "at": "2026-10-01T18:49:46.375435+00:00",
       "down": [],
@@ -1328,10 +1306,6 @@
         "down": 1,
         "up": 15
       },
-      "Phys.org": {
-        "down": 0,
-        "up": 1
-      },
       "ScienceDaily": {
         "down": 5,
         "up": 10
@@ -1348,7 +1322,7 @@
       },
       "Наука і медицина": {
         "down": 4,
-        "up": 18
+        "up": 17
       },
       "Природа і тварини": {
         "down": 2,
