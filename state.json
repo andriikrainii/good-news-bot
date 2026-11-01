@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "272": {
-      "at": "2026-10-02T07:31:00.452811+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-      "source": "ScienceDaily",
-      "title": "🧪 Квантові комп'ютери стали на 100 разів точніше",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "273": {
-      "at": "2026-10-02T07:31:00.767547+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/chinese-commercial-reactor-achieves-nuclear-fusion-with-clean-hydrogen-boron-fuel/",
-      "source": "Good News Network",
-      "title": "🔬 Китай вперше отримав термоядерний синтез на чистому паливі",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "274": {
       "at": "2026-10-02T12:48:44.072819+00:00",
       "down": [],
@@ -1294,11 +1271,11 @@
     "sources": {
       "Good News Network": {
         "down": 1,
-        "up": 15
+        "up": 14
       },
       "ScienceDaily": {
         "down": 4,
-        "up": 10
+        "up": 9
       },
       "Smithsonian": {
         "down": 2,
@@ -1312,7 +1289,7 @@
       },
       "Наука і медицина": {
         "down": 3,
-        "up": 17
+        "up": 16
       },
       "Природа і тварини": {
         "down": 1,
@@ -1320,7 +1297,7 @@
       },
       "Технології та екологія": {
         "down": 1,
-        "up": 5
+        "up": 3
       }
     }
   }
