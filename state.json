@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "274": {
-      "at": "2026-10-02T12:48:44.072819+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 Правильна їжа сповільнює старіння мозку на 2,5 роки",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "275": {
-      "at": "2026-10-02T12:48:44.582363+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/10/how-a-simple-urine-test-could-spare-most-women-from-invasive-womb-cancer-procedures/",
-      "source": "Optimist Daily",
-      "title": "🩺 Простий тест урину замість інвазивних процедур при раку матки",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "278": {
       "at": "2026-10-02T18:30:41.401106+00:00",
       "down": [],
@@ -1264,7 +1242,8 @@
     "2026-10-31 09:00",
     "2026-10-31 14:00",
     "2026-10-31 20:00",
-    "2026-11-01 09:00"
+    "2026-11-01 09:00",
+    "2026-11-01 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1275,7 +1254,7 @@
       },
       "ScienceDaily": {
         "down": 4,
-        "up": 9
+        "up": 8
       },
       "Smithsonian": {
         "down": 2,
@@ -1289,7 +1268,7 @@
       },
       "Наука і медицина": {
         "down": 3,
-        "up": 16
+        "up": 15
       },
       "Природа і тварини": {
         "down": 1,
