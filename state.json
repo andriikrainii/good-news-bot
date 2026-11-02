@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "280": {
-      "at": "2026-10-03T06:27:34.721638+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 Вчені знайшли спосіб повернути шкоду від гена Альцгеймера",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "281": {
-      "at": "2026-10-03T06:27:35.193844+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/science-nature/ancient-pottery-reveals-the-earliest-known-traces-of-chocolate-east-of-the-mississippi-painting-a-picture-of-connection-in-the-americas-180989559/",
-      "source": "Smithsonian",
-      "title": "🍫 Давня кераміка розповіла про якао в Джорджії 1000 років тому",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "285": {
       "at": "2026-10-03T12:27:37.762101+00:00",
       "down": [],
@@ -1229,7 +1207,8 @@
     "2026-10-31 20:00",
     "2026-11-01 09:00",
     "2026-11-01 14:00",
-    "2026-11-01 20:00"
+    "2026-11-01 20:00",
+    "2026-11-02 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -1240,10 +1219,10 @@
       },
       "ScienceDaily": {
         "down": 4,
-        "up": 7
+        "up": 6
       },
       "Smithsonian": {
-        "down": 2,
+        "down": 1,
         "up": 0
       }
     },
@@ -1253,8 +1232,8 @@
         "up": 4
       },
       "Наука і медицина": {
-        "down": 3,
-        "up": 14
+        "down": 2,
+        "up": 13
       },
       "Природа і тварини": {
         "down": 1,
