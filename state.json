@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "299": {
-      "at": "2026-10-05T06:55:08.120515+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/pomegranates-walnuts-and-berries-could-unlock-heart-failure-treatment-with-urolithin-a/",
-      "source": "Good News Network",
-      "title": "🍎 Гранати та грецькі горіхи можуть допомогти серцю",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "300": {
-      "at": "2026-10-05T06:55:08.601283+00:00",
-      "down": [],
-      "link": "https://phys.org/news/2026-10-sunken-silk-road-city-reveals.html",
-      "source": "Phys.org",
-      "title": "🏛️ На дні озера знайшли давнє місто Шовкового шляху",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "301": {
       "at": "2026-10-05T15:55:04.119369+00:00",
       "down": [],
@@ -1115,7 +1093,8 @@
     "2026-11-02 20:00",
     "2026-11-03 09:00",
     "2026-11-03 14:00",
-    "2026-11-03 20:00"
+    "2026-11-03 20:00",
+    "2026-11-04 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
