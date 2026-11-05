@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "305": {
-      "at": "2026-10-06T10:07:13.406911+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261002080013.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 Учені знайшли ген мозку, який вміє «стрибати» по ДНК",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "306": {
-      "at": "2026-10-06T10:07:13.927337+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/",
-      "source": "Good News Network",
-      "title": "🦍 Сирота-горила стала мамою в дикій природі",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "307": {
       "at": "2026-10-06T16:46:26.448514+00:00",
       "down": [],
@@ -1070,14 +1048,15 @@
     "2026-11-04 09:00",
     "2026-11-04 14:00",
     "2026-11-04 20:00",
-    "2026-11-05 09:00"
+    "2026-11-05 09:00",
+    "2026-11-05 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 1,
-        "up": 13
+        "up": 12
       },
       "ScienceDaily": {
         "down": 4,
@@ -1099,7 +1078,7 @@
       },
       "Природа і тварини": {
         "down": 1,
-        "up": 5
+        "up": 4
       },
       "Технології та екологія": {
         "down": 1,
