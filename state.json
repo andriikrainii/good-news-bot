@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "311": {
-      "at": "2026-10-07T08:33:52.870911+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/oldest-man-in-oregon-credits-clean-diet-and-good-mind-for-reaching-108-years-young/",
-      "source": "Good News Network",
-      "title": "🎂 Найстарший чоловік Орегона святкує 108-річчя",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "312": {
-      "at": "2026-10-07T08:33:53.196738+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261005012230.htm",
-      "source": "ScienceDaily",
-      "title": "🦷 Новий спосіб лікування хвороб ясен без шкоди для корисних бактерій",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "313": {
       "at": "2026-10-07T16:22:40.633368+00:00",
       "down": [],
@@ -1012,7 +989,8 @@
     "2026-11-04 20:00",
     "2026-11-05 09:00",
     "2026-11-05 14:00",
-    "2026-11-05 20:00"
+    "2026-11-05 20:00",
+    "2026-11-06 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
