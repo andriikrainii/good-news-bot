@@ -3,30 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "313": {
-      "at": "2026-10-07T16:22:40.633368+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles/",
-      "source": "Good News Network",
-      "title": "🌞 Сонячна електростанція в Саудівській Аравії врятувала газелей",
-      "topics": [
-        "Природа і тварини",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "314": {
-      "at": "2026-10-07T16:22:41.194467+00:00",
-      "down": [],
-      "link": "https://www.positive.news/environment/the-women-putting-community-at-the-heart-of-elephant-conservation/",
-      "source": "Positive News",
-      "title": "🐘 Жінки на передовій захисту слонів в Африці",
-      "topics": [
-        "Природа і тварини",
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "318": {
       "at": "2026-10-08T08:51:14.090527+00:00",
       "down": [],
@@ -732,7 +708,8 @@
     "2026-11-02 16:00",
     "2026-11-03 16:00",
     "2026-11-04 16:00",
-    "2026-11-05 16:00"
+    "2026-11-05 16:00",
+    "2026-11-06 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -990,7 +967,8 @@
     "2026-11-05 09:00",
     "2026-11-05 14:00",
     "2026-11-05 20:00",
-    "2026-11-06 09:00"
+    "2026-11-06 09:00",
+    "2026-11-06 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
