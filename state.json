@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "320": {
-      "at": "2026-10-08T16:24:33.830803+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261006234528.htm",
-      "source": "ScienceDaily",
-      "title": "🧬 Ліки від епілепсії можуть зупинити артроз",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "321": {
-      "at": "2026-10-08T16:24:34.322099+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/neighbors-flock-to-rescue-a-wounded-owl-tangled-up-in-barbed-wire/",
-      "source": "Good News Network",
-      "title": "🦉 Сусіди врятували пораненого сову з колючого дроту",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "325": {
       "at": "2026-10-09T08:55:28.990673+00:00",
       "down": [],
@@ -954,7 +932,7 @@
         "up": 12
       },
       "ScienceDaily": {
-        "down": 4,
+        "down": 3,
         "up": 6
       },
       "Smithsonian": {
@@ -964,7 +942,7 @@
     },
     "topics": {
       "Люди й добрі вчинки": {
-        "down": 2,
+        "down": 1,
         "up": 4
       },
       "Наука і медицина": {
