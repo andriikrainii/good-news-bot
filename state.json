@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "318": {
-      "at": "2026-10-08T08:51:14.090527+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261005071533.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Учені розробили «вбивцю» лімфоми",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "319": {
-      "at": "2026-10-08T08:51:14.507908+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/",
-      "source": "Good News Network",
-      "title": "🏠 Незнайомці прийшли помогти чоловікові після бурі",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "320": {
       "at": "2026-10-08T16:24:33.830803+00:00",
       "down": [],
@@ -964,7 +942,8 @@
     "2026-11-05 20:00",
     "2026-11-06 09:00",
     "2026-11-06 14:00",
-    "2026-11-06 20:00"
+    "2026-11-06 20:00",
+    "2026-11-07 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
