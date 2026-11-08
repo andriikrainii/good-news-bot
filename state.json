@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "325": {
-      "at": "2026-10-09T08:55:28.990673+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261007233136.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Вчені відкрили організм із неймовірним генетичним кодом",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "326": {
-      "at": "2026-10-09T08:55:29.379494+00:00",
-      "down": [],
-      "link": "https://www.positive.news/environment/food/three-surprising-reasons-to-slow-down-for-a-thoughtful-nutritious-breakfast/",
-      "source": "Positive News",
-      "title": "🌅 Чому сніданок — це більше ніж їжа",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "327": {
       "at": "2026-10-09T16:07:25.800338+00:00",
       "down": [],
@@ -920,7 +898,8 @@
     "2026-11-07 09:00",
     "2026-11-07 14:00",
     "2026-11-07 20:00",
-    "2026-11-08 09:00"
+    "2026-11-08 09:00",
+    "2026-11-08 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
