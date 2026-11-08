@@ -3,30 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "327": {
-      "at": "2026-10-09T16:07:25.800338+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Вчені знайшли матеріали, які можуть поліпшити батарейки",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "328": {
-      "at": "2026-10-09T16:07:26.126634+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/",
-      "source": "Good News Network",
-      "title": "🌍 Місцеві люди — ключ до успіху природоохорони",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "332": {
       "at": "2026-10-09T21:00:08.242784+00:00",
       "down": [],
@@ -640,7 +616,8 @@
     "2026-11-04 16:00",
     "2026-11-05 16:00",
     "2026-11-06 16:00",
-    "2026-11-07 16:00"
+    "2026-11-07 16:00",
+    "2026-11-08 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -899,18 +876,19 @@
     "2026-11-07 14:00",
     "2026-11-07 20:00",
     "2026-11-08 09:00",
-    "2026-11-08 14:00"
+    "2026-11-08 14:00",
+    "2026-11-08 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 1,
-        "up": 12
+        "up": 11
       },
       "ScienceDaily": {
         "down": 3,
-        "up": 6
+        "up": 5
       },
       "Smithsonian": {
         "down": 1,
@@ -924,15 +902,15 @@
       },
       "Наука і медицина": {
         "down": 2,
-        "up": 13
+        "up": 11
       },
       "Природа і тварини": {
         "down": 1,
-        "up": 4
+        "up": 3
       },
       "Технології та екологія": {
         "down": 1,
-        "up": 2
+        "up": 1
       }
     }
   }
