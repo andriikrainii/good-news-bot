@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "335": {
-      "at": "2026-10-10T13:49:57.256240+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/nearly-200-year-old-tortoise-becomes-first-to-contribute-extraordinary-epigenome-to-aging-research/",
-      "source": "Good News Network",
-      "title": "🐢 Черепахові Джонатану виповнилось майже 200 років, і він допомагає науці",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "336": {
-      "at": "2026-10-10T13:49:58.003946+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261007042102.htm",
-      "source": "ScienceDaily",
-      "title": "🔭 Канадський телескоп розгадує таємниці Всесвіту",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "339": {
       "at": "2026-10-10T18:41:42.648088+00:00",
       "down": [],
@@ -849,10 +826,10 @@
     "sources": {
       "Good News Network": {
         "down": 0,
-        "up": 8
+        "up": 7
       },
       "ScienceDaily": {
-        "down": 3,
+        "down": 2,
         "up": 4
       },
       "Smithsonian": {
@@ -867,14 +844,14 @@
       },
       "Наука і медицина": {
         "down": 2,
-        "up": 8
+        "up": 7
       },
       "Природа і тварини": {
         "down": 1,
-        "up": 3
+        "up": 2
       },
       "Технології та екологія": {
-        "down": 1,
+        "down": 0,
         "up": 1
       }
     }
