@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "333": {
-      "at": "2026-10-10T07:15:27.127435+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/worlds-largest-glacial-archeology-expedition-recovers-48-stone-age-arrowheads-and-shafts/",
-      "source": "Good News Network",
-      "title": "🏔️ Норвезькі вчені знайшли 48 давніх стрілок у льодовиках",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "334": {
-      "at": "2026-10-10T07:15:27.500128+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261007042100.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Бактерії навчилися захищатися від вірусів",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "335": {
       "at": "2026-10-10T13:49:57.256240+00:00",
       "down": [],
@@ -862,18 +840,20 @@
     "2026-11-07 20:00",
     "2026-11-08 09:00",
     "2026-11-08 14:00",
-    "2026-11-08 20:00"
+    "2026-11-08 20:00",
+    "2026-11-09 09:00",
+    "2026-11-09 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 0,
-        "up": 10
+        "up": 8
       },
       "ScienceDaily": {
         "down": 3,
-        "up": 5
+        "up": 4
       },
       "Smithsonian": {
         "down": 1,
@@ -887,7 +867,7 @@
       },
       "Наука і медицина": {
         "down": 2,
-        "up": 11
+        "up": 8
       },
       "Природа і тварини": {
         "down": 1,
