@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "343": {
-      "at": "2026-10-11T12:40:20.849234+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
-      "source": "ScienceDaily",
-      "title": "🕐 Вінські вчені створили ядерний годинник небачених точності",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "344": {
-      "at": "2026-10-11T12:40:21.222206+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/watch-five-adorable-newborn-cheetah-cubs-grow-on-a-livestream-from-the-smithsonians-conservation-biology-institute-180989669/",
-      "source": "Smithsonian",
-      "title": "🐆 П'ять малюків гепарда народилися в зоопарку",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "349": {
       "at": "2026-10-11T18:00:32.731663+00:00",
       "down": [],
@@ -784,7 +761,8 @@
     "2026-11-08 20:00",
     "2026-11-09 09:00",
     "2026-11-09 14:00",
-    "2026-11-10 09:00"
+    "2026-11-10 09:00",
+    "2026-11-10 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -796,10 +774,6 @@
       "ScienceDaily": {
         "down": 2,
         "up": 3
-      },
-      "Smithsonian": {
-        "down": 1,
-        "up": 0
       }
     },
     "topics": {
@@ -812,7 +786,7 @@
         "up": 5
       },
       "Природа і тварини": {
-        "down": 1,
+        "down": 0,
         "up": 2
       },
       "Технології та екологія": {
