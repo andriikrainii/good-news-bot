@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "351": {
-      "at": "2026-10-12T06:09:19.138915+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/new-way-to-relieve-arthritic-knees-without-drugs-or-surgery-by-changing-your-gait/",
-      "source": "Good News Network",
-      "title": "🦵 Артрит колін можна полегшити, змінивши хід ходьби",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "352": {
-      "at": "2026-10-12T06:09:19.560824+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
-      "source": "ScienceDaily",
-      "title": "🔬 Крихітний прилад допоможе позбутись хронічного болю",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "353": {
       "at": "2026-10-12T15:42:16.068402+00:00",
       "down": [],
@@ -756,11 +733,11 @@
     "sources": {
       "Good News Network": {
         "down": 0,
-        "up": 5
+        "up": 4
       },
       "ScienceDaily": {
         "down": 2,
-        "up": 3
+        "up": 2
       }
     },
     "topics": {
@@ -770,15 +747,11 @@
       },
       "Наука і медицина": {
         "down": 2,
-        "up": 5
+        "up": 3
       },
       "Природа і тварини": {
         "down": 0,
         "up": 2
-      },
-      "Технології та екологія": {
-        "down": 0,
-        "up": 1
       }
     }
   }
