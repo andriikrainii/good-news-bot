@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "370": {
-      "at": "2026-10-13T11:54:27.986811+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/",
-      "source": "Good News Network",
-      "title": "🍋 Лимонад допомагає: дитячий бізнес зібрав 5 мільйонів доларів",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
-    "371": {
-      "at": "2026-10-13T11:54:28.518261+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/",
-      "source": "Optimist Daily",
-      "title": "☀️ Як плаваюча тінь рятує корали від спеки",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "372": {
       "at": "2026-10-13T17:32:55.046686+00:00",
       "down": [],
@@ -671,7 +649,8 @@
     "2026-11-11 09:00",
     "2026-11-11 14:00",
     "2026-11-11 20:00",
-    "2026-11-12 09:00"
+    "2026-11-12 09:00",
+    "2026-11-12 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
