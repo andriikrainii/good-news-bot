@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "368": {
-      "at": "2026-10-13T09:19:18.483454+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
-      "source": "ScienceDaily",
-      "title": "🏃 10 хвилин руху на день — і сон глибший",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "369": {
-      "at": "2026-10-13T09:19:18.887037+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/",
-      "source": "Good News Network",
-      "title": "🧡 Сестри знайшли одна одну на софтбольному полі",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "370": {
       "at": "2026-10-13T11:54:27.986811+00:00",
       "down": [],
@@ -692,7 +670,8 @@
     "2026-11-10 20:00",
     "2026-11-11 09:00",
     "2026-11-11 14:00",
-    "2026-11-11 20:00"
+    "2026-11-11 20:00",
+    "2026-11-12 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
@@ -703,7 +682,7 @@
       },
       "ScienceDaily": {
         "down": 2,
-        "up": 1
+        "up": 0
       }
     },
     "topics": {
@@ -713,7 +692,7 @@
       },
       "Наука і медицина": {
         "down": 2,
-        "up": 2
+        "up": 1
       },
       "Природа і тварини": {
         "down": 0,
