@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "374": {
-      "at": "2026-10-14T07:30:05.606320+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
-      "source": "ScienceDaily",
-      "title": "🐍 У Індії знайшли залишки мегазмії віком 47 мільйонів років",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "375": {
-      "at": "2026-10-14T07:30:06.256752+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/scientists-shocked-to-discover-d-rex-a-giant-fungus-from-chinese-forests-dating-back-65-million-years/",
-      "source": "Good News Network",
-      "title": "🍄 Вчені знайшли грибного велетня віком 65 мільйонів років",
-      "topics": [
-        "Наука і медицина",
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "382": {
       "at": "2026-10-14T13:38:11.527685+00:00",
       "down": [],
@@ -637,18 +614,15 @@
     "2026-11-11 20:00",
     "2026-11-12 09:00",
     "2026-11-12 14:00",
-    "2026-11-12 20:00"
+    "2026-11-12 20:00",
+    "2026-11-13 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
     "sources": {
       "Good News Network": {
         "down": 0,
-        "up": 4
-      },
-      "ScienceDaily": {
-        "down": 1,
-        "up": 0
+        "up": 3
       }
     },
     "topics": {
@@ -656,13 +630,9 @@
         "down": 0,
         "up": 2
       },
-      "Наука і медицина": {
-        "down": 1,
-        "up": 1
-      },
       "Природа і тварини": {
         "down": 0,
-        "up": 2
+        "up": 1
       }
     }
   }
