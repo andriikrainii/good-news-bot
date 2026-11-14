@@ -3,17 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "394": {
-      "at": "2026-10-15T17:09:05.335322+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/tribe-just-a-signature-away-from-recovering-1100-ancestral-acres-along-undammed-elwha-river/",
-      "source": "Good News Network",
-      "title": "🏞️ Індіанське плем'я повертає собі 1100 гектарів предків",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "396": {
       "at": "2026-10-16T06:22:08.100255+00:00",
       "down": [],
@@ -279,7 +268,8 @@
     "2026-11-10 16:00",
     "2026-11-11 16:00",
     "2026-11-12 16:00",
-    "2026-11-13 16:00"
+    "2026-11-13 16:00",
+    "2026-11-14 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
@@ -537,7 +527,8 @@
     "2026-11-13 14:00",
     "2026-11-13 20:00",
     "2026-11-14 09:00",
-    "2026-11-14 14:00"
+    "2026-11-14 14:00",
+    "2026-11-14 20:00"
   ],
   "update_offset": 999381872,
   "votes": {
