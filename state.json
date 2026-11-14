@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "390": {
-      "at": "2026-10-15T11:41:18.576754+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/italian-biomethane-plant-comes-online-providing-renewable-gas-supply-to-over-3000-homes/",
-      "source": "Good News Network",
-      "title": "🌱 У Південній Італії запустили установку з біогазу",
-      "topics": [
-        "Технології та екологія"
-      ],
-      "up": []
-    },
-    "391": {
-      "at": "2026-10-15T11:41:19.143699+00:00",
-      "down": [],
-      "link": "https://www.smithsonianmag.com/smart-news/see-the-stunning-winners-of-the-wildlife-photographer-of-the-year-contest-capturing-the-splendor-and-drama-of-nature-180989681/",
-      "source": "Smithsonian",
-      "title": "🦁 Найкрасивіші знімки природи року",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "394": {
       "at": "2026-10-15T17:09:05.335322+00:00",
       "down": [],
@@ -558,7 +536,8 @@
     "2026-11-13 09:00",
     "2026-11-13 14:00",
     "2026-11-13 20:00",
-    "2026-11-14 09:00"
+    "2026-11-14 09:00",
+    "2026-11-14 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
