@@ -3,18 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "401": {
-      "at": "2026-10-16T17:21:15.263454+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/drape-some-of-this-plant-armor-fabric-over-a-strawberry-patch-to-triple-yields-with-less-pesticides/",
-      "source": "Good News Network",
-      "title": "🍓 Чудо-тканина потроїла урожай полуниці",
-      "topics": [
-        "Наука і медицина",
-        "Технології та екологія"
-      ],
-      "up": []
-    },
     "402": {
       "at": "2026-10-17T06:11:30.425551+00:00",
       "down": [],
@@ -223,7 +211,8 @@
     "2026-11-11 16:00",
     "2026-11-12 16:00",
     "2026-11-13 16:00",
-    "2026-11-14 16:00"
+    "2026-11-14 16:00",
+    "2026-11-15 16:00"
   ],
   "sent": {
     "https://phys.org/news/2026-09-ancient-spearheads-reveal-ice-age.html": "2026-09-29T08:22:01.512144+00:00",
