@@ -3,29 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "398": {
-      "at": "2026-10-16T11:54:06.389142+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
-      "source": "Good News Network",
-      "title": "🦬 На американських прериях живе вже 1000 бізонів",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "399": {
-      "at": "2026-10-16T11:54:06.729010+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/",
-      "source": "Good News Network",
-      "title": "🌲 Техаська родина подарувала 650 акрів під державний парк",
-      "topics": [
-        "Природа і тварини",
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "401": {
       "at": "2026-10-16T17:21:15.263454+00:00",
       "down": [],
@@ -503,7 +480,8 @@
     "2026-11-14 09:00",
     "2026-11-14 14:00",
     "2026-11-14 20:00",
-    "2026-11-15 09:00"
+    "2026-11-15 09:00",
+    "2026-11-15 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
