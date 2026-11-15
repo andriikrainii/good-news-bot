@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "396": {
-      "at": "2026-10-16T06:22:08.100255+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/esas-new-sentinel-3c-satellite-makes-its-debut-with-sumptuous-images-of-italy-and-the-arctic/",
-      "source": "Good News Network",
-      "title": "🛰️ Новий супутник ESA показав перші чудові знімки Землі",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "397": {
-      "at": "2026-10-16T06:22:08.429073+00:00",
-      "down": [],
-      "link": "https://reasonstobecheerful.world/young-adults-are-building-safe-spaces-for-unhoused-peers/",
-      "source": "Reasons to be Cheerful",
-      "title": "🏠 Молоді люди створюють безпечні місця для бездомних однолітків",
-      "topics": [
-        "Люди й добрі вчинки"
-      ],
-      "up": []
-    },
     "398": {
       "at": "2026-10-16T11:54:06.389142+00:00",
       "down": [],
@@ -524,7 +502,8 @@
     "2026-11-13 20:00",
     "2026-11-14 09:00",
     "2026-11-14 14:00",
-    "2026-11-14 20:00"
+    "2026-11-14 20:00",
+    "2026-11-15 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
