@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "402": {
-      "at": "2026-10-17T06:11:30.425551+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/",
-      "source": "Good News Network",
-      "title": "🌲 Найбільший дикий переход у Північній Америці врятував тисячі тварин",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
-    "403": {
-      "at": "2026-10-17T06:11:30.812704+00:00",
-      "down": [],
-      "link": "https://www.optimistdaily.com/2026/10/what-to-leave-alone-in-your-garden-this-october-to-help-overwintering-bees/",
-      "source": "Optimist Daily",
-      "title": "🐝 Що залишити в саду восени для бджіл",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    },
     "404": {
       "at": "2026-10-17T11:10:46.742174+00:00",
       "down": [],
@@ -467,7 +445,8 @@
     "2026-11-14 20:00",
     "2026-11-15 09:00",
     "2026-11-15 14:00",
-    "2026-11-15 20:00"
+    "2026-11-15 20:00",
+    "2026-11-16 09:00"
   ],
   "update_offset": 999381872,
   "votes": {
