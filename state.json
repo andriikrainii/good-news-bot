@@ -3,28 +3,6 @@
   "commands_registered": true,
   "hub_backfilled": true,
   "posts": {
-    "404": {
-      "at": "2026-10-17T11:10:46.742174+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261014015517.htm",
-      "source": "ScienceDaily",
-      "title": "🧠 Вчені розкрили, як стрес робить спогади яскравішими",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "405": {
-      "at": "2026-10-17T11:10:47.178372+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
-      "source": "ScienceDaily",
-      "title": "🌌 Учені знайшли универсальне правило спалахів чорних дір",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
     "409": {
       "at": "2026-10-17T17:03:30.336800+00:00",
       "down": [],
