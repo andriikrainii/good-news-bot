@@ -2,30 +2,7 @@
   "applied_pending": 0,
   "commands_registered": true,
   "hub_backfilled": true,
-  "posts": {
-    "412": {
-      "at": "2026-10-18T06:01:47.402494+00:00",
-      "down": [],
-      "link": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
-      "source": "ScienceDaily",
-      "title": "🐦 Крила європейського козодоя: секрет мандрівника",
-      "topics": [
-        "Наука і медицина"
-      ],
-      "up": []
-    },
-    "413": {
-      "at": "2026-10-18T06:01:47.841250+00:00",
-      "down": [],
-      "link": "https://www.goodnewsnetwork.org/massive-70lb-dog-the-size-of-baby-hippo-sheds-lbs/",
-      "source": "Good News Network",
-      "title": "🐾 Пегі Сью похудла і знайшла нову сім'ю",
-      "topics": [
-        "Природа і тварини"
-      ],
-      "up": []
-    }
-  },
+  "posts": {},
   "quiz_asked": [
     "022f99a8ec",
     "1ede60065e",
@@ -412,21 +389,13 @@
     "2026-11-15 20:00",
     "2026-11-16 09:00",
     "2026-11-16 14:00",
-    "2026-11-16 20:00"
+    "2026-11-16 20:00",
+    "2026-11-17 09:00",
+    "2026-11-17 14:00"
   ],
   "update_offset": 999381872,
   "votes": {
-    "sources": {
-      "Good News Network": {
-        "down": 0,
-        "up": 1
-      }
-    },
-    "topics": {
-      "Природа і тварини": {
-        "down": 0,
-        "up": 1
-      }
-    }
+    "sources": {},
+    "topics": {}
   }
 }
